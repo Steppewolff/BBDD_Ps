@@ -31,7 +31,7 @@ class PsDb:
             host='127.0.0.1',  # 'fgromano.com', #
             port=3306,
             user='fernando',  # 'root',
-            passwd='Orgullovalor',
+            passwd='password',  # 'Orgullovalor', #
             db='psdb',
             charset='utf8mb4',
             autocommit=True,

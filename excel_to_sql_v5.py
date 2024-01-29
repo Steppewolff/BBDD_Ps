@@ -1,9 +1,9 @@
-import tkinter
 import tkinter as tk
 from tkinter import filedialog, ttk
 from PIL import Image, ImageTk
 import pandas as pd
 import db
+import os
 
 
 class ExcelToSqlConverter:
@@ -16,6 +16,7 @@ class ExcelToSqlConverter:
         self.field_names = []
         self.select_fields = []
         self.select_options = []
+        self.excel_df = []
         self.matched_db_fields = {}
         self.db_value = ""
 
@@ -31,24 +32,14 @@ class ExcelToSqlConverter:
         filetypes = (('csv files', '*.csv'),
                      ('xls files', '*.xls'),
                      ('xlsx files', '*.xlsx'))
-        file_path = filedialog.askopenfilename(filetypes=filetypes, initialdir="/home/fernando/Proyectos")
+        file_path = filedialog.askopenfilename(filetypes=filetypes, initialdir="FuentesInformacion")
 
         # Leer el archivo utilizando pandas
         if file_path:
             try:
                 df = pd.read_excel(file_path) if file_path.endswith(('.xls', '.xlsx')) else pd.read_csv(file_path)
                 self.excel_fields = df.columns.tolist()
-
-                print('excel_fields:')
-                print(self.excel_fields)
-
-                # Mostrar nombres de campos en campos de texto y opciones de select
-                # for i, field in enumerate(self.field_names):
-                #     print('i, field:')
-                #     print(i)
-                #     print(field)
-                #     #self.excel_fields[i].delete(0, tk.END)
-                #     self.excel_fields[i].insert(0, field)
+                self.excel_df = df.values.tolist()
 
                 # Conectar a la base de datos MySQL para obtener nombres de campos de la tabla
                 db_obj = db.db.PsDb()
@@ -59,9 +50,6 @@ class ExcelToSqlConverter:
 
                 self.select_options = [dic['COLUMN_NAME'] for dic in result]
                 self.select_options.append("Match not found")
-
-                print('select_options:')
-                print(self.select_options)
 
             except pd.errors.EmptyDataError:
                 print("Error: El archivo está vacío.")
@@ -76,7 +64,6 @@ class ExcelToSqlConverter:
         for excel_column in self.excel_fields:
             match = 0
             match_variable = ""
-            #excelColumn_text = excel_column + "_text"
 
             # substrings is a list with words in excel column name
             substrings = excel_column.split(" ")
@@ -99,43 +86,87 @@ class ExcelToSqlConverter:
 
             if match == 1:
                 self.matched_db_fields[excel_column] = match_variable
-                print(excel_column.lower() + " --> " + match_variable)
             else:
                 self.matched_db_fields[excel_column] = 'Match not found'
-                print(excel_column.lower() + "---")
 
         # Calling the GUI interface function
         self.create_interface()
 
+    # New window with matches summary and SQL script preview v2
+    def create_secondary_window(self):
+        def on_close_window():
+            secondary_window.destroy()
 
-    # New window with SQL script resume
-    def open_secondary_window(self):
+        def create_sql_script():
+            content_frame1 = text_frame1.get("1.0", "end-1c")
+            content_frame2 = text_frame2.get("1.0", "end-1c")
+
+            # Lógica para crear el archivo SQL
+            with open("./outputs/sql_script.sql", "w") as file:
+                file.write("\n\n-- SQL script from Frame 2:\n")
+                file.write(sql_script)
+                confirm_wd = tk.Toplevel(secondary_window)
+                confirm_wd.geometry('300x200')
+                confirm_wd.title("Script ready")
+                confirm_label = tk.Label(confirm_wd, text='SQL script created, to access it: ')
+                confirm_label.grid(row=0, column=0, pady=10, sticky='n')
+
+                close_button = ttk.Button(confirm_wd, text="Close window", command=confirm_wd.destroy)
+                close_button.grid(row=2, column=0, pady=10)
+
+                create_script_button = ttk.Button(confirm_wd, text="Go to SQL script", command=lambda: os.system("gedit ./outputs/sql_script.sql"))
+                create_script_button.grid(row=3, column=0, pady=10)
+
+        # Crear la ventana secundaria
         secondary_window = tk.Toplevel()
-        secondary_window.title("Matched fields")
-        secondary_window.geometry('600x300')
-#        secondary_window.config(width=500, height=400)
+        secondary_window.title("Matched fields found and SQL script")
+        secondary_window.geometry('700x1000')
 
-        fm1 = tk.Frame(secondary_window, bg='red')
-        fm1['width'] = 480
-        fm1['height'] = 140
-        fm1.grid(row=0, column=0)
+        # Frames en la parte superior con scroll vertical y horizontal
+        frame1 = ttk.Frame(secondary_window, borderwidth=2, relief="groove")
+        frame1.grid(row=0, column=0, padx=5, pady=5, sticky="nsew")
 
-        fm2 = tk.Frame(secondary_window, bg='blue')
-        fm1['width'] = 480
-        fm1['height'] = 140
-        fm2.grid(row=1, column=0)
+        frame2 = ttk.Frame(secondary_window, borderwidth=2, relief="groove")
+        frame2.grid(row=1, column=0, padx=5, pady=5, sticky="nsew")
 
-        # Create a button to close (destroy) this window.
-        button_close = ttk.Button(
-            secondary_window,
-            text="Close window",
-            command=secondary_window.destroy
-        )
-        button_close.grid(row=2, column=0, sticky='nsew')
+        # Campo de texto en cada frame
+        text_frame1 = tk.Text(frame1, wrap="none", width=80, height=20)
+        text_frame1.grid(row=0, column=0, sticky="nsew")
+        for key in self.matched_db_fields:
+            match = key + " --> " + self.matched_db_fields[key] + "\n"
+            text_frame1.insert(tk.INSERT, match)
 
-        # df_frame = tk.Frame(secondary_window)
-        # df_frame.grid(row=2, column=1)
+        text_frame2 = tk.Text(frame2, wrap="none", width=80, height=20)
+        text_frame2.grid(row=0, column=0, sticky="nsew")
+        sql_script = self.write_sql_script()
+        text_frame2.insert(tk.INSERT, sql_script)
 
+        # Configuración del scroll para los frames
+        scroll_frame1_y = ttk.Scrollbar(frame1, orient="vertical", command=text_frame1.yview)
+        scroll_frame1_x = ttk.Scrollbar(frame1, orient="horizontal", command=text_frame1.xview)
+        text_frame1.configure(yscrollcommand=scroll_frame1_y.set, xscrollcommand=scroll_frame1_x.set)
+
+        scroll_frame2_y = ttk.Scrollbar(frame2, orient="vertical", command=text_frame2.yview)
+        scroll_frame2_x = ttk.Scrollbar(frame2, orient="horizontal", command=text_frame2.xview)
+        text_frame2.configure(yscrollcommand=scroll_frame2_y.set, xscrollcommand=scroll_frame2_x.set)
+
+        # Botones en la parte inferior
+        close_button = ttk.Button(secondary_window, text="Close window", command=on_close_window)
+        close_button.grid(row=2, column=0, pady=10)
+
+        create_script_button = ttk.Button(secondary_window, text="Create SQL script", command=create_sql_script)
+        create_script_button.grid(row=3, column=0, pady=10)
+
+        # Colocar los scrollbars en los frames
+        scroll_frame1_y.grid(row=0, column=1, sticky="ns")
+        scroll_frame1_x.grid(row=1, column=0, sticky="ew")
+        scroll_frame2_y.grid(row=0, column=1, sticky="ns")
+        scroll_frame2_x.grid(row=1, column=0, sticky="ew")
+
+        # Ajustar el layout cuando se cambie el tamaño de la ventana
+        secondary_window.grid_columnconfigure(0, weight=1)
+        secondary_window.grid_rowconfigure(0, weight=1)
+        secondary_window.grid_rowconfigure(1, weight=1)
 
     def create_interface(self):
         # Crear un canvas para contener la barra de desplazamiento y la interfaz gráfica
@@ -161,15 +192,8 @@ class ExcelToSqlConverter:
         # Crear campos de texto en la columna izquierda
         tk.Label(self.frame, text="Campos de Archivo de Entrada").grid(row=1, column=0)
 
-        # # Añadir logo entre las dos columnas
-        # image = ImageTk.PhotoImage(Image.open("/home/steppewolf/Proyectos/CIBERINFEC/BDD/img/logoIDISBA.png"))
-        # #image = tk.PhotoImage(file="/home/steppewolf/Proyectos/CIBERINFEC/BDD/img/logoIDISBA.png")
-        # ttk.Label(self.frame, image=image).grid(row=0, column=0)
-        # #ttk.Label(self.frame, text="Prueba Imagen").grid(row=0, column=0)
-        # #self.canvas.create_image(10, 10, anchor="nw", image=image)
-
         # Añadir logo entre las dos columnas
-        image_path = "/home/steppewolf/Proyectos/CIBERINFEC/BDD/img/logoIDISBA.png"
+        image_path = "./img/logoIDISBA.png"
         self.logo_image = ImageTk.PhotoImage(Image.open(image_path))
         ttk.Label(self.frame, image=self.logo_image).grid(row=0, column=0)
 
@@ -187,32 +211,41 @@ class ExcelToSqlConverter:
             self.excel_entries.append(entry)
 
             # Variable to store the option selected in OptionMenu
-            #self.matched_db_fields
             db_value = tk.StringVar(value=self.matched_db_fields[self.excel_fields[i]])
             index = self.select_options.index(self.matched_db_fields[self.excel_fields[i]])
-            #self.db_value.initialize = set(self.matched_db_fields[self.excel_fields[i]])
-            print("db_matches: ")
-            print(self.matched_db_fields)
-            print("db_value: ")
-            print(db_value.get())
-            print(self.matched_db_fields[self.excel_fields[i]])
+
             self.select_field = ttk.Combobox(self.frame, state="normal", textvariable=db_value,
                                              values=self.select_options)
             self.select_field.current(index)
-            print("index: ")
-            print(index)
-            #self.select_field.current() = 'Choose one'
+
             self.select_field.grid(row=i + 3, column=15, sticky="w", padx=5, pady=5)
 
-        # Variable to store the option selected in OptionMenu
-        # value_inside = tk.StringVar(root)
-
-        # Botón para seleccionar archivo de entrada
-        # tk.Button(self.frame, text="Leer archivo de entrada", command=self.read_input_file).grid(row=2, column=0, columnspan=2, pady=10)
-
         # Create a button inside the main window that invokes the open_secondary_window() function when pressed.
-        button_open = ttk.Button(self.frame, text="Check matched fields", command=self.open_secondary_window)
+        button_open = ttk.Button(self.frame, text="Check matched fields",
+                                 command=self.create_secondary_window)  # self.open_secondary_window
         button_open.grid(row=len(self.excel_fields) + 4, column=15, sticky="w", padx=5, pady=5)
+
+    def write_sql_script(self):
+        sql_script = ""
+
+        sql_columns = "INSERT INTO phenotypes ("
+        for key in self.matched_db_fields:
+            sql_columns = sql_columns + self.matched_db_fields[key] + ", "
+
+        sql_columns = sql_columns[:-2]
+        sql_columns = sql_columns + ") \n"
+
+        for row in self.excel_df:
+            sql_values = "VALUES ("
+            values = ",".join(str(value) for value in row)
+            #for value in row:
+            sql_values = sql_values + values
+
+            sql_values = sql_values[:-2]
+            sql_values = sql_values + ") \n"
+            sql_script = sql_script + sql_columns + sql_values
+
+        return sql_script
 
     def on_canvas_configure(self, event):
         # Configurar el tamaño del canvas cuando cambia el tamaño de la ventana
@@ -224,7 +257,7 @@ if __name__ == "__main__":
     app = ExcelToSqlConverter(root)
 
     # Añadir logo como icono de la app
-    icon_path = "/home/steppewolf/Proyectos/CIBERINFEC/BDD/img/logoIDISBA.ico"
+    icon_path = "./img/logoIDISBA.ico"
     icon = ImageTk.PhotoImage(file=icon_path)
     root.iconphoto(True, icon)
 
