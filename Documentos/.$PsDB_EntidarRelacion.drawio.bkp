@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-02-01T14:31:49.349Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uJoMSC4g4Gx-PW3VxSNU" version="23.0.2" type="device" pages="2">
+<mxfile host="Electron" modified="2024-02-01T14:31:25.053Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qg9u5QxwDJLCrNbALCE4" version="23.0.2" type="device" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Usando JSON">
-    <mxGraphModel dx="2452" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1985" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,12 +325,12 @@
             <mxPoint x="590" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S7RvOsf6D0WuIKdnJg5r-63" value="" style="edgeStyle=elbowEdgeStyle;endArrow=ERone;startArrow=ERone;endFill=0;startFill=0;" parent="1" edge="1">
+        <mxCell id="S7RvOsf6D0WuIKdnJg5r-63" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERone;startArrow=ERone;endFill=0;startFill=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="120" y="310" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="sourcePoint" />
             <mxPoint x="156" y="686" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="80" y="500" />
+              <mxPoint x="85" y="456" />
             </Array>
           </mxGeometry>
         </mxCell>
