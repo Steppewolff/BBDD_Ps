@@ -3,30 +3,6 @@ create database psdb;
 
 use psdb;
 
-DROP TABLE IF EXISTS summary;
-create table summary(
-	aislado_id INT NOT NULL AUTO_INCREMENT,
-    aislado_nombre CHAR(50),
-    #Nº de cepa, ej.: 15, 41, 90, 102, ... --> RESULTADOS UNIFICADOS GEMARA_última vEBT11 febrero2019.xls
-	cepa_id INT,
-    #ST
-    clon_id CHAR(7),
-    hospital_id INT,
-    servicio_obtencion CHAR(255),
-    tipo_muestra CHAR(255),
-    resistoma_id INT,
-    invitro_id INT,
-    insilico_id INT,
-	archivos_id INT,
-	/* Table restrictions */    
-    PRIMARY KEY(aislado_id),
-	FOREIGN KEY(hospital_id) REFERENCES hospital(hospital_id),
- 	FOREIGN KEY(resistoma_id) REFERENCES resistoma(resistoma_id),
-	FOREIGN KEY(invitro_id) REFERENCES invitro(invitro_id),
-	FOREIGN KEY(insilico_id) REFERENCES insilico(insilico_id),
-   	FOREIGN KEY(archivos_id) REFERENCES archivos(archivos_id)
-);
-
 DROP TABLE IF EXISTS hospital;
 create table hospital(
 	hospital_id INT NOT NULL AUTO_INCREMENT,
@@ -37,37 +13,6 @@ create table hospital(
     pais VARCHAR(255),
 	/* Table restrictions */    
     PRIMARY KEY(hospital_id)
-);
-
-DROP TABLE IF EXISTS mic;
-create table mic(
-	mic_id INT NOT NULL AUTO_INCREMENT,
-	aislado_id INT,
-	mic_tipo VARCHAR(255),
-	mic_fecha DATE,
-	tic VARCHAR(10),
-    ptz VARCHAR(10),
-    azt VARCHAR(10),
-    taz VARCHAR(10),
-    ct VARCHAR(10),
-    cza VARCHAR(10),
-    fep VARCHAR(10),
-    cip VARCHAR(10),
-    ami VARCHAR(10),
-    tob VARCHAR(10),
-    imi VARCHAR(10),
-    mer VARCHAR(10),
-    col VARCHAR(10),
-    pip VARCHAR(10),
-    caz VARCHAR(10),
-    tol VARCHAR(10),
-    atm VARCHAR(10),
-    caz_cloxa VARCHAR(3),
-    imi_cloxa VARCHAR(3),
-    mic_observaciones VARCHAR(255),
-	/* Table restrictions */
-    PRIMARY KEY(mic_id),
-	FOREIGN KEY(aislado_id) REFERENCES summary(aislado_id)
 );
 
 DROP TABLE IF EXISTS resistoma;
@@ -134,4 +79,60 @@ create table archivos(
     pileup VARCHAR(255),
 	/* Table restrictions */
     PRIMARY KEY(archivos_id)
+);
+
+DROP TABLE IF EXISTS summary;
+create table summary(
+	aislado_id INT NOT NULL AUTO_INCREMENT,
+    aislado_nombre CHAR(50),
+    #Nº de cepa, ej.: 15, 41, 90, 102, ... --> RESULTADOS UNIFICADOS GEMARA_última vEBT11 febrero2019.xls
+	cepa_id INT,
+    #ST
+    clon_id CHAR(7),
+    hospital_id INT,
+    servicio_obtencion CHAR(255),
+    tipo_muestra CHAR(255),
+    resistoma_id INT,
+    invitro_id INT,
+    insilico_id INT,
+	archivos_id INT,
+	/* Table restrictions */    
+    PRIMARY KEY(aislado_id),
+	FOREIGN KEY(hospital_id) REFERENCES hospital(hospital_id),
+ 	FOREIGN KEY(resistoma_id) REFERENCES resistoma(resistoma_id),
+	FOREIGN KEY(invitro_id) REFERENCES invitro(invitro_id),
+	FOREIGN KEY(insilico_id) REFERENCES insilico(insilico_id),
+   	FOREIGN KEY(archivos_id) REFERENCES archivos(archivos_id)
+);
+
+
+DROP TABLE IF EXISTS mic;
+create table mic(
+	mic_id INT NOT NULL AUTO_INCREMENT,
+	aislado_id INT,
+	mic_tipo VARCHAR(255),
+	mic_fecha DATE,
+	tic VARCHAR(10),
+    ptz VARCHAR(10),
+    azt VARCHAR(10),
+    taz VARCHAR(10),
+    ct VARCHAR(10),
+    cza VARCHAR(10),
+    fep VARCHAR(10),
+    cip VARCHAR(10),
+    ami VARCHAR(10),
+    tob VARCHAR(10),
+    imi VARCHAR(10),
+    mer VARCHAR(10),
+    col VARCHAR(10),
+    pip VARCHAR(10),
+    caz VARCHAR(10),
+    tol VARCHAR(10),
+    atm VARCHAR(10),
+    caz_cloxa VARCHAR(3),
+    imi_cloxa VARCHAR(3),
+    mic_observaciones VARCHAR(255),
+	/* Table restrictions */
+    PRIMARY KEY(mic_id),
+	FOREIGN KEY(aislado_id) REFERENCES summary(aislado_id)
 );

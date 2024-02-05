@@ -57,12 +57,23 @@ class PsDb:
         return Response
 
     # Devuelve los nombres de las columnas de una tabla
-    def get_variable_names(self, table):
+    def get_variable_names_table(self, table):
         sql = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS " \
               "WHERE " \
               "TABLE_SCHEMA = 'psdb' " \
               "AND " \
               "TABLE_NAME = '" + table + "';"
+
+        self.cursor.execute(sql)
+        Response = self.cursor.fetchall()
+
+        return Response
+
+    # Devuelve los nombres de las columnas de una tabla
+    def get_variable_names_db(self):
+        sql = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS " \
+              "WHERE " \
+              "TABLE_SCHEMA = 'psdb' "
 
         self.cursor.execute(sql)
         Response = self.cursor.fetchall()

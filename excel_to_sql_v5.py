@@ -44,8 +44,7 @@ class ExcelToSqlConverter:
                 # Conectar a la base de datos MySQL para obtener nombres de campos de la tabla
                 db_obj = db.db.PsDb()
                 db_obj.connect()
-                table_name = 'ab_resistance'
-                result = db_obj.get_variable_names(table_name)
+                result = db_obj.get_variable_names_db()
                 db_obj.disconnect()
 
                 self.select_options = [dic['COLUMN_NAME'] for dic in result]
@@ -114,8 +113,7 @@ class ExcelToSqlConverter:
                 close_button = ttk.Button(confirm_wd, text="Close window", command=confirm_wd.destroy)
                 close_button.grid(row=2, column=0, pady=10)
 
-                create_script_button = ttk.Button(confirm_wd, text="Go to SQL script",
-                                                  command=lambda: os.system("gedit ./outputs/sql_script.sql"))
+                create_script_button = ttk.Button(confirm_wd, text="Go to SQL script", command=lambda: os.system("gedit ./outputs/sql_script.sql"))
                 create_script_button.grid(row=3, column=0, pady=10)
 
         # Crear la ventana secundaria
@@ -212,16 +210,27 @@ class ExcelToSqlConverter:
             self.excel_entries.append(entry)
 
             # Variable to store the option selected in OptionMenu
-            db_value_text = tk.StringVar()
+            db_value = tk.StringVar(value=self.matched_db_fields[self.excel_fields[i]])
             index = self.select_options.index(self.matched_db_fields[self.excel_fields[i]])
-            select_field = ttk.Combobox(self.frame, state="normal", textvariable=db_value_text,
-                                        values=self.select_options)
-            db_value_text.set(self.matched_db_fields[self.excel_fields[i]])
 
-            # self.select_field.current(index)
+            print("db_value (pre):")
+            print(db_value)
 
-            select_field.grid(row=i + 3, column=15, sticky="w", padx=5, pady=5)
-            # self.db_fields.append(select_field)
+            default_dbvalue = self.matched_db_fields[self.excel_fields[i]]
+            print(self.matched_db_fields[self.excel_fields[i]])
+            print(default_dbvalue)
+
+            self.select_field = ttk.Combobox(self.frame, state="normal", textvariable=default_dbvalue,
+                                             values=self.select_options)
+            self.select_field.current(index)
+
+            print("self.matched_db_field (post):")
+            #print(self.select_field)
+            print(index)
+            print(self.select_options[index])
+            print(self.matched_db_fields[self.excel_fields[i]])
+
+            self.select_field.grid(row=i + 3, column=15, sticky="w", padx=5, pady=5)
 
         # Create a button inside the main window that invokes the open_secondary_window() function when pressed.
         button_open = ttk.Button(self.frame, text="Check matched fields",
@@ -241,7 +250,7 @@ class ExcelToSqlConverter:
         for row in self.excel_df:
             sql_values = "VALUES ("
             values = ",".join(str(value) for value in row)
-            # for value in row:
+            #for value in row:
             sql_values = sql_values + values
 
             sql_values = sql_values[:-2]
