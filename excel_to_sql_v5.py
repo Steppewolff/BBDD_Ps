@@ -10,7 +10,7 @@ class ExcelToSqlConverter:
     def __init__(self, root):
         self.root = root
         self.root.title("Excel to SQL Converter")
-        self.root.geometry('800x600')
+        self.root.geometry('1000x800')
 
         # Variables para almacenar nombres de campos y opciones de select
         self.field_names = []
@@ -38,14 +38,9 @@ class ExcelToSqlConverter:
         # Leer el archivo utilizando pandas
         if file_path:
             try:
-                df = pd.read_excel(file_path) if file_path.endswith(('.xls', '.xlsx')) else pd.read_csv(file_path)
-                self.excel_fields = df.columns.tolist()
-                self.excel_df = df.values.tolist()
-
-                print("excel df: ")
-                print(df)
-                print("excel list:")
-                print(self.excel_df)
+                self.df = pd.read_excel(file_path) if file_path.endswith(('.xls', '.xlsx')) else pd.read_csv(file_path)
+                self.excel_fields = self.df.columns.tolist()
+                #self.excel_df = df.values.tolist()
 
                 # Conectar a la base de datos MySQL para obtener nombres de campos de la tabla
                 db_obj = db.db.PsDb()
@@ -55,6 +50,15 @@ class ExcelToSqlConverter:
 
                 self.select_options = [dic['COLUMN_NAME'] for dic in result]
                 self.select_options.append("Match not found")
+
+                print("excel df: ")
+                print(self.df)
+                #print("excel list:")
+                #print(self.excel_df)
+                print("db fields:")
+                print(self.select_options)
+                print("excel fields:")
+                print(self.excel_fields)
 
             except pd.errors.EmptyDataError:
                 print("Error: El archivo está vacío.")
@@ -263,22 +267,33 @@ class ExcelToSqlConverter:
     def write_sql_script(self):
         sql_script = ""
 
-        sql_columns = "INSERT INTO phenotypes ("
-        for key in self.matched_db_fields:
-            sql_columns = sql_columns + self.matched_db_fields[key] + ", "
+        db_obj = db.db.PsDb()
+        db_obj.connect()
+        tables = db_obj.get_table_names_db('psdb')
+        db_obj.disconnect()
 
-        sql_columns = sql_columns[:-2]
-        sql_columns = sql_columns + ") \n"
+        for table in tables:
+            variables = db_obj.get_variable_names_table(table)
+            sql_columns = "INSERT INTO " + table + "("
+            for key in self.matched_db_fields:
+                if key in variables:
+                    sql_columns = sql_columns + self.matched_db_fields[key] + ", "
 
-        for row in self.excel_df:
-            sql_values = "VALUES ("
-            values = ",".join(str(value) for value in row)
-            # for value in row:
-            sql_values = sql_values + values
+            sql_columns = sql_columns[:-2]
+            sql_columns = sql_columns + ") \n"
 
-            sql_values = sql_values[:-2]
-            sql_values = sql_values + ") \n"
-            sql_script = sql_script + sql_columns + sql_values
+            # for row in self.excel_df:
+            #     sql_values = "VALUES ("
+            #     values = ",".join(str(value) for value in row)
+
+            for row in self.df.itertuples(index=True):
+                for key in self.matched_db_fields:
+                    if key == getattr(row, key) and key in variables:
+                        sql_values = sql_values + values
+
+                        sql_values = sql_values[:-2]
+                        sql_values = sql_values + ") \n"
+                        sql_script = sql_script + sql_columns + sql_values
 
         return sql_script
 

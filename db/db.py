@@ -31,7 +31,7 @@ class PsDb:
             host='127.0.0.1',  # 'fgromano.com', #
             port=3306,
             user='fernando',  # 'root',
-            passwd='password',  # 'Orgullovalor', #
+            passwd='Orgullovalor',  # 'password', #
             db='psdb',
             charset='utf8mb4',
             autocommit=True,
@@ -54,6 +54,16 @@ class PsDb:
         sql = "SELECT * FROM arpbigidisba_users WHERE user_id = '" + str(user_id) + "';"
         self.cursor.execute(sql)
         Response = self.cursor.fetchone()
+        return Response
+
+    # Devuelve los nombres de las tablas de una BDD
+    def get_table_names_db(self, db):
+
+        sql = "SHOW FULL TABLES FROM " + db + ";"
+
+        self.cursor.execute(sql)
+        Response = self.cursor.fetchall()
+
         return Response
 
     # Devuelve los nombres de las columnas de una tabla
