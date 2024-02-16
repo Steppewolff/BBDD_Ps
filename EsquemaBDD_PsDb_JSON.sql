@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS psdb;
-create database psdb;
+DROP DATABASE IF EXISTS psdb_json;
+create database psdb_json;
 
-use psdb;
+use psdb_json;
 
 DROP TABLE IF EXISTS hospital;
 create table hospital(

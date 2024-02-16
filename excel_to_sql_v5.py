@@ -1,9 +1,12 @@
 import tkinter as tk
-from tkinter import filedialog, ttk
+from tkinter import filedialog, ttk, messagebox
 from PIL import Image, ImageTk
+from collections import Counter
 import pandas as pd
-import db
 import os
+import re
+
+import db
 
 
 class ExcelToSqlConverter:
@@ -39,8 +42,10 @@ class ExcelToSqlConverter:
         if file_path:
             try:
                 self.df = pd.read_excel(file_path) if file_path.endswith(('.xls', '.xlsx')) else pd.read_csv(file_path)
+                self.df_dictionary = self.df.to_dict('records')
+                #                self.df_wospaces.columns = self.df_wospaces.columns.str.replace(" ", "_", regex=True)
                 self.excel_fields = self.df.columns.tolist()
-                #self.excel_df = df.values.tolist()
+                # self.excel_df = df.values.tolist()
 
                 # Conectar a la base de datos MySQL para obtener nombres de campos de la tabla
                 db_obj = db.db.PsDb()
@@ -50,15 +55,6 @@ class ExcelToSqlConverter:
 
                 self.select_options = [dic['COLUMN_NAME'] for dic in result]
                 self.select_options.append("Match not found")
-
-                print("excel df: ")
-                print(self.df)
-                #print("excel list:")
-                #print(self.excel_df)
-                print("db fields:")
-                print(self.select_options)
-                print("excel fields:")
-                print(self.excel_fields)
 
             except pd.errors.EmptyDataError:
                 print("Error: El archivo está vacío.")
@@ -71,11 +67,19 @@ class ExcelToSqlConverter:
     def search_matches(self):
         # Loop over the excel fields name list
         for excel_column in self.excel_fields:
-            match = 0
-            match_variable = ""
+            # match = 0
+            # match_variable = ""
+            match_quality = {}
 
-            # substrings is a list with words in excel column name
-            substrings = excel_column.split(" ")
+            # regex = "^PA"
+            # if re.match(regex, excel_column):
+            #     excel_column = re.sub("\s", "_", excel_column)
+            #     self.matched_db_fields[excel_column] = excel_column
+            #     continue
+
+            # substrings is a list with words in Excel column name
+            substrings_excel = re.split('-|_| |\/', excel_column)
+            if " " in substrings_excel: substrings_excel.remove(" ")
 
             #    if len(substrings) > 1:
             #        primera_subcadena = substrings[0]
@@ -87,16 +91,40 @@ class ExcelToSqlConverter:
             #        print('La cadena no contiene un espacio o tiene más de un espacio.')
 
             for variable in self.select_options:
-                for substring in substrings:
-                    #            print("substring: " + substring.lower() + ", " + "variable: " + variable)
-                    if substring.lower() in variable.lower():
-                        match = 1
-                        match_variable = variable
+                substrings_db = re.split('-|_| |\/', variable)
+                if " " in substrings_db: substrings_db.remove(" ")
+                quality = 0
+                for substring_excel in substrings_excel:
+                    for substring_db in substrings_db:
+                        if substring_excel.lower() in substring_db.lower():
+                            quality = quality + 1
+                            if len(substring_excel) == len(substring_db):
+                                quality = quality + 1
 
-            if match == 1:
-                self.matched_db_fields[excel_column] = match_variable
+                    #            print("substring: " + substring.lower() + ", " + "variable: " + variable)
+                    #            if substring.lower() in variable.lower():
+                    #    match = 1
+                    #    match_variable = variable
+
+########################Muy ineficiente, le permite hacer todas las comparaciones y luego le asigna quality = 0, buscar una manera de eliminar los que pongan EUCAST antes (y dejarlo como una lista de términos que se pueden eliminar cuando se lean)
+                if "EUCAST" in substrings_excel:
+                    match_quality[variable] = 0
+                else:
+                    match_quality[variable] = quality
+
+            if max(match_quality.values()) == 0:
+                match_variable = 'Match not found'
             else:
-                self.matched_db_fields[excel_column] = 'Match not found'
+                match_variable = max(match_quality, key=match_quality.get)
+
+            self.matched_db_fields[excel_column] = match_variable
+
+            print(match_variable)
+
+            # if match == 1:
+            #     self.matched_db_fields[excel_column] = match_variable
+            # else:
+            #     self.matched_db_fields[excel_column] = 'Match not found'
 
         # Calling the GUI interface function
         self.create_interface()
@@ -203,12 +231,6 @@ class ExcelToSqlConverter:
         index = self.excel_fields.index(key)
         selected_value = self.comboboxes[index].get()
         self.values_list[key] = selected_value
-        print(selected_value)
-        print("index, key:")
-        print(index)
-        print(key)
-        print("self.matched_db_fields:")
-        print(self.values_list)
 
     def create_interface_elements(self):
         # Crear campos de texto en la columna izquierda
@@ -251,7 +273,8 @@ class ExcelToSqlConverter:
             combobox.current(index)
             combobox.grid(row=i + 3, column=15, sticky="w", padx=5, pady=5)
             combobox.bind('<<ComboboxSelected>>',
-                          lambda event, key=self.excel_fields[i]: self.on_combobox_select(event, key))  # key=self.matched_db_fields[self.excel_fields[i]]: self.on_combobox_select(event, index, key)
+                          lambda event, key=self.excel_fields[i]: self.on_combobox_select(event,
+                                                                                          key))  # key=self.matched_db_fields[self.excel_fields[i]]: self.on_combobox_select(event, index, key)
             self.comboboxes.append(combobox)
             # self.matched_db_fields[self.excel_fields[i]] = self.select_field.get()
 
@@ -264,38 +287,93 @@ class ExcelToSqlConverter:
                                  command=self.create_secondary_window)  # self.open_secondary_window
         button_open.grid(row=len(self.excel_fields) + 4, column=15, sticky="w", padx=5, pady=5)
 
+    def review_matches(self, dictionary):
+        counts = Counter(dictionary.values())
+        result = {key: value for key, value in dictionary.items() if counts[value] > 1}
+        if "Match not found" in counts:
+            del counts["Match not found"]
+
+        return result, counts
+
     def write_sql_script(self):
         sql_script = ""
+        result, counts = self.review_matches(self.matched_db_fields)
 
-        db_obj = db.db.PsDb()
-        db_obj.connect()
-        tables = db_obj.get_table_names_db('psdb')
-        db_obj.disconnect()
+        if counts.most_common(1)[0][1] > 1:
+            duplicates = ""
+            for key, value in counts.items():
+                if value > 1:
+                    duplicates = duplicates + key + ": " + str(value) + "\n"
 
-        for table in tables:
-            variables = db_obj.get_variable_names_table(table)
-            sql_columns = "INSERT INTO " + table + "("
-            for key in self.matched_db_fields:
-                if key in variables:
-                    sql_columns = sql_columns + self.matched_db_fields[key] + ", "
+            messagebox.showerror("Campos duplicados",
+                                 "Los siguientes campos de la base de datos tienen asignados más de un campo en el archivo de entrada.\n\nRevíselos y vuelva a intentarlo:\n\n" + str(
+                                     duplicates))
+        else:
+            db_obj = db.db.PsDb()
+            db_obj.connect()
+            tables = db_obj.get_table_names_db('psdb')
+            # db_obj.disconnect()
 
-            sql_columns = sql_columns[:-2]
-            sql_columns = sql_columns + ") \n"
+            df_sql_values = self.df
 
-            # for row in self.excel_df:
-            #     sql_values = "VALUES ("
-            #     values = ",".join(str(value) for value in row)
+            for table in tables:
+                table_include = 0
+                response = db_obj.get_variable_names_table(table['Tables_in_psdb'])
+                variables = [diccionario['COLUMN_NAME'] for diccionario in response]
+                # print("variables: ")
+                # print(variables)
+                # print("table: ")
+                # print(table)
 
-            for row in self.df.itertuples(index=True):
-                for key in self.matched_db_fields:
-                    if key == getattr(row, key) and key in variables:
-                        sql_values = sql_values + values
+                sql_columns = "INSERT INTO " + table['Tables_in_psdb'] + "("
 
-                        sql_values = sql_values[:-2]
-                        sql_values = sql_values + ") \n"
-                        sql_script = sql_script + sql_columns + sql_values
+                for key, value in self.matched_db_fields.items():
+                    # print("KEY: ")
+                    # print(table['Tables_in_psdb'], value)
+                    if value in variables:
+                        table_include = 1
+                        sql_columns = sql_columns + self.matched_db_fields[key] + ", "
+                    else:
+                        df_sql_values.drop(columns=key)
 
-        return sql_script
+                if table_include == 0:
+                    sql_columns = ""
+                    continue
+                else:
+                    sql_columns = sql_columns[:-2]
+                    sql_columns = sql_columns + ") \n"
+
+                # print("SQL columns: ")
+                # print(sql_columns)
+                #
+                # print("df_sql_values: ")
+                # print(df_sql_values)
+
+                # for row in self.excel_df:
+                #     sql_values = "VALUES ("
+                #     values = ",".join(str(value) for value in row)
+
+                # for row in self.df_wospaces.itertuples(index=True):
+                for row in self.df_dictionary:
+                    sql_values = "VALUES ("
+                    # print("Tuple: ")
+                    # print(row)
+                    for key, value in row.items():
+                        # for key, value in self.matched_db_fields.items():
+                        #                        if key == getattr(row, key) and value in variables:
+                        variable = self.matched_db_fields[key]
+                        if variable in variables:
+                            # if table['Tables_in_psdb'] == locus
+                            sql_values = sql_values + "'" + str(value) + "', "
+
+                    sql_values = sql_values[:-2]
+                    sql_values = sql_values + "); \n"
+                    sql_script = sql_script + sql_columns + sql_values
+
+            # Disconnecting from DB once all the operations have been performed
+            db_obj.disconnect()
+
+            return sql_script
 
     def on_canvas_configure(self, event):
         # Configurar el tamaño del canvas cuando cambia el tamaño de la ventana

@@ -1,373 +1,1483 @@
 
 
 -- SQL script from Frame 2:
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND01-001,ST155,64,R,64,R,16,R,16,R,1,S,2,S,8,I,16,R,4,I,2,R,0.5,S,8,S,4,R,+,+,nan,aac(6')-Ic,nan,nan,nan,nan,nan,nan,A219T,nan,nt473Δ14,LESB58,P31Q,nan,nan,L79P; H398R,nan,D428N; T543A; Q840E,K329Q; L331V; W358R,nan,nan,D249N,F172I,T428P,T83I; D87H,nan,G71E; S209R,nan,nan,M297V,nan,R79Q; T105A,nan,nan,Q44H; G148A; D183Y,nan,L353Q,nan,Y345H,nan,nan,V643I; S717C, ,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND01-016,ST3155,256,R,256,R,64,R,32,R,2,S,16,R,32,R,8,I,8,I,>16,R,0.5,S,4,S,1,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,H205N,nan,F23197,nan,nan,nan,H398R,nan,E152D; T543A,K329Q; R351S; W358R,nan,A104P,G78S; D249N,P60S; F172I,A474T,T83I,nt451Δ16,G71E; S209R,nan,nan,M297V,R244W; G273E,R79Q; T105A,nan,nan,nan,nan,L353Q; S25G,L71R,Y345H,S87W; E513D,nan,V643I; S717C,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND01-020,ST244,128,R,64,R,16,R,16,R,1,S,1,S,32,R,8,I,4,I,8,R,0.5,S,4,S,<=0.5,S,+,+,nan,nan,nan,nan,nan,T256I,nan,nan,A219T,S250N,nt635Δ1,PAO1,nan,nan,Q25X,H398R,nan,T543A; Q840E,K329Q; L331V; W358R,C63R; R126C,A104P,D249N,P60S; F172I,nan,T83I,nan,nan,nan,nan,A303V; M297V; nt112InsC,R86C,nan,nan,nan,R11L; G148A; D183Y,G154R; nt279Δ9,S96N,L71R,nan,S87L,nan,nan,A121T,L88P; G157D; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND01-030,ST175,512,R,32,R,16,R,16,R,>32,R,16,R,4,I,>32,R,64,R,>16,R,>32,R,8,S,1,S,nan,+,OXA-2; VIM-20,aph(3')-Via; aadA13,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nt112InsC,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND01-038,ST3155,256,R,256,R,64,R,32,R,4,S,16,R,64,R,1,S,4,I,>16,R,0.5,S,4,S,1,S,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,A219T,H205N,nan,F23197,nan,nan,nan,H398R,nan,E152D; T543A,K329Q; R351S; W358R,nan,A104P,G78S; D249N,P60S; F172I,A474T,T83I; D87H,nt451Δ16,G71E; S209R,nan,nan,M297V,R244W; G273E,R79Q; T105A,nan,nan,nan,nan,L353Q; S25G,L71R,Y345H,S87W; E513D,nan,V643I; S717C,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND01-040,ST231,256,R,32,R,8,S,16,R,2,S,8,S,32,R,16,R,16,R,1,R,0.5,S,8,S,1,S,nan,+,nan,nan,nan,E215D,nt367Δ15,nan,nan,nan,A219T,S250N,nt1221∆2,LESB58,nan,nan,nan,A285V; H398R,nan,L197F; Q282R; A596V; K692M; Q840E; N1036T,L22M; D135Y; L331V; K329Q,nt236InsGCCG,nan,D249N,F172I,nan,aa914InsSE,nan,G71E; S209R,nan,nan,nan,nan,R79Q; T105A,nan,nan,A136V; G148A,R82L,K607R; D383N; L353Q; S25G,nan,Y345H,nan,D533E,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND02-001,ST155,128,R,256,R,64,R,16,R,<=0.5,S,4,S,32,R,8,I,8,I,2,R,0.5,S,8,S,2,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,nan,W138X,LESB58,P31Q,nan,nan,H398R,nan,D428N; T543A; Q840E,K329Q; L331V; W358R,nt305Δ3,nan,D249N,F172I,nan,T83I,nan,G71E; S209R,nan,nan,M297V,nan,R79Q; T105A,nan,nan,Q44H; L135Q; G148A; D183Y,nan,L353Q,nan,Y345H,nan,E459V,nan,Ter449Gext*,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND02-016,ST360,128,R,128,R,16,R,16,R,2,S,1,S,16,I,4,S,<=0.5,S,2,R,16,R,4,S,1,S,+,nan,nan,aac(6')-31,strA; strB,S466F,nan,nan,aa36Δ5,A261T,A219T,S250N,nan,F23197,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,N54D; L174Q,A104P,D249N,F172I,A394P,nan,nan,G71E; S209R,nan,nan,R322Q,nan,R79Q; T105A,nan,nan,G148A; P168L; S175L,nan,S25G,L71R,L339S; Y345H,H262Q,Y4C,E53K; S631I,C309Y; A439T; nt210Δ6,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND02-023,ST308,256,R,128,R,32,R,16,R,2,S,8,S,32,R,16,R,16,R,>16,R,>32,R,16,I,1,S,+,+,nan,aac(3)-Ib; aacA4,strA; strB,E468D,V126E,nan,G957D,nan,nan,A287S,nt251Δ547,UCBPP-PA14,nan,nan,nan,V216A; H398R,L153R; S170N; nt618InsA,I536V; T543A; G589A; Q840E; N1063T,A30T; K329Q; L331V; W358R,G89S;  nt483InsTAT,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,A96T,nan,L353Q; S25G,nan,V15I; G68S,S87L; P752T,P438S; D533E,D73N,nt159Δ16,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND03-041,ST2235,128,R,32,R,4,S,8,S,1,S,4,S,32,R,4,S,16,R,1,R,4,S,32,R,1,S,nan,nan,nan,nan,nan,D4N,nt61Δ1,nan,nan,nan,A219T,V61A,nt195InsGACTG,F23197,nan,nan,nan,H398R,nan,V113I; T543A; Q840E,K329Q; L331V; W358R,nt489Δ14,A104P; I143L,D249N,P60S; F172I,A394P; A474T,nan,nan,G71E; S209R,nan,nan,nan,G295R,T105A,nan,nan,G148A; S175L,nan,L353Q; S25G,L71R,nan,nan,nan,nan,Ter449Gext*,L88P; D161G; H182Q; V243A; V283L,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND03-050,ST155,256,R,128,R,>64,R,64,R,>32,R,>32,R,64,R,>32,R,>64,R,>16,R,32,R,32,R,1,S,nan,nan,IMP-8,aac(3)-I,nan,nan,nan,nan,nan,nan,A219T,nan,W339X,LESB58,P31Q,nan,nan,T131P; H398R,nan,D428N; T543A; Q840E,K329Q; L331V; W358R,nan,nan,D249N,F172I,S390R,T83I,nan,G71E; S209R,nan,nan,M297V,nan,R79Q; T105A,nan,nan,Q44H; G148A; D183Y,nan,L353Q,nan,Y345H,S87L,nan,nan,Ter449Gext*,D18N; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND04-003,ST1227,128,R,32,R,16,R,8,S,<=0.5,S,4,S,16,I,>32,R,8,I,8,R,1,S,8,S,2,S,nan,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,nan,PAO1,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,A104P,L32Q; A75V; D249N; V333M,P60S; F172I; R334C,nan,T83I; K162R,Q97X,nan,nan,nan,A303V; M297V,nan,R79Q; T105A,nan,nan,R11L; R140W; G148A; D183Y,nan,S96N,L71R,Y345H,nan,nan,nan,A121T; nt838Δ1,L88P; G157D; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND04-016,ST155,64,R,32,R,16,R,16,R,2,S,2,S,8,I,4,S,2,S,>16,R,2,S,16,I,2,S,+,nan,nan,nan,nan,nan,nan,R119C,nt600Δ1,nan,A219T,nan,nan,LESB58,P31Q,nan,nan,H398R,nan,D428N; T543A; Q840E,K329Q; L331V; W358R,W176X,nan,D249N,F172I,nan,T83I,nan,G71E; S209R,nan,nan,M297V; T236P,nan,R79Q; T105A,nan,nan,Q44H; G148A; D183Y,nan,L353Q,nan,Y345H,nan,nan,V12A,Ter449Gext*,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND04-037,ST1632,>512,R,>256,R,>64,R,64,R,8,R,32,R,>128,R,16,R,8,I,4,R,0.5,S,8,S,2,S,+,+,nan,nan,nan,S466F; E721K,V126E,nan,I186V,nan,nan,nan,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; N1036T; Q1039R,K329Q; L331V; W358R,nt593Δ14,A104P; V204A,G231S; D249N,P28L; P60S; F172I,H473Y,nan,nan,G71E; A145V; S209R,nan,A269V,M297V,E114A; I251V; G283E; M288R,G27D; T105A; V205L,nan,N242S,nan,V35A; D56G,L353Q; S25G,L71R,A4T; V15I; G68S; Y345H; R474Q,S197L,S261L; D533E,nan,Ter449Gext*; nt210Δ6,C40R; S112N; D119E; D161G; H182Q; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND06-027,ST274,256,R,32,R,16,R,16,R,1,S,8,S,32,R,16,R,32,R,1,R,0.5,S,4,S,1,S,+,+,nan,nan,nan,H148N,R78X,nan,nan,nan,nan,S250N,nt1072InsC,LESB58,nan,nan,nan,A82T; H398R,nan,T543A; Q840E; V875M; N1036S,K329Q; L331V; D346H; W358R,nan,A104P,D249N,F172I,A394P,nan,nan,G71E; S209R,nan,nan,M297V,nan,T21A; T105A; G391A,nan,nan,R11L; G148A; D183Y,nan,S25G,L71R,Y345H,nan,nan,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND06-033,ST2956,256,R,256,R,64,R,32,R,4,S,32,R,64,R,16,R,32,R,8,R,1,S,16,I,8,R,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,nan,T291P,FRD1,nan,nan,nan,H398R,E214K,D217V; T543A; Q840E,A30T; K329Q; L331V; W358R,nan,A505T,D249N,F172I,nan,D87Y,L169P,G71E,nan,nan,A303V; M297V,D135N,nan,nan,nan,G148A,nan,nan,nan,L31Q; Y345H,nan,nan,nan,C432S,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND06-034,ST992,64,R,>256,R,16,R,8,S,2,S,2,S,16,I,16,R,8,I,8,R,<=0.25,S,<=2,S,2,S,+,+,nan,nan,nan,S466Y,V126E,nan,nan,nan,A219T,G40S,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,nan,N130S,G71E,nan,nan,nan,G154R; G283E; M288R,T105A,V30F,N117S,G148A; D183Y,nan,L353Q; S25G,L71R,A4T; D70N; H340R; Y345H,nan,nan,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND07-007,ST683,256,R,256,R,64,R,32,R,2,S,2,S,32,R,4,S,2,S,16,R,2,S,16,I,1,S,+,nan,nan,nan,nan,T595I,nan,nt16Δ4,nan,nan,nan,nan,nan,LESB58,nan,nan,nan,H398R,P128S; L153R; S170N,Q282R; T543A; V980I,K329Q; L331V; W358R,A47P,A104P,D249N,F172I,A394P,T83I,nan,G71E,nan,nan,A303V; M297V,nan,T105A,nan,nan,G148A; D183Y,nan,K607R; L353Q,L71R,Y345H,nan,D142N,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND07-017,ST260,256,R,256,R,64,R,32,R,4,S,4,S,32,R,2,S,1,S,1,R,1,S,16,I,1,S,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,H398R,V55I; I80L,T543A; Q840E; G1002A,A30T; K329Q; L331V; W358R,R65C; L138R,A104P,E205V; D249N,F172I,nan,aa914ΔPS,nan,G71E; S209R,nan,nan,nan,nan,T105A,nan,nan,G46S; G148A,nan,nan,L71R,Y345H; G443R,V646L,nan,nan,nan,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AND07-027,ST17,>512,R,>256,R,32,R,64,R,16,R,4,S,64,R,1,S,8,I,>16,R,0.5,S,<=2,S,1,S,nan,nan,OXA-10,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,L165M; F170V,LESB58,nan,nan,nan,V216A; H398R,nan,T543A,K329Q; L331V; W358R,nan,A104P,D249N,P60S; F172I,nan,T83I; V671I; G860S,nt159Δ2,G71E; S209R,V29I,nan,Ter452Rext*,nan,T105A; L176R,nan,nan,A136V; G148A,nan,S25G,nan,Y345H,S87L,D533E,P388S,P444S,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA01-015,ST235,>512,R,>256,R,>64,R,64,R,>32,R,>32,R,32,R,>32,R,>64,R,8,R,>32,R,128,R,1,S,nan,nan,VIM-2,aac(6')Ib-cr,nan,nan,V126E,nan,G957D,nan,A208V,A287S,R140E,UCBPP-PA14,nan,Y85F,nan,H194Q; H398R,L153R; S170N,T543A; M574R,A30T; K329Q; L331V; W358R,nt385Δ1,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,Q51X; G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA01-037,ST111,512,R,256,R,>64,R,64,R,8,R,16,R,128,R,16,R,64,R,>16,R,32,R,16,I,2,S,+,+,OXA-46,aacA4,nan,nan,V126E,nan,nan,nan,A219T,nan,nt463Δ13,FRD1,nan,nan,nan,L137P; H398R,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,T83I; V671I; G860S,nan,G71E,nan,nan,D411A,G283E,T105A,nan,R504C,nan,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA01-045,ST973,512,R,32,R,16,R,16,R,>32,R,32,R,16,I,>32,R,64,R,16,R,>32,R,16,I,8,R,nan,nan,VIM-2,aadA1,nan,nan,V126E,nan,nan,nan,A219T,S250N,nt768IS,LESB58,nan,nan,nan,V152A; H398R,nan,V299M; T543A; I642V; Q840E; Q1039H,K329Q; L331V; W358R,L93P,nan,D249N,F172I,nan,T83I,N129K; nt451Δ1,G71E; S209R,nan,nan,V358I; M297V,E114A; E172V; A208T,R79Q; T105A,nan,nan,H71Q; G148A; D183Y,nan,nan,L71R,Y345H,L95Q,nan,nan,W132X,E35K; L88P; D161G; H182Q; I237V; Ans238S; V243A; A352V,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA01-049,ST365,128,R,32,R,8,S,16,R,2,S,8,S,32,R,2,S,16,R,>16,R,1,S,16,I,4,R,+,nan,nan,nan,nan,nan,R63H,nan,E429D,nan,nan,S250N,nan,MTB-1,nan,Y85F,nan,H398R,E87K; L153R; S170N,T543A; Q840E; N1036T; Q1039R,K329Q; L331V; W358R,L138R,A104P; A258T,D249N,P60S; F172I,nan,T83I,nan,G71E; S209R,nan,nan,nan,E114A; G283E; M288R,T16I; G27D; T105A; P148S; V205L; G391A,nan,nan,nan,nan,D502G; L353Q; S25G,L71R,G68S; Y345H,nan,D533E,nan,nan,C40R; L88P; S112N; D119E; D207N; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA02-009,ST235,256,R,256,R,16,R,16,R,2,S,8,S,64,R,8,I,32,R,>16,R,1,S,8,S,1,S,+,+,nan,nan,cmIA1,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,A149T; H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I; D87N,T4I,G71E; E153Q; S209R,nan,nan,nan,M288R; G283E,G27D; A97V; T105A; V205L; G391A,nan,nan,V10A; T139A; G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA02-015,ST175,512,R,32,R,16,R,16,R,>32,R,16,R,4,I,>32,R,32,R,>16,R,>32,R,32,R,2,S,nan,nan,OXA-2; VIM-20,aph(3')-Via; aadA13,nan,nan,nan,nan,nan,nan,A219T,S250N,W339X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,nan,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,G19E,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA02-017,ST175,>512,R,32,R,32,R,16,R,>32,R,32,R,8,I,>32,R,64,R,>16,R,32,R,16,I,4,R,nan,nan,OXA-2; VIM-20,aph(3')-Via; aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55Δ40,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,L301F; Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA02-029,ST111,>512,R,256,R,16,R,16,R,1,S,4,S,16,I,16,R,4,I,>16,R,32,R,4,S,1,S,+,+,CARB-2,aadA2,nan,nan,V126E,nan,nan,nan,A219T,nan,nan,FRD1,nan,nan,nan,L137P; H398R; nt109Δ1,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,T83I; V671I; G860S,nan,G71E,nan,nan,D411A,G283E,T105A,nan,nan,G148A,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,G596R,nt210Δ6,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA02-040,ST175,128,R,64,R,16,R,8,S,2,S,4,S,32,R,16,R,16,R,>16,R,16,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,nan,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ARA03-008,ST308,128,R,256,R,32,R,16,R,2,S,8,S,32,R,2,S,1,S,16,R,>32,R,64,R,1,S,+,+,nan,nan,strA; strB,nan,V126E,nan,G957D,nan,nan,V201M; A287S,nan,UCBPP-PA14,nan,nan,nan,L137P; V216A; H398R,L153R; S170N; nt618InsA,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,G89S; nt483InsTAT,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,A96T,nan,L353Q; S25G,nan,S2P; A4T; V15I; G68S; Y345H,S87L; P752T,D533E,D73N,nt143Δ9,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AST01-007,ST175,128,R,128,R,32,R,16,R,2,S,4,S,16,I,8,I,8,I,>16,R,16,R,4,S,1,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AST01-025,ST308,256,R,256,R,64,R,16,R,4,S,8,S,32,R,1,S,2,S,>16,R,>32,R,16,I,1,S,+,nan,nan,aacA4,strA; strB,E468D,V126E,nan,G957D,nan,nan,A287S,nan,UCBPP-PA14,nan,nan,nan,L137P; V216A; H398R,L153R; S170N; nt618InsA,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,G89S; nt483InsTAT,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,A96T,nan,L353Q; S25G,nan,S2P; A4T; V15I; G68S; Y345H,S87L; P752T,P438S; D533E,D73N,nan,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AST01-026,ST175,64,R,64,R,16,R,8,S,1,S,4,S,8,I,16,R,8,I,>16,R,32,R,8,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (AST01-042,ST235,128,R,256,R,32,R,16,R,2,S,8,S,32,R,1,S,4,I,16,R,1,S,8,S,<=0.5,S,+,nan,nan,aadA6,nan,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,G148A; nt377Δ1,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL01-003,ST175,128,R,128,R,16,R,4,S,1,S,2,S,16,I,8,I,8,I,>16,R,16,R,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL01-013,ST175,>512,R,16,S,64,R,32,R,>32,R,>32,R,32,R,2,S,16,R,>16,R,16,R,4,S,2,S,nan,nan,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,nan,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,nan,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,G183D,nan,R504C,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL01-034,ST179,>512,R,128,R,2,S,32,R,4,S,2,S,8,I,2,S,8,I,16,R,8,R,8,S,1,S,nan,nan,OXA-10,aadA1,QnrVC1; dfrA14,nan,nan,nan,nan,nan,A219T,nan,nan,LESB58,nan,S300R,nan,V291L; H398R,nan,T543A,K329Q; L331V; W358R,nt144InsT,A20S; G58D,D249N,F172I,nan,T83I,nan,G71E; S209R,nan,nan,A303V; M297V,nan,T105A; L176R,nan,nan,Q44H; G148A; D183Y,nan,L353Q,nan,Y345H,nan,nan,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL02-013,ST235,256,R,32,R,4,S,16,R,1,S,4,S,8,I,16,R,16,R,>16,R,>32,R,64,R,1,S,nan,+,OXA-2,aadA6; aac(6´)-31,nan,nan,K44M; V126E,nan,G957D,nan,A208V,A287S,nt710InsTT,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,V48A,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q; S25G,L71R,A4T; G68S; V344M; Y345H; G362S,S87L,D533E,nan,nt210Δ6,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL02-015,ST9,512,R,256,R,64,R,32,R,4,S,32,R,64,R,4,S,16,R,8,R,1,S,8,S,1,S,+,nan,nan,nan,nan,S466Y,nt373Δ1,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,L137P; H398R,nan,T543A,K329Q; L331V,nan,A104P,D249N,F172I,A394P,nan,nan,G71E; S209R,nan,nan,nan,nan,T105A,Y683C,nan,nt393Δ1,nan,L353Q,L71R,Y345H,nan,nan,A368T; S631I,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL02-023,ST3194,256,R,128,R,64,R,32,R,4,S,32,R,64,R,2,S,8,I,<=0.12,S,0.5,S,16,I,1,S,+,nan,nan,nan,nan,nan,V126E,nan,I186V,nan,nan,nan,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; N1036T; Q1039R,K329Q; L331V; W358R,nan,A104P,D249N,P28L; P60S; F172I,H473Y,nan,nan,G71E; A145V; S209R,nan,nan,M297V,E114A; I251V; G283E; M288R,G27D; T105A; V205L; G391P,nan,nan,nan,D56G,L353Q; S25G,L71R,A4T; V15I; G68S; Y345H; R474Q,S197L; H262Q,S261L; D533E,nan,Ter449Gext*,C40R; S112N; D161G; H182Q; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL03-002,ST175,128,R,64,R,64,R,16,R,32,R,4,S,16,I,4,S,8,I,>16,R,>32,R,8,S,4,R,+,nan,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,E247G,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL03-003,ST395,256,R,64,R,>64,R,32,R,>32,R,>32,R,32,R,16,R,32,R,4,R,>32,R,16,I,2,S,nan,+,OXA-15 ,aacA4,nan,S466Y,nan,nan,nan,nan,R66C,S250N,nt676IS,LESB58,nan,nan,nan,R385H; H398R,nan,T543A,H119Y; K329Q,nan,A104P,D249N,F172I,nan,aa914InsSE,aa15Δ1,G71E,nan,nan,V358I; M297V,nan,T105A; L176R,nan,nan,A134V,nan,nan,L71R,Y345H,nan,V200M,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL03-028,ST235,256,R,16,S,8,S,16,R,1,S,4,S,8,I,1,S,4,I,16,R,32,R,32,R,1,S,nan,nan,OXA-2, aadA6; aac(6´)-31,nan,nan,K44M; V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,V48A,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q; S25G,L71R,A4T; G68S; V344M; Y345H; G362S,S87L,D533E,nan,nt210Δ6,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL04-003,ST390,>512,R,>256,R,>64,R,64,R,8,R,32,R,128,R,16,R,32,R,4,R,<=0.25,S,4,S,1,S,+,+,nan,nan,nan,nan,nt80InsA,nan,nan,A478T; nt1446InsC,A219T,V305M; S250N,nt438InsC ,LESB58,nan,nan,nan,H398R,A41G,I536V; T543A; G589A,A30T; K329Q; L331V; W358R; A375P; A383P,L138R,A104P,D249N,P60S; F172I,A474T,T83I,nan,G71E,nan,nan,nan,D135G,R79Q; T105A; R235H,nan,R551L,G148A; S175L,nan,G503D; L353Q; S25G,L71R,Y345H,D422A,nan,nan,nt1107Δ1,L88P; D161G; H182Q; V243A; G258S,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL04-015,ST175,64,R,128,R,16,R,16,R,2,S,2,S,8,I,16,R,4,I,>16,R,>32,R,8,S,1,S,+,+,nan,aadB; aph(3')-Vib,nan,nan,nan,Q281X,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,nt4Δ) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (BAL04-027,ST175,256,R,64,R,16,R,16,R,2,S,4,S,16,I,8,I,8,I,>16,R,32,R,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,nan,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-003,ST111,256,R,256,R,32,R,16,R,2,S,8,S,32,R,16,R,32,R,16,R,8,R,<=2,S,2,S,+,+,OXA-46::IS,aacA4,nan,nan,V126E,nan,nan,nan,A219T,nan,L432P,FRD1,nan,nan,nan,L137P; H398R; nt997Δ1,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,T83I; V671I; G860S,nan,G71E,nan,nan,D411A; aa439InsGGF,nan,T105A,nan,nan,G148A,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,nan,G305D,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-004,ST175,128,R,128,R,16,R,16,R,2,S,4,S,16,I,16,R,16,R,>16,R,32,R,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,nt199Δ1,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,T139M; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-017,ST245,128,R,32,R,32,R,8,S,1,S,32,R,32,R,16,R,16,R,1,R,<=0.25,S,4,S,2,S,+,nan,nan,aac(3)-Ia,nan,nan,nt120Δ1,nan,nan,A261T,A219T,S250N,nan,F23197,nan,nan,nan,H398R,nan,T543A; Q840E,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,nan,nan,G71E; S209R,nan,nan,A303V; M297V,nan,R79Q; T105A,nan,nan,D28G; G148A; S175L,nan,S25G,L71R,Y345H,H262Q,nan,E53K; S631I,A439T,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-025,ST1149,256,R,256,R,64,R,32,R,8,R,16,R,32,R,16,R,32,R,>16,R,16,R,4,S,2,S,nan,+,nan,nan,nan,nan,V126E,nan,nan,nan,nan,S250N,W339X,MTB-1,nan,nan,nan,S352I; H398R,L153R; S170N,T543A; N1036T,A30T; K329Q; L331V; W358R,nan,A102T; A104P,D249N,F172I,nan,T83I,nan,G71E; S209R,I136V,nan,M297V,E114A; G283E; M288R,G27D; T105A; V205L; G391A,nan,nan,nan,nan,L353Q; S25G,nan,A4T; V6A; V15I; G68S; Y345H,nan,D533E,nan,Ter449Gext*,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-026,ST2136,128,R,32,R,8,S,16,R,>32,R,>32,R,16,I,32,R,32,R,>16,R,16,R,16,I,2,S,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,S250N,nan,LESB58,nan,nan,nan,H398R,V55I; I80L,T543A; Q840E; G1002A,A30T; K329Q; L331V,nan,A104P,E205V; D249N,F172I,nan,aa914ΔPS,nan,G71E; S209R,nan,nan,nan,nan,T105A,nan,R441H,G46S; G148A,nan,nan,L71R,Y345H,V646L,nan,nan,nan,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-028,ST253,128,R,32,R,4,S,8,S,2,S,4,S,8,I,8,I,16,R,>16,R,16,R,<=2,S,2,S,nan,+,nan,nan,nan,nan,V126E,nan,nan,nan,nan,nan,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T; Q1039R,A30T; K329Q; L331V; W358R,L138R; N186S,A104P,D249N,F172I,Q156H,aa914ΔPS,nan,G71E; A145V; S209R,nan,nan,M297V,E114A; G283E; M288R,G27D; A55T; T105A; Q155R; V205L; G391A,nan,nan,nan,R21H; D56G,L353Q; S25G,nan,S2P; A4T; V15I; G68S; Y345H,R131S,D533E,I418T; N622K,nan,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-037,ST3134,64,R,16,S,16,R,32,R,4,S,4,S,8,I,8,I,4,I,8,R,16,R,128,R,1,S,+,+,nan,nan,nan,G481D,V126E,nan,W753R,nan,A219T,nan,nan,LESB58,A92V; Q124X,nan,nan,H398R,nan,V475A; Q840E,K329Q; L331V; W358R,nt590InsC,Y495H,D249N,M7V; F172I,nan,T83I,nan,G71E; A186T,nan,nan,S119G; nt112InsC,nan,T105A,T671I,nan,G148A,nan,L353Q,L71R,G188S; Y345H,V646L,nan,nan,nan,R52C; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-038,ST274,128,R,32,R,8,S,16,R,2,S,8,S,32,R,16,R,32,R,1,R,0.5,S,4,S,1,S,+,+,nan,nan,nan,H148N,nt318InsG,nan,nan,nan,nan,S250N,Y214X,LESB58,nan,nan,nan,A82T; T131P; H398R,nan,T543A; Q840E,K329Q; L331V; D346H; W358R,nan,A104P,D249N,F172I,A358V; A394P,nan,nan,G71E; S209R,nan,nan,M297V,nan,T21A; T105A,nan,nan,R11L; G148A; D183Y,nan,S25G,L71R,Y345H,nan,nan,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAN01-039,ST308,256,R,256,R,64,R,32,R,4,S,16,R,64,R,2,S,2,S,>16,R,>32,R,32,R,1,S,nan,nan,nan,aacA4; aac(6')Ib-cr,strA; strB,E468D,V126E,nan,G957D,nan,nan,A287S,nan,UCBPP-PA14,nan,nan,nan,L137P; V216A; H398R,L153R; S170N; nt618InsA,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,G89S; nt483InsTAT,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,A96T,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L; P752T,P438S; D533E,D73N,nan,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT01-001,ST3149,256,R,256,R,64,R,32,R,4,S,16,R,64,R,2,S,2,S,8,R,2,S,32,R,1,S,+,nan,nan,nan,nan,nan,nan,D373E,nan,V72L,A219T,S250N,nan,LESB58,nan,nan,nan,A345T; H398R,L90I,T543A,K329Q; L331V; W358R,nt525Δ8,nan,D249N,P60S; F172I,nan,T83I,T11N,G71E,nan,A619E,M297V,nan,R79Q,nan,L23V,D28G,nan,L353Q,L71R,nan,nan,D533E,D309E,nan,L88P; D161G; H182Q; V243A; A262S,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT01-015,ST175,256,R,128,R,32,R,16,R,2,S,8,S,16,I,16,R,8,I,>16,R,>32,R,8,S,1,S,+,+,nan,aacA4,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT02-007,ST175,256,R,128,R,32,R,32,R,2,S,8,S,16,I,16,R,16,R,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT02-012,ST235,512,R,256,R,32,R,32,R,2,S,4,S,32,R,16,R,32,R,16,R,>32,R,32,R,1,S,+,+,OXA-2,aac(6´)-31; aadA6,nan,nan,K44M; V126E,nan,G957D,nan,A208V,A287S,nt1216InsGTCCG,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,V48A,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,A96T; G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT02-015,ST235,256,R,16,S,>64,R,32,R,32,R,4,S,128,R,8,I,8,I,8,R,>32,R,64,R,2,S,nan,+,OXA-2; PER-1,aph(3')-VIb,strA; strB; cmIA1; tet(Y),nan,V126E,nan,G957D,nan,A208V,A287S,nt30InsGC,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,P41S; G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,nan,E459K; D533E,nan,nan,Ter14Qext*; L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT02-018,ST235,512,R,256,R,>64,R,64,R,>32,R,16,R,>128,R,8,I,16,R,8,R,>32,R,64,R,2,S,nan,+,OXA-2; PER-1,aph(3')-VIb,strB; strA; cmIA1; tet(Y),nan,V126E,nan,G957D,nan,A208V,A287S,nt30InsGC,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,P41S; G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,nan,E459K; D533E,nan,nan,Ter14Qext*; L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT02-020,ST175,128,R,128,R,32,R,16,R,2,S,8,S,16,I,16,R,16,R,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT03-004,ST175,256,R,128,R,32,R,16,R,2,S,8,S,16,I,16,R,16,R,>16,R,>32,R,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT04-001,ST253,256,R,256,R,64,R,64,R,4,S,32,R,64,R,16,R,32,R,>16,R,0.5,S,4,S,2,S,+,+,nan,nan,nan,nan,R73L; V126E,nan,nan,nan,nan,nan,Q402H,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T; Q1039R,A30T; K329Q; L331V; W358R,L138R; N186S,A104P,D249N,F172I,Q156H,T83I; aa914Δ2,nan,G71E; A145V; S209R,nan,A481T,V420M; M297V,E114A; G283E; M288R,G27D; A55T; T105A; Q155R; V205L; G391A,nan,nan,S75F,R21H; D56G,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87W,D533E,I418T; N622K,nan,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT04-016,ST253,128,R,128,R,32,R,16,R,16,R,8,S,32,R,8,I,16,R,>16,R,0.5,S,8,S,2,S,nan,+,nan,nan,nan,nan,V126E,nan,nan,nan,nan,nan,nt106InsG,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T; Q1039R,A30T; K329Q; L331V; W358R,V105G; L138R; N186S,A104P,D249N,F172I,Q156H,T83I; V671I; G860S,nan,G71E; A145V; S209R,nan,A481T,M297V,E114A; G283E; M288R,G27D; A55T; T105A; Q155R; V205L; G391A,nan,nan,nan,R21H; D56G,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87W,D533E,I418T; N622K,nan,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT04-032,ST175,128,R,128,R,64,R,32,R,2,S,8,S,32,R,16,R,8,I,>16,R,32,R,8,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT05-001,ST175,64,R,64,R,16,R,16,R,2,S,4,S,8,I,8,I,4,I,>16,R,16,R,<=2,S,1,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT05-004,ST253,>512,R,>256,R,>64,R,>64,R,>32,R,>32,R,4,I,>32,R,>64,R,>16,R,2,S,4,S,2,S,nan,nan,VIM-1,aadA1; aph(3')-XV; aac(3)-I,nan,nan,V126E,nan,nan,nan,nan,nan,W77X,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T; Q1039R,A30T; K329Q; L331V; W358R,V105G; L138R; N186S,A104P,D249N,F172I,Q156H,T83I; V671I; G860S,nan,G71E; A145V; S209R,nan,A481T,M297V,E114A; G283E; M288R,G27D; A55T; T105A; Q155R; V205L; G391A,nan,nan,nan,R21H; D56G,L353Q; S25G,nan,S2P; A4T; V15I; G68S; Y345H,S87W,D533E,I418T; N622K,nan,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT05-005,ST175,64,R,64,R,16,R,16,R,1,S,1,S,8,I,8,I,2,S,>16,R,32,R,<=2,S,<=0.5,S,+,+,nan,aadB,nan,nan,nan,nt359Δ14,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT05-008,ST111,>512,R,>256,R,32,R,16,R,2,S,8,S,32,R,8,I,16,R,>16,R,>32,R,8,S,2,S,+,+,CARB-2,aadA2,nan,nan,V126E,nan,nan,nan,A219T,nan,W77X,FRD1,nan,nan,nan,L137P; H398R,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,T83I; V671I; G860S,nan,G71E,nan,nan,D411A,nan,T105A,nan,nan,V10G; G148A,A121T,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,G596R,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT05-019,ST175,512,R,128,R,32,R,16,R,2,S,2,S,16,I,16,R,64,R,>16,R,4,S,4,S,1,S,nan,+,OXA-2,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT06-008,ST175,256,R,64,R,4,S,8,S,2,S,1,S,4,I,16,R,1,S,>16,R,32,R,8,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,A735D,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,A434T,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT06-016,ST175,128,R,128,R,32,R,16,R,2,S,4,S,32,R,16,R,16,R,>16,R,32,R,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT06-019,ST175,64,R,16,S,8,S,16,R,1,S,1,S,8,I,16,R,16,R,16,R,>32,R,8,S,1,S,+,+,nan,aadB,nan,nan,nan,S258L,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,F533L,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT06-021,ST1134,64,R,32,R,8,S,16,R,1,S,4,S,16,I,16,R,32,R,>16,R,32,R,4,S,1,S,+,nan,nan,nan,nan,nan,nan,D373E,nan,V72L,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,nan,D249N,F172I,nan,A908T,nan,G71E; S209R,nan,nan,A303V; M297V,nan,T105A,nan,nan,R11L; G148A; D183Y,R82L,nan,L71R,Y345H,nan,A473V; D533E,nan,nan,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT06-022,ST1134,16,S,8,S,16,R,16,R,1,S,4,S,4,I,>32,R,32,R,16,R,32,R,4,S,1,S,nan,nan,nan,nan,nan,nan,nan,D373E,L772Q,V72L,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,nan,D249N,F172I,nan,A908T,nan,G71E; S209R,nan,nan,A303V; M297V,nan,T105A,nan,nan,R11L; G148A; D183Y,R82L,nan,L71R,Y345H,nan,A473V; D533E,nan,nan,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT06-023,ST244,32,R,32,R,2,S,4,S,<=0.5,S,1,S,4,I,16,R,16,R,0.25,S,32,R,4,S,8,R,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,nan,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E,K329Q; L331V; W358R,nan,A104P,A75V; D249N,P60S; F172I,nan,nan,nan,nan,nan,nan,A303V; M297V,nan,nan,nan,nan,R11L; G148A; D183Y,nan,S96N,L71R,nan,nan,nan,nan,A121T,L88P; G157D; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT08-020,ST175,128,R,128,R,32,R,16,R,2,S,4,S,16,I,16,R,16,R,>16,R,16,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT08-025,ST1889,256,R,64,R,16,R,16,R,2,S,16,R,64,R,8,I,8,I,>16,R,<=0.25,S,<=2,S,<=0.5,S,nan,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,R105Q,D43N,F23197,nan,nan,nan,H398R; nt921Δ4,nan,nan,nan,nan,A104P; I143L,D249N,F172I,nan,T83I,nt130InsGACC; D187H,G71E; A186T,nan,nan,M297V,nan,T21A; T105A; G391A,nan,nan,nan,nan,F234L,L71R,A4T; D70N; H340R; Y345H,S87L; E513D,I57V,nan,Ter449Gext*,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT08-026,ST299,>512,R,32,R,4,S,16,R,2,S,4,S,8,I,4,S,1,S,2,R,>32,R,32,R,1,S,nan,nan, CARB-12; AER (Aeromonas hydrophyla like),aacA4; aadA1; aph(3')-Ib; aac(6')Ib-cr,QnrVC1; dfrA1,nan,nan,nan,nan,nan,A219T,S250N,nan,UCBPP-PA14,nan,nan,nan,L137P,nan,E152D; T543A; Q840E,K329Q; R351S,nan,nan,D249N,P60S; F172I,nan,nan,nan,G71E; A186T,nan,nan,M297V,nan,T105A,nan,nan,G148A; D183Y,nan,L353Q; S25G,nan,Y345H,V646L ,D533E,E367G; S631I,nan,L88P; H182Q,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT08-034,ST175,128,R,64,R,16,R,16,R,2,S,4,S,16,I,16,R,8,I,>16,R,16,R,<=2,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,G180S,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT09-001,ST235,256,R,32,R,16,R,16,R,2,S,8,S,32,R,16,R,16,R,>16,R,>32,R,32,R,1,S,+,nan,OXA-2,aadA6; aadB,strA; strB; tet(C),nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt111InsGCGGACGCCGCCGGGGTTTCTCGCGGT,A104P; V466I,A52V; D249N,P60S; F172I; nt392InsC,nan,T83I,nt263Δ17,G71E; E153Q,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q; S25G,L71R,S2P; A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT09-009,ST175,128,R,128,R,32,R,16,R,2,S,4,S,16,I,8,I,8,I,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT09-018,ST175,64,R,64,R,16,R,16,R,1,S,2,S,16,I,16,R,8,I,>16,R,>32,R,8,S,1,S,+,+,nan,aadB,nan,nan,nan,V229A,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT09-026,ST111,>512,R,256,R,4,S,16,R,1,S,4,S,8,I,16,R,8,I,16,R,2,S,<=2,S,1,S,nan,+,CARB-2,aadA2,nan,nan,V126E,nan,nan,nan,A219T,nan,Q66X,FRD1,nan,nan,nan,L137P; L227P; H398R,nan,G530S,L288W; K329Q; L331V; W358R; nt865Δ1,nan,A104P,D249N,F172I,nan,T83I; V671I; G860S,nan,G71E,nan,nan,D411A; G343S,nan,T105A,nan,nan,G148A,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,G596R,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT09-027,ST253,>512,R,256,R,4,S,8,S,1,S,2,S,8,I,8,I,8,I,>16,R,32,R,8,S,1,S,nan,+,nan,nan,nan,nan,V126E,nan,nan,nan,nan,nan,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T; Q1039R,A30T; K329Q; L331V; W358R,V105G; L138R; N186S,A104P,D249N,F172I,Q156H,T83I; V671I; G860S,nan,G71E; A145V; S209R,nan,A481T,M297V,E114A; G283E; M288R,G27D; A55T; T105A; Q155R; V205L; G391A,nan,nan,nan,R21H; D56G,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87W,D533E,I418T; N622K,nan,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CAT09-028,ST252,>512,R,256,R,64,R,32,R,4,S,8,S,32,R,4,S,8,I,16,R,8,R,<=2,S,1,S,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V,nan,A104P,D249N,F172I,A394P,aa914Δ2,nan,G71E,nan,nan,nan,nan,T105A,nan,nan,L33P,nan,L353Q,L71R,Y345H,H262Q,nan,A368T; S631I,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE02-002,ST399,128,R,256,R,32,R,16,R,2,S,4,S,32,R,8,I,4,I,8,R,0.5,S,4,S,2,S,+,+,nan,nan,nan,E168D,V126E,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,Q282R; T543A,K329Q; W358R,nan,A104P,D249N,F172I,nan,nan,nan,R191L; S209R,nan,nan,nan,nan,T105A,nan,nan,G148A,nan,K607R; L353Q,nan,Y345H,R201P ,nan,nan,nan,C40R; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE02-006,ST664,>512,R,128,R,>64,R,>64,R,>32,R,>32,R,32,R,16,R,64,R,>16,R,16,R,32,R,2,S,nan,nan,IMP-1,aadB; aph(3')-Via,strA; strB,nan,V126E,K86E,nan,nan,A219T,S250N,V127L,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E; P1032S,K329Q; L331V,nan,nan,D249N,F172I,nan,T83I,nt398Δ2,G71E; S209R,nan,nan,R322Q,nan,L176R,nan,nan,A134P; G148A; D183Y,nan,L353Q,L71R,Y345H,E91K; H262Q; L458F,E215Q,nan,nan,L88P; D161G; H182Q; V243A; A262S,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE02-016,ST175,128,R,64,R,16,R,16,R,2,S,4,S,16,I,16,R,8,I,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nt385InsGGGT,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE02-032,ST175,128,R,64,R,16,R,16,R,2,S,4,S,16,I,8,I,8,I,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nt385InsGGGT,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE02-055,ST664,128,R,64,R,16,R,16,R,2,S,8,S,16,I,4,S,16,R,16,R,0.5,S,16,I,1,S,+,nan,nan,aph(3')-Via; aac(3)-Ia,strA,nan,V126E,nan,nan,nan,A219T,S250N,V127L,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E; P1032S,K329Q; L331V; W358R,nan,nan,D249N,F172I,nan,T83I,nt398Δ2,G71E; S209R,nan,nan,R322Q,nan,L176R,nan,nan,A134P; G148A; D183Y,nan,L353Q,L71R,Y345H,E91K; H262Q; L458F,E215Q,nan,nan,L88P; D161G; H182Q; V243A; A262S,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE03-022,ST2935,256,R,32,R,16,R,8,S,2,S,8,S,32,R,16,R,32,R,>16,R,<=0.25,S,<=2,S,2,S,+,+,nan,nan,nan,nan,A103G; V126E; nt373Δ1,nan,N248K,nan,G186S,nan,nan,LESB58,nan,nan,T93A,A115E; V304I; E343D; H398R; Y407H,T135A; L153R,T543A; Q840E; G1035D; N1036T; Q1039R,L12P; A30T; K329Q; L331V; W358R,L138R; L196I,V18I; R82K; G96D; A104P,K17T; A175V; E181D; D249N,E26G; P60S; F172I,A394P,T83I; aa914ΔPS,nan,G71E; Q182K; L206V; S209R,nan,nan,S306R; M297L,A118V; G283E,R5G; T21A; P23S;A36T; T105A; Q117L; A170T; L200I; V205L; R273K; V356I; G391A,nan,nan,V10I; A85G; G148A; E170G,nan,L353Q; S25G,L71R; Y179H,A4T; D47N; E69A; Y345H; P369A; A462T,D86N; S331T,D533E,H628N; V643I,nan,C40R; A87V; D161G; H182Q; V243A; E307D; I346V,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLE03-023,ST155,256,R,256,R,64,R,16,R,4,S,4,S,16,I,8,I,4,I,4,R,<=0.25,S,<=2,S,2,S,+,+,nan,nan,nan,S466F,nan,nan,nan,nan,A219T,nan,nan,LESB58,P31Q,nan,nan,H398R,nan,D428N; T543A; Q840E,K329Q; L331V; W358R,nan,nan,D249N,F172I,nan,nan,nan,G71E; S209R,nan,nan,M297V,nan,R79Q; T105A,nan,nan,Q44H; G148A; D183Y; nt430Δ17,nan,L353Q,nan,Y345H,nan,nan,nan,Ter449Gext*,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLM02-005 ,ST175,32,R,32,R,8,S,8,S,1,S,1,S,<=2,I,8,I,4,I,>16,R,32,R,4,S,1,S,nan,+,nan,aadB,nan,E468D,nan,Q104X,nan,nan,A219T; nt409Δ1,nan,W415X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I,nan,A186T,nan,nan,nan,nan,nan,nan,nan,F113L; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLM02-017 ,ST253,32,R,8,S,2,S,2,S,1,S,2,S,8,I,4,S,8,I,>16,R,32,R,<=2,S,4,R,nan,nan,nan,nan,nan,nan,V126E,nan,nan,nan,nan,nan,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T; Q1039R,A30T; K329Q; L331V; W358R,L138R; N186S,A104P,D249N,F172I,Q156H,aa914ΔPS,nan,G71E; A145V; S209R,nan,nan,M297V,E114A; G283E; M288R,G27D; A55T; T105A; Q155R; V205L; G391A,nan,nan,nan,R21H; D56G,L353Q; S25G,nan,S2P; A4T; V15I; G68S; Y345H,nan,D533E,I418T; N622K,nan,C40R; L88P; S112N; D119E; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLM02-043 ,ST175,256,R,64,R,16,R,16,R,2,S,8,S,32,R,16,R,32,R,>16,R,>32,R,16,I,1,S,+,+,nan,aadB,nan,E468D,nt47InsG,nan,nan,nan,A219T; nt409Δ1,S250N,W415X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I,nan,G71E; A186T,nan,nan,nan,R244W,nan,aa615InsQL,nan,F113L; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CLM02-046,ST882,256,R,32,R,16,R,32,R,2,S,4,S,16,I,8,I,8,I,0.5,S,2,S,16,I,2,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,PAO1,nan,nan,nan,T131P; D348N; H398R,nan,T543A; N1036T; Q1039R,K329Q; L331V; W358R,nan,A104P,D249N,P60S; F172I,nan,nan,nan,G71E; S209R,V29I,nan,V124G,nan,R79Q; T105A,nan,T91A; G243S,A136V; G148A,nan,nan,L71R,Y345H,nan,nan,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA01-002,ST500,256,R,>256,R,>64,R,64,R,8,R,16,R,64,R,8,I,8,I,2,R,0.5,S,8,S,2,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,I67T; A219T,nan,nan,LESB58,nan,nan,nan,Y73C; H398R,nan,T543A; Q840E; Q1039R,K329Q; L331V,nan,nan,D249N,nan,A394P,D87N,nan,nan,nan,nan,M297V,nan,nan,nan,nan,G148A; S175L,nt42InsGCAGTC,K607R; L353Q; S25G,L71R,A4T; H311Q; Y345H; A413T,N633S,nan,V643I,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA01-006,ST175,>512,R,16,S,16,R,16,R,>32,R,16,R,<=2,I,>32,R,64,R,>16,R,>32,R,8,S,1,S,nan,nan,OXA-2; VIM-20,aac(3)-Ia; aadB,nan,nan,nan,nan,nt878InsGG,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,M297V,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA01-029,ST175,128,R,64,R,32,R,16,R,2,S,4,S,16,I,16,R,8,I,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,nt1189InsAG,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,G328C,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,L373Q,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA01-033,ST235,256,R,128,R,16,R,16,R,1,S,2,S,4,I,8,I,16,R,8,R,>32,R,16,I,2,S,+,+,OXA-2,aac(6')-Iic,cmIA1,nan,V126E,nan,G957D,nan,A208V,A287S,nt1286Δ1,UCBPP-PA14,nan,Y85F,nan,A149T; H398R,L153R; S170N,T543A,A30T; W358R,nan,A104P,D249N,P60S; F172I,nan,T83I,nan,G71E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L,nan,nan,G148A; nt407InsGGC,nan,L353Q,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA01-035,ST235,256,R,128,R,16,R,16,R,1,S,2,S,8,I,8,I,16,R,8,R,>32,R,32,R,2,S,nan,+,OXA-2,aadA6; aac(6')-Iic,cmIA1,nan,V126E,nan,G957D,nan,A208V,A287S,nt1286Δ1,UCBPP-PA14,nan,Y85F,nan,A149T; H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,M288R,A97V; T105A; V205L; G391A,nan,nan,G148A; nt407InsGGC,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA02-005,ST175,>512,R,128,R,64,R,32,R,>32,R,32,R,32,R,>32,R,>64,R,>16,R,>32,R,32,R,2,S,nan,nan,OXA-210; VIM-20,aph(3')-Via; aadA13,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,V10G; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA02-017,ST235*,256,R,>256,R,64,R,32,R,4,S,8,S,32,R,8,I,16,R,8,R,1,S,8,S,4,R,+,+,nan,aadA6,nan,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt47Δ13,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,D167E; G148A,nan,L353Q; S25G,L71R,A4T; G52S; G68S; Y345H; G362S,nan,D533E,nan,G396S,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA02-018,ST274,128,R,32,R,16,R,8,S,2,S,8,S,32,R,16,R,16,R,2,R,0.5,S,4,S,2,S,+,+,nan,nan,nan,H148N; aa467Δ2,R63H,nan,nan,nan,nan,S250N,nt311InsCG,LESB58,nan,nan,nan,A82T; H398R,nan,T543A; Q840E,K329Q; L331V; D346H; W358R,nan,A104P,D249N,P60S; F172I,A394P,T686A,L72P; D187H,G71E; S209R,nan,nan,M297V,nan,T21A; T105A; G391A,nan,nan,R11L; G148A; D183Y,nan,S25G,L71R,Y345H,nan,nan,D616V,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA02-019,ST235,512,R,>256,R,>64,R,64,R,8,R,4,S,128,R,16,R,8,I,16,R,4,S,32,R,2,S,+,+,nan,aac(3)-Ic,cmIA1,nan,V126E,nan,G957D; nt2806Δ2,nan,A208V,A287S,Q340X,UCBPP-PA14,nan,Y85F,nan,A149T; H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt604Δ1,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,Q51X; G148A,nan,L353Q; S25G,L71R,S2P; A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA02-020,ST308,>512,R,16,S,>64,R,32,R,>32,R,>32,R,64,R,2,S,16,R,>16,R,32,R,4,S,2,S,+,nan,nan,aacA4,strA; strB,E468D,V126E,nan,G957D,nan,nan,A287S,nt635Δ1,UCBPP-PA14,nan,nan,nan,L137P; V216A; H398R,L153R; S170N; nt618InsA,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,G89S; nt483InsTAT,A104P,V73A; D249N,F172I,G437D,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T96I; T105A; V205L; V356I; G391A,nan,V471G,A96T,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L; P752T,P438S; D533E,D73N,nt210Δ6,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA02-023,ST175,>512,R,64,R,64,R,16,R,>32,R,>32,R,8,I,32,R,64,R,16,R,4,S,<=2,S,1,S,nan,nan,OXA-210; VIM-20,aph(3')-Via; aadA13,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,nan,nan,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,V10G; G148A; D183Y,nan,nan,nan,E320K; Y345H,S87W; L168Q,nan,E245D,G99D,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA03-004,ST244,256,R,256,R,64,R,32,R,4,S,8,S,64,R,16,R,16,R,>16,R,0.5,S,4,S,2,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,Q402H,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E,K329Q; L331V; W358R,nt319Δ16,A104P,A75V; V241M; D249N,P60S; D96A; F172I,T27S; S150G,T83I; V671I; G860S,nt232Δ19; G78R,nan,nan,nan,A303V; M297V,nan,nan,nan,nan,R11L; L40Q; G148A; D183Y,nan,S96N,L71R,nan,S87L,nan,nan,A121T; nt832Δ1,L88P; G157D; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA03-019,ST175,>512,R,256,R,64,R,32,R,>32,R,16,R,32,R,>32,R,64,R,>16,R,>32,R,16,I,1,S,nan,nan,OXA-2; VIM-20,aph(3')-Via; aadA13,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,G117V,T83I; D87N,nan,G71E; A186T,nan,nan,nan,F87L,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nt210Δ6,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA03-024,ST175,>512,R,256,R,>64,R,32,R,>32,R,16,R,32,R,>32,R,64,R,>16,R,>32,R,16,I,1,S,nan,nan,OXA-2; VIM-20,aph(3')-Via; aadA13,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,G117V,T83I; D87N,nan,G71E; A186T,nan,nan,nan,F87L,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nt210Δ6,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA03-025,ST175,128,R,128,R,32,R,16,R,2,S,8,S,16,I,>32,R,64,R,>16,R,>32,R,16,I,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q166X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,Q55P; G148A; D183Y,nan,L353Q,nan,Y345H,S87W; L168Q,nan,E245D,nt840Δ1,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (CVA03-033,ST175,>512,R,32,R,16,R,16,R,>32,R,16,R,8,I,16,R,64,R,>16,R,>32,R,32,R,1,S,nan,nan,OXA-2; VIM-20,aadB; aacA4; aph(3')-Via,nan,nan,nan,nan,nan,nan,A219T,S250N,nt55InsGCACT,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,nan,D249N,P60S,nan,T83I; D87N,nan,G71E,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,S25G,nan,Y345H,S87W; L168Q,nan,E245D,G396S,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (EXT01-008,ST1754,256,R,256,R,64,R,32,R,4,S,16,R,64,R,16,R,32,R,2,R,0.5,S,8,S,2,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,S250N,nt334Δ2,FRD1,nan,nan,nan,R7H; H398R,L153R; S170N,F29S; R515C; T543A,K329Q; L331V; W358R,nan,A104P,D249N,M7V; P8H; P60S; F172I,nan,nan,nan,A169P,nan,nan,M297V,nan,T105A; L176R,nan,nan,nan,nan,L353Q; S25G,L71R,Y345H,A208G,D533E,nan,nan,L88P; D161G; H182Q; V243A; A352V,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (EXT01-010,ST446,512,R,32,R,8,S,16,R,1,S,8,S,32,R,16,R,32,R,0.5,S,4,S,64,R,1,S,+,+,nan,nan,nan,nan,Q55P; V126E,nan,nan,nan,A208V,S250N,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,nan,A104P,aa138Δ3,P60S; F172I; nt471Δ2,nan,aa914ΔPS,nan,G71E; A145V; S209R,nan,nan,M297V,E114A; G283E; M288R,G27D; T105A; V205L; G391A,D588G,nan,nan,nan,L353Q; S25G,L71R,Y345H,D533E; A587T,D533E,I418V,Ter449Gext*,C40R; L88P; S112N; D119E; I237V; Ans238S; V243A; A352V,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (EXT01-024,ST611,256,R,32,R,8,S,16,R,1,S,8,S,32,R,16,R,16,R,4,R,<=0.25,S,<=2,S,2,S,nan,+,nan,nan,nan,S466F,L57Q,nan,nan,nan,V19M; A219T,nan,nt636InsG,F23197,nan,nan,nan,H398R,L153R; S170N,Q282R; T543A; V980I,K329Q; L331V; W358R,K131R,A104P; I447V,D249N,F172I,nan,E153K,nan,G71E; S209R,nan,nan,nan,nan,R79Q; T105A,nan,nan,G148A; D183Y,nan,L353Q; S25G,L71R,Y345H,nan,nan,E618D,nan,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (EXT01-026,ST499,128,R,32,R,8,S,8,S,<=0.5,S,8,S,32,R,8,I,4,I,1,R,<=0.25,S,<=2,S,4,R,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,H398R,L153R,Q282R; A799V,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,nan,G206S,G71E; S209R,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,L353Q; S25G,L71R,Y345H,V646L,nan,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL01-029,ST17,512,R,256,R,64,R,32,R,4,S,16,R,64,R,2,S,4,I,0.5,S,2,S,16,I,1,S,+,nan,nan,nan,nan,E468D,nan,nan,nan,F352L,A219T,S250N,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,C63R,A104P,D249N; H321R,P60S; F172I; L188P,nan,aa914ΔPS,X213ext,G71E; S209R,V29I,nan,Ter452Rext*,nan,T105A; L176R,nan,nan,Q88R; A136V; G148A,nan,S25G,nan,Y345H,nan,G494S; D533E,P388S,P444S,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL01-030,ST235,256,R,256,R,64,R,32,R,4,S,4,S,32,R,16,R,8,I,16,R,0.5,S,4,S,1,S,+,+,nan,aadA6,strA; strB,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt305Δ3,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q; S25G,L71R,S2P; A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL02-011,ST2223,256,R,256,R,64,R,32,R,4,S,16,R,64,R,1,S,2,S,>16,R,32,R,8,S,1,S,+,+,nan,aacA4,cmIA1,nan,V126E,nan,nan,nan,A208V,S250N,nan,UCBPP-PA14,nan,nan,nan,S277N; H398R,L153R; S170N,I536V; T543A,K329Q; L331V; W358R,A47V,A104P,D249N,P60S; F172I,F324I,T83I; D87N,nan,G71E; D79E; S209R,nan,nan,A428T; M297V; S131N,G283E; M288R,P23S; T105A; G391A,nan,nan,A29V; W97C; G148A,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L,D419N; D533E,nan,nt210Δ6,C40R; L88P; S112N; D119E; D207N; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL02-019,ST360*,>512,R,256,R,64,R,64,R,4,S,16,R,64,R,4,S,64,R,2,R,<=0.25,S,<=2,S,1,S,nan,+,nan,nan,nan,P789L,nan,nan,nan,A261T,nan,S250N,A12E,F23197,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R; nt1157Δ1,L174Q,V91A; A104P,D249N,F172I,N122S; A394P,D87Y,nt25InsA,G71E; S209R,nan,nan,R322Q,K42R,R79Q; T105A,nan,V373I; R504C,G148A; S175L,nan,S25G,L71R,Y345H,H262Q,nan,E53K; S631I,A439T,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL02-022,ST235,256,R,256,R,64,R,32,R,4,S,8,S,32,R,16,R,8,I,>16,R,1,S,8,S,1,S,+,+,nan,aadA6,strA; strB,nan,V126E,nan,G957D; V1042A,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt305Δ3,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q; S25G,L71R,S2P; A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL03-013,ST1068,128,R,32,R,8,S,8,S,1,S,4,S,32,R,16,R,16,R,2,R,1,S,16,I,2,S,+,+,nan,nan,nan,H148N,nan,nan,nan,nan,nan,S250N,nt1025InsGGCCC,LESB58,nan,nan,nan,A82T; H398R,nan,T543A; Q840E,K329Q; L331V; D346H; W358R,nan,A104P,D249N,F172I,A394P,D87Y,nan,G71E; S209R,nan,nan,M297V,nan,T21A; T105A; G391A,nan,nan,R11L; G148A; D183Y,nan,S25G,L71R,Y345H,nan,nan,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL03-019,ST244,128,R,128,R,16,R,8,S,1,S,4,S,16,I,2,S,4,I,>16,R,<=0.25,S,<=2,S,1,S,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,nan,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E,K329Q; L331V; W358R,V43G,A104P,A75V; D249N,P60S; F172I; R209S,nan,T83I,nt475Δ16,nan,nan,nan,A303V; M297V,nan,nan,nan,I347T,R11L; G148A; D183Y; nt436Δ1,nan,S96N,L71R,nan,S87L,nan,nan,A121T; nt575Δ13,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL04-041,ST235,256,R,>256,R,64,R,32,R,32,R,32,R,64,R,8,I,16,R,>16,R,1,S,8,S,1,S,nan,+,nan,aadA6,nan,nan,V126E,nan,G957D,nan,A208V,A287S,W417X,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt99Δ1,A104P; V466I,D249N,P60S; F172I,nan,T83I,nt295Δ17,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; F147L; V205L; G391A,nan,nan,G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL04-042,ST17,64,R,64,R,32,R,16,R,2,S,2,S,32,R,16,R,4,I,>16,R,<=0.25,S,<=2,S,1,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,nan,LESB58,nan,nan,nan,H398R,nan,nan,L331V,nan,nan,nan,nan,nan,T83I,nan,G71E,V29I,nan,Ter452Rext*,nan,nan,nan,nan,A136V; G148A,nan,nan,nan,Y345H,S87L,nan,P388S,nan,C40R; L88P; D161G,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL04-044,ST649,512,R,>256,R,>64,R,64,R,8,R,32,R,64,R,16,R,16,R,4,R,1,S,8,S,1,S,+,+,nan,nan,nan,nan,V126E,nan,nan,T180I,A219T,nan,nt276insTGACCT,LESB58,nan,nan,nan,H398R,nan,Q282R; T543A,K329Q,nan,A104P,D249N,P60S; F172I,nan,T83I,nan,G71E; S209R,nan,nan,M297V,D135N,A24G,nan,nan,nan,nan,L353Q,L71R,Y345H,nan,D533E,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL05-003,ST308,64,R,32,R,8,S,8,S,<=0.5,S,<=0.5,S,8,I,8,I,2,S,>16,R,32,R,<=2,S,1,S,+,+,nan,aacA4,strA; strB,E468D,V126E,nan,G957D,nan,L246P,A287S,Q158X,UCBPP-PA14,nan,nan,nan,V216A; H398R,L153R; S170N,T543A; G589A; Q840E,A30T; K329Q; L331V; W358R,G89S; aa163InsY,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,T105A; V205L; V356I; G391A,nan,nan,A96T,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L; P752T,P438S; D533E,D73N,nan,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL05-014,ST274,128,R,32,R,8,S,16,R,1,S,8,S,16,I,2,S,1,S,1,R,2,S,32,R,1,S,+,nan,nan,nan,nan,H148N,nan,nan,nan,nan,nan,S250N,nan,LESB58,nan,nan,nan,A82T; H398R,nan,T543A; Q840E,K329Q; L331V; D346H; W358R,nan,A104P,D249N,F172I,A358V; A394P,nan,T11N,G71E; S209R,nan,nan,M297V,nan,T21A; T105A; G391A,nan,nan,R11L; A96T; G148A; D183Y,nan,S25G,L71R,Y345H,nan,nan,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-002,ST2223,>512,R,64,R,2,S,8,S,<=0.5,S,2,S,8,I,<=0.5,S,2,S,>16,R,>32,R,<=2,S,4,R,+,nan,CARB-3,aacA4,nan,nan,V126E,nan,nan,nan,A208V,S250N,nan,UCBPP-PA14,nan,nan,nan,S277N; H398R,L153R; S170N,I536V; T543A,K329Q; L331V; W358R,A47V,A104P,D249N,P60S; F172I,F324I,T83I; D87N,nan,G71E; D79E; S209R,nan,nan,A428T; M297V; S131N,G283E; M288R,P23S; T105A; G391A,nan,nan,A29V; W97C; G148A,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L,D533E,nan,nan,C40R; L88P; S112N; D119E; D207N; I237V; V243A,nt4Δ) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-004,ST3196,>512,R,32,R,8,S,8,S,1,S,4,S,16,I,16,R,16,R,>16,R,16,R,4,S,1,S,nan,+,nan,nan,nan,nan,nan,nan,I745V,nan,A219T,P88S,Q422X,LESB58,nan,nan,nan,H398R,nan,F29S; T543A; A772T; Q840E; Q1039R,K329Q; L331V; W358R,nan,A104P,D249N,P60S; F172I,nan,nan,nan,G71E; S209R,nan,nan,M297V,nan,T105A,nan,N117S,R11L; G137E; G148A; D183Y,nan,L353Q; S25G,L71R,Y345H,nan,nan,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-007,ST2223,256,R,256,R,64,R,32,R,4,S,16,R,64,R,16,R,16,R,>16,R,>32,R,8,S,4,R,+,+,nan,aacA4,cmIA1,nan,V126E,nan,nan,nan,A208V,S250N,nan,UCBPP-PA14,nan,nan,nan,S277N; H398R,L153R; S170N,I536V; T543A,K329Q; L331V; W358R,A47V,A104P,D249N,P60S; F172I,F324I,T83I; D87N,nan,G71E; D79E; S209R,nan,nan,A428T; M297V; S131N,G283E; M288R,P23S; T105A; G391A,nan,nan,A29V; W97C; G148A,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L,L444V; D533E,nan,nt210Δ6,C40R; L88P; S112N; D119E; D207N; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-015,ST175,256,R,32,R,16,R,16,R,1,S,8,S,32,R,8,I,16,R,>16,R,32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,G316D,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nt31Δ11,G71E; A186T,nan,nan,nan,nt271Δ3,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-033,ST2223,512,R,>256,R,>64,R,32,R,8,R,>32,R,128,R,32,R,32,R,>16,R,4,S,<=2,S,<=0.5,S,nan,nan,nan,aacA4,cmIA1,nan,V126E,nan,nan,nan,A208V,S250N,nan,UCBPP-PA14,nan,nan,nan,S277N; H398R,L153R; S170N,nan,nan,nan,A104P,D249N,P60S; F172I,F324I,T83I; D87N,nan,G71E; D79E; S209R,nan,nan,A428T; M297V; S131N,G283E; M288R,P23S; T105A; G391A,nan,nan,A29V; W97C; G148A,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L,L444V; D533E,nan,nt210Δ6,C40R; L88P; S112N; D119E; D207N; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-034,ST3195,256,R,256,R,64,R,16,R,2,S,8,S,64,R,8,I,16,R,>16,R,32,R,4,S,2,S,+,+,nan,aacA4,nan,nan,nan,nan,nan,nan,nan,S250N,I367M, A425G,UCBPP-PA14,nan,nan,nan,H398R,S170N,T543A,K329Q; W358R,nan,A104P,D249N,F172I,nan,T83I,nan,G71E,nan,nan,nan,nan,nan,nan,nan,G148A,nan,nan,nan,Y345H,S87L ,nan,nan,nan,L88P; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (GAL06-038,ST2223,>512,R,256,R,64,R,32,R,32,R,16,R,4,I,2,S,2,S,>16,R,32,R,8,S,4,R,+,+,CARB-3,aacA4,cmIA1,nan,V126E,nan,nt1543Δ5,A238V,A208V,S250N,Y237C,UCBPP-PA14,nan,nan,nan,S277N; H398R,L153R; S170N,I536V; T543A,K329Q; L331V; W358R,A47V,A104P,D249N,P60S; F172I,F324I,T83I; D87N,nan,G71E; D79E; S209R,nan,nan,A428T; M297V; S131N,G283E; M288R,P23S; T105A; G391A; G183D,nan,nan,A29V; W97C; G148A,nan,L353Q; S25G,nan,A4T; V15I; G68S; L139P; Y345H,S87L,D419N; D533E,nan,nt210Δ6,C40R; L88P; S112N; D119E; D207N; I237V; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ICA01-001,ST308,64,R,32,R,>64,R,16,R,8,R,16,R,16,I,2,S,2,S,>16,R,>32,R,4,S,1,S,+,nan,nan,aac(6')Ib-cr,strA; strB; catA2; tet (C ),nan,V126E,nan,G957D,nan,nan,A287S,nan,UCBPP-PA14,nan,nan,nan,R7H; H398R,L153R; S170N,I536V; T543A; G589A; Q840E,A30T; K329Q; L331V; W358R,G89S,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,R103P,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,nan,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L; P752T,D533E,D73N,nan,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ICA01-013,ST447,256,R,128,R,32,R,32,R,2,S,8,S,32,R,16,R,32,R,>16,R,0.5,S,4,S,2,S,+,+,nan,nan,nan,E468D,nan,nan,nan,nan,A37T; A219T,S250N,nan,F23197,nan,nan,nan,H398R,nan,Q282R; T543A; V980I,K329Q; L331V; W358R,nan,I447V,A75V,F172I,nan,T83I,nan,G71E,nan,nan,M297V; P274T,nan,T105A,nan,nan,G148A; R164H; D183Y,nan,L353Q,L71R,Y345H,S87W; H262Q,E215Q,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ICA01-030,ST175,64,R,32,R,16,R,8,S,1,S,2,S,8,I,16,R,4,I,>16,R,>32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nan,Q288X,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ICA01-031,ST175,128,R,128,R,32,R,16,R,2,S,8,S,16,I,16,R,8,I,>16,R,>32,R,8,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (ICA01-034,ST261,256,R,256,R,64,R,64,R,8,R,4,S,128,R,32,R,16,R,1,R,2,S,16,I,8,R,+,+,nan,nan,nan,nan,V126E,nan,R185C; R766W,nan,nan,nan,K550X,F23197,nan,V57M,nan,H398R,nan,T543A,K329Q; L331V; W358R,I108S,nan,D249N; T299I,P28Lr; F172I,nan,T83I; aa914Δ2,nan,H30Y; G71E,nan,nan,A222G,nan,T105A; L176R,nan,A246V,A136V; G148A; P162L,nan,L353Q,L71R,Y345H,nan,D533E,A421T; S539T,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD01-013,ST3197 ,512,R,32,R,16,R,16,R,4,S,16,R,32,R,32,R,8,I,16,R,8,R,<=2,S,<=0.5,S,+,+,nan,nan,nan,nan,V126E,nan,nan,nan,nan,nan,nan,FRD1,nan,nan,nan,L137P,nan,nan,W358R,nan,nan,nan,F172I,nan,T83I; V671I,nan,G71E,nan,nan,D411A,nan,T105A,nan,nan,nan,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,nan,G305D,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD01-021,ST235,128,R,32,R,>64,R,32,R,>32,R,4,S,4,I,8,I,4,I,>16,R,>32,R,16,I,1,S,nan,nan,GES-1,aadA6; aph(3')-XV,nan,nan,V126E,nan,G957D,nan,nan,A287S,nt5IS,UCBPP-PA14,nan,Y85F,nan,D249N; H398R,S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,nan,nan,L353Q,L71R,A4T; V15I; G68S; Y345H,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-005,ST175,>512,R,256,R,32,R,16,R,8,R,4,S,32,R,>32,R,>64,R,>16,R,>32,R,4,S,1,S,nan,nan,GES-5,aadB; aac(6')Ib-cr,nan,nan,nan,nan,nan,nan,A219T,S250N,W277X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-006,ST273,256,R,64,R,2,S,8,S,<=0.5,S,4,S,4,I,2,S,4,I,>16,R,8,R,4,S,2,S,nan,nan,nan,nan,nan,nan,nan,nan,V1042A,nan,A219T,S194T,nan,FRD1,nan,nan,nan,H398R,L153R; S170N,T543A; Q840E; V980I,A30T; K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,nan,nan,G71E; S209R,nan,nan,M297V,G283E,R79Q; T105A,nan,nan,G148A; S175L,nan,L353Q; S25G,nan,Y345H,nan,P195T,nan,nan,R41C; L88P; D161G; H182Q,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-007,ST175,>512,R,>256,R,64,R,64,R,>32,R,32,R,64,R,>32,R,>64,R,>16,R,>32,R,16,I,1,S,nan,nan,VIM-2 ,aadB; aac(6')Ib-cr,nan,nan,nan,nan,nan,nan,nan,S250N,nan,LESB58,nan,nan,nan,nan,nan,T543A,nan,G195D,nan,D249N,F172I,nan,T83I,nan,G71E,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,nan,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-009,ST235,>512,R,256,R,>64,R,>64,R,>32,R,>32,R,128,R,>32,R,>64,R,>16,R,>32,R,128,R,1,S,nan,nan,GES-1; GES-5; OXA-2,aph(6)-Ic; aadA1; aac(6')Ib-cr,nan,nan,nan,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; S209R,nan,nan,nan,M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q,L71R,A4T; G68S; Y345H; G362S,S87L,nan,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-012,ST3154,512,R,64,R,4,S,2,S,2,S,2,S,64,R,1,S,8,I,8,R,0.5,S,4,S,4,R,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,P157A; D197E,S250N,nan,LESB58,nan,nan,nan,H398R,L153R; S170N,Q282R; T543A,K329Q,nan,A104P,D249N,F172I,nan,nan,nan,G71E; S209R; P210L,nan,nan,M297V,nan,T105A; G391A,nan,nan,G148A,nan,K607R; L353Q,L71R,Y345H,nan,D533E,nan,nan,L88P; D161G; H182Q; V243A; A262S,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-013,ST17,128,R,128,R,16,R,32,R,4,S,4,S,32,R,16,R,4,I,>16,R,0.5,S,4,S,4,R,+,nan,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,A104P,D249N,F172I,S399X,T83I; aa914ΔPS,nan,G71E; S209R,V29I,nan,Ter452Rext*,nan,T105A; L176R,nan,nan,A136V; G148A,nan,S25G,nan,Y345H,S87L,D533E,P388S,P444S,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-014,ST175,>512,R,128,R,64,R,32,R,>32,R,>32,R,32,R,>32,R,>64,R,>16,R,>32,R,32,R,1,S,nan,nan,VIM-2 ,aadB; aac(6')Ib-cr,nan,nan,nan,nan,nan,nan,A219T,S250N,W65X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N; I839V,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-021,ST235,512,R,256,R,32,R,16,R,>32,R,32,R,16,I,>32,R,>64,R,>16,R,>32,R,32,R,2,S,nan,nan,GES-5,aadA6; aph(3')-XV,nan,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,D249N; H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nt290Δ11,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,D112Y; G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-025,ST235,512,R,128,R,>64,R,>64,R,>32,R,32,R,128,R,>32,R,>64,R,>16,R,>32,R,128,R,2,S,nan,nan,GES-1; GES-5; OXA-2,aph(6)-Ic; aph(3´)-Iia; aacA4; aac(6')-33; aadA1; aac(6')Ib-cr,nan,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,F582I,nan,G148A,nan,L353Q; S25G,L71R,S2P; A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD02-035,ST235,>512,R,256,R,>64,R,64,R,>32,R,16,R,64,R,>32,R,>64,R,16,R,>32,R,128,R,1,S,nan,nan,GES-1; GES-5; OXA-2,aac(6')-33; aph(6)-Ic; aadA1; aac(6')Ib-cr,nan,nan,V126E,nan,G957D,nan,A208V,A287S,nan,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nan,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,F582I,nan,G148A,nan,L353Q; S25G,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD03-001,ST244,128,R,256,R,32,R,16,R,2,S,4,S,32,R,2,S,8,I,>16,R,<=0.25,S,<=2,S,1,S,+,nan,nan,nan,nan,E468D,nan,nan,nan,nan,A219T,S250N,nan,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E,K329Q; L331V; W358R,nan,A104P,A75V; D249N,P60S; F172I; R209S,nan,T83I,nt475Δ16,nan,nan,nan,A303V; M297V; nt111Δ1,nan,nan,nan,I347T,R11L; G148A; D183Y,nan,S96N,L71R,nan,S87L,nan,nan,A121T; nt575Δ13,L88P; G157D; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD03-010,ST175,>512,R,64,R,>64,R,32,R,>32,R,>32,R,16,I,>32,R,>64,R,>16,R,>32,R,8,S,2,S,nan,nan,VIM-2,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,W65X,LESB58,nan,nan,nan,H398R,nan,V398A; T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD03-033,ST175,256,R,256,R,64,R,32,R,4,S,16,R,64,R,16,R,16,R,>16,R,32,R,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,nt659Δ1,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nt165Δ1,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; G156D; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD03-038,ST217,256,R,128,R,16,R,16,R,2,S,16,R,32,R,16,R,16,R,0.5,S,1,S,64,R,4,R,+,nan,nan,nan,nan,nan,nan,D373E,nan,V72L,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,nan,D249N,F172I,nan,nan,nan,G71E; S209R,nan,nan,A303V; M297V,nan,T105A,nan,nan,R11L; G148A; D183Y,R82L,nan,L71R,Y345H,nan,A473V; D533E,S520P,nan,C40R; L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-005,ST1068,32,R,<=4,S,8,S,16,R,4,S,2,S,<=2,I,8,I,1,S,16,R,4,S,64,R,<=0.5,S,nan,+,nan,nan,nan,H148N,nan,nt454Δ1,nan,nan,nan,S250N,nan,LESB58,nan,nan,nan,A82T; H398R,nan,T543A; Q840E,K329Q; L331V; D346H; W358R,W167X,A104P,D249N,F172I,A394P,T83I,nan,G71E; S209R,nan,nan,M297V,nan,T21A; T105A; G391A,E463Q; R680C,nan,R11L; G148A; D183Y,nan,S25G,L71R,Y345H,nan,nan,nan,nan,L88P; D119E,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-008,ST27,64,R,32,R,16,R,16,R,2,S,4,S,8,I,8,I,4,I,>16,R,16,R,8,S,2,S,nan,nan,nan,nan,nan,nan,V126E; V132A,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V,L128M,A104T,D249N,M7V; F172I,A394P,T83I,nan,G71E; S209R,nan,nan,nan,nan,R79Q; T105A; P274L,nan,nan,nan,nan,L353Q; S25G,L71R,Y345H,nan,H360Y; V460G,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-010,ST175,128,R,32,R,16,R,8,S,1,S,8,S,32,R,8,I,16,R,>16,R,>32,R,4,S,1,S,+,+,nan,nan,nan,nan,nan,nan,nan,nan,A219T,S250N,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S,nan,T83I; D87N,nan,A186T,nan,nan,nan,nan,nan,nan,nan,R82C; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-011,ST235,128,R,64,R,8,S,16,R,1,S,8,S,32,R,16,R,32,R,>16,R,>32,R,16,I,2,S,+,+,nan,aadA6; aac(6´)-Ib-cr,nan,nan,V126E,nan,G957D,nan,A208V,A287S,nt635Δ1,UCBPP-PA14,nan,Y85F,nan,H398R,L153R; S170N,T543A,A30T; K329Q; L331V; W358R,nan,A104P; V466I,D249N,P60S; F172I,nan,T83I,nt376Δ1,G71E; E153Q; S209R,nan,nan,nan,G283E; M288R,G27D; A97V; T105A; V205L; G391A,nan,nan,G148A,nan,L353Q,L71R,A4T; G68S; Y345H; G362S,S87L,D533E,nan,nan,L88P; D161G; H182Q; R204C; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-014,ST189,256,R,32,R,8,S,16,R,1,S,8,S,32,R,8,I,16,R,8,R,1,S,8,S,2,S,+,+,nan,nan,nan,nan,nt319Δ10,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,Q134R; nt593Δ13,A104P,D249N,F172I,nan,aa914InsSE,T188A,G71E; S209R,nan,nan,nan,nan,R79Q; T105A,A246V,nan,V30A; G148A,nt331Δ1,K607R; L353Q; S25G,L71R,Y345H,V646L,nan,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-016,ST499,128,R,128,R,32,R,16,R,8,R,8,S,32,R,32,R,16,R,4,R,2,S,32,R,2,S,+,+,nan,nan,nan,nan,nan,nt911Δ1,nan,nan,A219T,nan,Y397X,LESB58,nan,S157T,nan,H398R,nan,T543A; T927I; N1036T; Q1039R,K329Q; L331V; W358R,nt154InsACAAGA,nan,D249N,F172I,nan,aa616ΔR,V128M,G71E,nan,nan,nt112InsC,nan,R79Q; T105A; G129S,nan,Y268C,G148A; Q155*; D183Y,nan,nan,L71R,Y345H,nan,nan,nan,C432S,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-028,ST792,256,R,256,R,64,R,32,R,2,S,4,S,32,R,16,R,16,R,16,R,1,S,8,S,1,S,+,+,nan,nan,nan,nan,V126E,nan,nan,nan,A219T,nan,nan,LESB58,nan,nan,nan,L50P; H398R,nan,T543A,K329Q; L331V; W358R,L128M,A104P,S84F; I218F; D249N,P60S; F172I,nan,T83I; aa914ΔPS,nan,M39T; G71E; S209R,nan,nan,M297V; nt1178Δ1,nan,R79Q; T105A,nan,nan,G148A; S175L,nan,L353Q,L71R,Y345H,V646L,nan,P388S,C432S,L88P; D161G; H182Q; V243A,P2) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD04-041,ST155,>512,R,16,S,>64,R,>64,R,>32,R,>32,R,8,I,>32,R,>64,R,>16,R,>32,R,64,R,1,S,nan,nan,IMP-8,nan,nan,nan,nan,nan,nan,nan,A219T,nan,nan,LESB58,P31Q,nan,nan,T131P; H398R,nan,D428N; T543A,K329Q; L331V; W358R,G50S,nan,D249N,F172I,nan,T83I,nan,G71E; S209R,nan,nan,M297V,nan,R79Q; T105A,nan,nan,Q44H; G148A; D183Y,nan,L353Q,nan,Y345H,S87L,nan,nan,Ter449Gext*,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD05-017,ST175,128,R,256,R,64,R,16,R,4,S,8,S,32,R,8,I,8,I,>16,R,32,R,8,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,W277X,LESB58,nan,nan,nan,nan,nan,T543A,K329Q,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,S18L; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,nan,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD05-020,ST3153,128,R,32,R,16,R,8,S,1,S,8,S,32,R,16,R,16,R,1,R,<=0.25,S,<=2,S,2,S,+,+,nan,nan,nan,nan,V126E,nan,nan,nan,A219T,R98H,S57E; S59R; R312G,FRD1,nan,R61H,nan,R243H; V313I; H398R,L153R; S170N,T543A; A635P; G652S,K329Q; L331V; W358R,nan,nan,D249N,P60S; F172I,nan,nan,nan,T50P; G71E; S209R,V50I,nan,A303V; M297V; G24S; aa118Δ1,nan,R79Q; T105A,nan,nan,G148A,nan,S25G,nan,Y345H,nan,D533E,nan,nan,R41C; L88P; D161G; H182Q,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD05-026,ST175,128,R,64,R,32,R,16,R,2,S,8,S,32,R,8,I,32,R,>16,R,4,S,4,S,2,S,+,+,nan,aadB,nan,nan,nan,nan,nan,nan,A219T,S250N,nt659Δ1,LESB58,nan,nan,nan,H398R,nan,T543A; nt613InsC,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nt165Δ1,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,G148A; G156D; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD05-027,ST3153,128,R,32,R,32,R,8,S,1,S,4,S,16,I,16,R,16,R,1,R,1,S,<=2,S,2,S,+,+,nan,nan,nan,nan,V126E,nan,nan,nan,A219T,R98H,S57E; S59R; R312G,FRD1,nan,R61H,nan,R243H; V313I; H398R,L153R; S170N,T543A; A635P; G652S,K329Q; L331V; W358R,nan,nan,D249N,P60S; F172I,nan,nan,nan,T50P; G71E; S209R,V50I,nan,A303V; M297V; G24S; aa118Δ1,nan,R79Q; T105A,nan,nan,G148A,nan,S25G,nan,Y345H,nan,D533E,nan,nan,R41C; L88P; D161G; H182Q,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD05-041,ST111,>512,R,128,R,64,R,32,R,>32,R,32,R,16,I,>32,R,64,R,>16,R,32,R,32,R,1,S,nan,nan,VIM-2,nan,nan,nan,V126E,nan,nan,nan,A219T,nan,Y436F,FRD1,nan,nan,nan,L137P; S228P; H398R,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,T83I; V671I,nan,G71E,nan,nan,D411A,G283E,T105A,nan,nan,Q88L; G148A,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,S87L,nan,G596R,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MAD06-017,ST175,64,R,32,R,8,S,8,S,1,S,1,S,8,I,8,I,8,I,>16,R,32,R,4,S,2,S,+,+,nan,aadB,nan,nan,nt385InsGGGT,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MUR01-008,ST308,256,R,64,R,32,R,16,R,2,S,8,S,32,R,8,I,32,R,2,R,<=0.25,S,<=2,S,1,S,+,+,nan,nan,nan,N5K; E468D,V126E; nt33Δ13,nan,G957D; V1042A,nan,nan,A287S,nt385InsGA,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,G89S,A104P,V73A; D249N,F172I,nan,nan,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,T139R,nan,L353Q; S25G,nan,S2P; A4T; V15I; G68S; Y345H,P752T,D533E,D73N,nan,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MUR01-009,ST175,128,R,128,R,16,R,8,S,2,S,4,S,16,I,8,I,16,R,>16,R,32,R,4,S,2,S,+,+,nan,nan,nan,E468D,nan,nan,nan,nan,A219T,S250N,nt105Δ1,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,V10G; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MUR01-018,ST111,>512,R,32,R,>64,R,>64,R,>32,R,>32,R,16,I,>32,R,>64,R,<=0.12,S,<=0.25,S,16,I,2,S,nan,nan,IMP-33,aac(6')-31,nan,nan,V126E,nan,nan,nan,A219T,nan,nan,FRD1,nan,nan,nan,H398R,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,nan,nan,G71E,nan,nan,D411A,G283E,T105A,nan,nan,G148A,nan,M715K; K607R,L71P,A4T; V6A; V15I; G68S; Y345H,nan,nan,G596R,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MUR01-026,ST175,128,R,256,R,32,R,16,R,2,S,4,S,16,I,16,R,16,R,>16,R,>32,R,4,S,2,S,+,+,nan,aadB,nan,E468D,nan,nan,nan,nan,A219T,S250N,nt105Δ1,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,nan,D249N,P60S; F172I,nan,T83I,nan,G71E; A186T,nan,nan,nan,nan,nan,nan,nan,V10G; G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,nan,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MUR01-031,ST395,128,R,256,R,32,R,16,R,2,S,4,S,64,R,8,I,2,S,1,R,<=0.25,S,<=2,S,2,S,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,R66C,S250N,nan,LESB58,nan,nan,nan,H398R,nan,T543A,H119Y; K329Q; W358R,nan,A104P,D249N,F172I,nan,aa914InsSE,nan,G71E,nan,nan,V358I; M297V,nan,T105A; L176R,nan,nan,A134V,nan,nan,L71R,Y345H,nan,V200M,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (MUR01-033,ST308,256,R,64,R,16,R,16,R,2,S,4,S,16,I,16,R,64,R,16,R,>32,R,32,R,2,S,+,+,OXA-2,aac(6´)-31,nan,nan,V126E,nan,G957D,nan,nan,A287S,nan,UCBPP-PA14,nan,nan,nan,H398R,L153R; S170N,I536V; T543A; G589A; Q840E; N1036T,A30T; K329Q; L331V; W358R,G89S; A175T,A104P,V73A; D249N,F172I,nan,T83I,nan,G71E; D79E; S209R,nan,nan,nan,G283E; M288R,G27D; T105A; V205L; V356I; G391A,nan,nan,nan,nan,L353Q; S25G,nan,A4T; V15I; G68S; Y345H,S87L; P752T,D533E,D73N,nan,C40R; L88P; S112N; D119E; I237V; V243A,V4) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (NAV01-012,ST111,>512,R,128,R,16,R,8,S,1,S,1,S,8,I,16,R,8,I,16,R,16,R,8,S,1,S,+,+,CARB-2,aadA2,nan,nan,V126E,nan,nan,nan,A219T,nan,nt991InsAC,FRD1,nan,nan,nan,L137P; H398R,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nt665InsGGCCT,T83I; V671I; G860S,nan,G71E,nan,nan,D411A,G283E,T105A,nan,nan,G148A,nan,M715K; K607R,L71R,A4T; V6A; V15I; G68S; Y345H,E91K,nan,G596R,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (NAV01-021,ST2125,128,R,256,R,32,R,16,R,2,S,4,S,16,I,16,R,8,I,>16,R,1,S,4,S,1,S,+,+,nan,nan,nan,nan,V126E,nan,nan,nan,A219T,nan,Q250X,F23197,nan,nan,nan,H398R,nan,T543A,K329Q; L331V; W358R,nan,nan,D249N,P60S; F172I,A394P,T83I,nan,G71E; S209R,nan,nan,T276A,nan,nan,nan,nan,G84D; A136V; G148A,nan,nan,L71R,Y345H,V646L,nt1345InsGTGGAC,nan,A439T,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (PVA01-007,ST175,64,R,64,R,16,R,16,R,2,S,2,S,8,I,16,R,8,I,>16,R,>32,R,4,S,1,S,+,+,nan,aadB,nan,nan,nt385InsGGGT,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (PVA01-019,ST175,128,R,64,R,16,R,16,R,2,S,4,S,16,I,16,R,16,R,>16,R,>32,R,8,S,1,S,+,+,nan,aadB,nan,nan,nt385InsGGGT,nan,nan,nan,A219T,S250N,Q142X,LESB58,nan,nan,nan,H398R,nan,T543A,K329Q; W358R,G195D,E37K; A104P,D249N,P60S; F172I,nan,T83I; D87N,nan,G71E; A186T,nan,nan,nan,G154R,nan,nan,nan,G148A; D183Y,nan,nan,nan,Y345H,S87W; L168Q,nan,E245D,T211P,L88P; D161G; H182Q; V243A; V266M,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (PVA01-021,ST111,>512,R,256,R,32,R,32,R,>32,R,32,R,16,I,>32,R,>64,R,>16,R,32,R,16,I,1,S,nan,nan, CARB-2; VIM-2,aac(6')-32; aadA2,nan,nan,V126E; nt67Δ10,nan,nan,nan,A219T,nan,nt200InsC,FRD1,nan,nan,nan,L137P; H398R,nan,G530S,K329Q; L331V; W358R,nan,A104P,D249N,F172I,nan,T83I; V671I; G860S,nan,G71E,nt619Δ1,nan,D411A,G283E,T105A,nan,L3V,G148A,nan,M715K; K607R,L71R,S2P; A4T; V6A; V15I; G68S; Y345H,S87L,nan,G596R,nt210Δ6,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (PVA01-041,ST1756,128,R,64,R,32,R,16,R,2,S,2,S,32,R,8,I,8,I,4,R,16,R,8,S,1,S,+,nan,nan,nan,nan,nan,nan,A280V; D373E,nan,V72L,A219T,nan,nan,LESB58,nan,nan,nan,H398R,P126L; L153R; S170N,T543A,K329Q; L331V; W358R,Q10X,nan,D249N,F172I,K313E,T83I,D187H,G71E; P210L; S209R,nan,nan,nan,nan,T105A,nan,nan,R11L; G148A; D183Y,nan,S25G,L71R,Y345H,nan,S457R,nan,nan,L88P; D161G; H182Q; V243A,n) 
-INSERT INTO phenotypes (aislado_nombre, resistoma_id, tic, tic, pip, pip, caz, caz, fep, fep, Match not found, Match not found, cza, cza, atm, Match not found, imi_cloxa, Match not found, mer, mer, cip, cip, tob, tob, aminog_adquiridas, aminog_adquiridas, col, col, caz_cloxa, imi_cloxa, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, Match not found, PA5485_ampDh2) 
-VALUES (PVA01-042,ST244,64,R,32,R,16,R,8,S,1,S,2,S,8,I,8,I,4,I,>16,R,16,R,4,S,1,S,nan,nan,nan,nan,nan,nan,nan,R57W,nan,nan,A219T,S250N,nan,PAO1,nan,nan,nan,H398R,nan,T543A; Q840E,K329Q; W358R,nt248Δ13,A104P,A75V; D249N,P60S; F172I,nan,A51V; D87Y,nan,nan,nan,nan,A303V; M297V,nan,nan,nan,nan,R11L; G148A; D183Y,E78X,S96N,L71R,nan,nan,nan,nan,A121T,L88P; G157D; D161G; H182Q; V243A,n) 
+INSERT INTO archivos(fastq) 
+VALUES ('ST155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST244'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST231'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST360'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1227'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1632'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST274'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2956'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST992'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST683'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST260'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST17'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST973'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST365'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST179'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST9'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3194'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST395'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST390'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST245'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1149'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2136'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST253'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3134'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST274'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3149'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST253'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST253'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST253'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1134'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1134'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST244'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1889'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST299'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST253'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST252'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST399'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST664'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST664'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2935'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST253'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST882'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST500'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235*'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST274'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST244'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1754'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST446'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST611'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST499'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST17'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2223'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST360*'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1068'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST244'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST17'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST649'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST274'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2223'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3196'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2223'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2223'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3195'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2223'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST447'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST261'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3197 '); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST273'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3154'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST17'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST244'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST217'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1068'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST27'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST235'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST189'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST499'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST792'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST155'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3153'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST3153'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST395'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST308'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST2125'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST175'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST111'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST1756'); 
+INSERT INTO archivos(fastq) 
+VALUES ('ST244'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('IMP-8'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-10'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-46'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('CARB-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-10'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-15 '); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-46::IS'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; PER-1'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; PER-1'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-1'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('CARB-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES (' CARB-12; AER (Aeromonas hydrophyla like)'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('CARB-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('IMP-1'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-210; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-210; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2; VIM-20'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('CARB-3'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('CARB-3'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('GES-1'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('GES-5'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-2 '); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('GES-1; GES-5; OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-2 '); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('GES-5'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('GES-1; GES-5; OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('GES-1; GES-5; OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('IMP-8'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('VIM-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('IMP-33'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('OXA-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('CARB-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES (' CARB-2; VIM-2'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO insilico(betalactamasa_otras) 
+VALUES ('nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '16', '16', '1', '2', '8', '16', '4', '2', '0.5', '8', '4', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '2', '16', '32', '8', '8', '>16', '0.5', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '16', '1', '1', '32', '8', '4', '8', '0.5', '4', '<=0.5', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '32', '16', '16', '>32', '16', '4', '>32', '64', '>16', '>32', '8', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '1', '4', '>16', '0.5', '4', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '8', '16', '2', '8', '32', '16', '16', '1', '0.5', '8', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '64', '16', '<=0.5', '4', '32', '8', '8', '2', '0.5', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '16', '16', '2', '1', '16', '4', '<=0.5', '2', '16', '4', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '32', '16', '2', '8', '32', '16', '16', '>16', '>32', '16', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '4', '8', '1', '4', '32', '4', '16', '1', '4', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '>64', '64', '>32', '>32', '64', '>32', '>64', '>16', '32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '16', '8', '<=0.5', '4', '16', '>32', '8', '8', '1', '8', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '16', '16', '2', '2', '8', '4', '2', '>16', '2', '16', '2', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '>64', '64', '8', '32', '>128', '16', '8', '4', '0.5', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '16', '16', '1', '8', '32', '16', '32', '1', '0.5', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '32', '64', '16', '32', '8', '1', '16', '8', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '>256', '16', '8', '2', '2', '16', '16', '8', '8', '<=0.25', '<=2', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '2', '2', '32', '4', '2', '16', '2', '16', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '4', '32', '2', '1', '1', '1', '16', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '32', '64', '16', '4', '64', '1', '8', '>16', '0.5', '<=2', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '>64', '64', '>32', '>32', '32', '>32', '>64', '8', '>32', '128', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '256', '>64', '64', '8', '16', '128', '16', '64', '>16', '32', '16', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '32', '16', '16', '>32', '32', '16', '>32', '64', '16', '>32', '16', '8', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '8', '16', '2', '8', '32', '2', '16', '>16', '1', '16', '4', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '16', '16', '2', '8', '64', '8', '32', '>16', '1', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '32', '16', '16', '>32', '16', '4', '>32', '32', '>16', '>32', '32', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '32', '32', '16', '>32', '32', '8', '>32', '64', '>16', '32', '16', '4', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '16', '16', '1', '4', '16', '16', '4', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '8', '2', '4', '32', '16', '16', '>16', '16', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '8', '32', '2', '1', '16', '>32', '64', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '4', '16', '8', '8', '>16', '16', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '16', '4', '8', '32', '1', '2', '>16', '>32', '16', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '16', '8', '1', '4', '8', '16', '8', '>16', '32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '8', '32', '1', '4', '16', '1', '8', '<=0.5', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '16', '4', '1', '2', '16', '8', '8', '>16', '16', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '16', '64', '32', '>32', '>32', '32', '2', '16', '>16', '16', '4', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '128', '2', '32', '4', '2', '8', '2', '8', '16', '8', '8', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '4', '16', '1', '4', '8', '16', '16', '>16', '>32', '64', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '256', '64', '32', '4', '32', '64', '4', '16', '8', '1', '8', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '64', '32', '4', '32', '64', '2', '8', '<=0.12', '0.5', '16', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '64', '16', '32', '4', '16', '4', '8', '>16', '>32', '8', '4', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '>64', '32', '>32', '>32', '32', '16', '32', '4', '>32', '16', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '16', '8', '16', '1', '4', '8', '1', '4', '16', '32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '>64', '64', '8', '32', '128', '16', '32', '4', '<=0.25', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '128', '16', '16', '2', '2', '8', '16', '4', '>16', '>32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '16', '16', '2', '4', '16', '8', '8', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '32', '16', '2', '8', '32', '16', '32', '16', '8', '<=2', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '16', '16', '2', '4', '16', '16', '16', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '32', '8', '1', '32', '32', '16', '16', '1', '<=0.25', '4', '2', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '8', '16', '32', '16', '32', '>16', '16', '4', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '8', '16', '>32', '>32', '16', '32', '32', '>16', '16', '16', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '4', '8', '2', '4', '8', '8', '16', '>16', '16', '<=2', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '16', '16', '32', '4', '4', '8', '8', '4', '8', '16', '128', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '8', '16', '2', '8', '32', '16', '32', '1', '0.5', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '2', '2', '>16', '>32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '2', '2', '8', '2', '32', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '32', '16', '2', '8', '16', '16', '8', '>16', '>32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '32', '32', '2', '8', '16', '16', '16', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '256', '32', '32', '2', '4', '32', '16', '32', '16', '>32', '32', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '16', '>64', '32', '32', '4', '128', '8', '8', '8', '>32', '64', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '256', '>64', '64', '>32', '16', '>128', '8', '16', '8', '>32', '64', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '8', '16', '16', '16', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '32', '16', '2', '8', '16', '16', '16', '>16', '>32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '64', '4', '32', '64', '16', '32', '>16', '0.5', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '16', '8', '32', '8', '16', '>16', '0.5', '8', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '64', '32', '2', '8', '32', '16', '8', '>16', '32', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '16', '16', '2', '4', '8', '8', '4', '>16', '16', '<=2', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '>64', '>64', '>32', '>32', '4', '>32', '>64', '>16', '2', '4', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '16', '16', '1', '1', '8', '8', '2', '>16', '32', '<=2', '<=0.5', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '32', '16', '2', '8', '32', '8', '16', '>16', '>32', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '128', '32', '16', '2', '2', '16', '16', '64', '>16', '4', '4', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '4', '8', '2', '1', '4', '16', '1', '>16', '32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '4', '32', '16', '16', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '16', '8', '16', '1', '1', '8', '16', '16', '16', '>32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '8', '16', '1', '4', '16', '16', '32', '>16', '32', '4', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('16', '8', '16', '16', '1', '4', '4', '>32', '32', '16', '32', '4', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('32', '32', '2', '4', '<=0.5', '1', '4', '16', '16', '0.25', '32', '4', '8', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '4', '16', '16', '16', '>16', '16', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '16', '16', '2', '16', '64', '8', '8', '>16', '<=0.25', '<=2', '<=0.5', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '32', '4', '16', '2', '4', '8', '4', '1', '2', '>32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '16', '2', '4', '16', '16', '8', '>16', '16', '<=2', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '16', '16', '2', '8', '32', '16', '16', '>16', '>32', '32', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '4', '16', '8', '8', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '16', '16', '1', '2', '16', '16', '8', '>16', '>32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '4', '16', '1', '4', '8', '16', '8', '16', '2', '<=2', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '4', '8', '1', '2', '8', '8', '8', '>16', '32', '8', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '64', '32', '4', '8', '32', '4', '8', '16', '8', '<=2', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '4', '32', '8', '4', '8', '0.5', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '128', '>64', '>64', '>32', '>32', '32', '16', '64', '>16', '16', '32', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '16', '2', '4', '16', '16', '8', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '16', '2', '4', '16', '8', '8', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '16', '2', '8', '16', '4', '16', '16', '0.5', '16', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '16', '8', '2', '8', '32', '16', '32', '>16', '<=0.25', '<=2', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '16', '4', '4', '16', '8', '4', '4', '<=0.25', '<=2', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('32', '32', '8', '8', '1', '1', '<=2', '8', '4', '>16', '32', '4', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('32', '8', '2', '2', '1', '2', '8', '4', '8', '>16', '32', '<=2', '4', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '16', '16', '2', '8', '32', '16', '32', '>16', '>32', '16', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '16', '32', '2', '4', '16', '8', '8', '0.5', '2', '16', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '>256', '>64', '64', '8', '16', '64', '8', '8', '2', '0.5', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '16', '16', '16', '>32', '16', '<=2', '>32', '64', '>16', '>32', '8', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '32', '16', '2', '4', '16', '16', '8', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '16', '16', '1', '2', '4', '8', '16', '8', '>32', '16', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '16', '16', '1', '2', '8', '8', '16', '8', '>32', '32', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '128', '64', '32', '>32', '32', '32', '>32', '>64', '>16', '>32', '32', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '>256', '64', '32', '4', '8', '32', '8', '16', '8', '1', '8', '4', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '16', '8', '2', '8', '32', '16', '16', '2', '0.5', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '>256', '>64', '64', '8', '4', '128', '16', '8', '16', '4', '32', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '16', '>64', '32', '>32', '>32', '64', '2', '16', '>16', '32', '4', '2', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '64', '64', '16', '>32', '>32', '8', '32', '64', '16', '4', '<=2', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '8', '64', '16', '16', '>16', '0.5', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '64', '32', '>32', '16', '32', '>32', '64', '>16', '>32', '16', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '>64', '32', '>32', '16', '32', '>32', '64', '>16', '>32', '16', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '8', '16', '>32', '64', '>16', '>32', '16', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '32', '16', '16', '>32', '16', '8', '16', '64', '>16', '>32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '16', '32', '2', '0.5', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '32', '8', '16', '1', '8', '32', '16', '32', '0.5', '4', '64', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '8', '16', '1', '8', '32', '16', '16', '4', '<=0.25', '<=2', '2', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '8', '8', '<=0.5', '8', '32', '8', '4', '1', '<=0.25', '<=2', '4', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '256', '64', '32', '4', '16', '64', '2', '4', '0.5', '2', '16', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '4', '32', '16', '8', '16', '0.5', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '1', '2', '>16', '32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '64', '64', '4', '16', '64', '4', '64', '2', '<=0.25', '<=2', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '8', '32', '16', '8', '>16', '1', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '8', '8', '1', '4', '32', '16', '16', '2', '1', '16', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '16', '8', '1', '4', '16', '2', '4', '>16', '<=0.25', '<=2', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '>256', '64', '32', '32', '32', '64', '8', '16', '>16', '1', '8', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '32', '16', '2', '2', '32', '16', '4', '>16', '<=0.25', '<=2', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '>256', '>64', '64', '8', '32', '64', '16', '16', '4', '1', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '8', '8', '<=0.5', '<=0.5', '8', '8', '2', '>16', '32', '<=2', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '8', '16', '1', '8', '16', '2', '1', '1', '2', '32', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '64', '2', '8', '<=0.5', '2', '8', '<=0.5', '2', '>16', '>32', '<=2', '4', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '32', '8', '8', '1', '4', '16', '16', '16', '>16', '16', '4', '1', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '16', '16', '>16', '>32', '8', '4', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '16', '16', '1', '8', '32', '8', '16', '>16', '32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '>256', '>64', '32', '8', '>32', '128', '32', '32', '>16', '4', '<=2', '<=0.5', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '16', '2', '8', '64', '8', '16', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '64', '32', '32', '16', '4', '2', '2', '>16', '32', '8', '4', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '>64', '16', '8', '16', '16', '2', '2', '>16', '>32', '4', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '32', '32', '2', '8', '32', '16', '32', '>16', '0.5', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '16', '8', '1', '2', '8', '16', '4', '>16', '>32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '2', '8', '16', '16', '8', '>16', '>32', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '64', '8', '4', '128', '32', '16', '1', '2', '16', '8', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '32', '16', '16', '4', '16', '32', '32', '8', '16', '8', '<=2', '<=0.5', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '>64', '32', '>32', '4', '4', '8', '4', '>16', '>32', '16', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '32', '16', '8', '4', '32', '>32', '>64', '>16', '>32', '4', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '2', '8', '<=0.5', '4', '4', '2', '4', '>16', '8', '4', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '>256', '64', '64', '>32', '32', '64', '>32', '>64', '>16', '>32', '16', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '>64', '>64', '>32', '>32', '128', '>32', '>64', '>16', '>32', '128', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '64', '4', '2', '2', '2', '64', '1', '8', '8', '0.5', '4', '4', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '16', '32', '4', '4', '32', '16', '4', '>16', '0.5', '4', '4', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '128', '64', '32', '>32', '>32', '32', '>32', '>64', '>16', '>32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '256', '32', '16', '>32', '32', '16', '>32', '>64', '>16', '>32', '32', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('512', '128', '>64', '>64', '>32', '32', '128', '>32', '>64', '>16', '>32', '128', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '>64', '64', '>32', '16', '64', '>32', '>64', '16', '>32', '128', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '4', '32', '2', '8', '>16', '<=0.25', '<=2', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '64', '>64', '32', '>32', '>32', '16', '>32', '>64', '>16', '>32', '8', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '4', '16', '64', '16', '16', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '128', '16', '16', '2', '16', '32', '16', '16', '0.5', '1', '64', '4', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('32', '<=4', '8', '16', '4', '2', '<=2', '8', '1', '16', '4', '64', '<=0.5', 'nan', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '16', '16', '2', '4', '8', '8', '4', '>16', '16', '8', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '16', '8', '1', '8', '32', '8', '16', '>16', '>32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '8', '16', '1', '8', '32', '16', '32', '>16', '>32', '16', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '32', '8', '16', '1', '8', '32', '8', '16', '8', '1', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '32', '16', '8', '8', '32', '32', '16', '4', '2', '32', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '256', '64', '32', '2', '4', '32', '16', '16', '16', '1', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '16', '>64', '>64', '>32', '>32', '8', '>32', '>64', '>16', '>32', '64', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '64', '16', '4', '8', '32', '8', '8', '>16', '32', '8', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '16', '8', '1', '8', '32', '16', '16', '1', '<=0.25', '<=2', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '32', '16', '2', '8', '32', '8', '32', '>16', '4', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '32', '32', '8', '1', '4', '16', '16', '16', '1', '1', '<=2', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '128', '64', '32', '>32', '32', '16', '>32', '64', '>16', '32', '32', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '8', '8', '1', '1', '8', '8', '8', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '32', '16', '2', '8', '32', '8', '32', '2', '<=0.25', '<=2', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '128', '16', '8', '2', '4', '16', '8', '16', '>16', '32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '32', '>64', '>64', '>32', '>32', '16', '>32', '>64', '<=0.12', '<=0.25', '16', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '4', '16', '16', '16', '>16', '>32', '4', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '4', '64', '8', '2', '1', '<=0.25', '<=2', '2', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('256', '64', '16', '16', '2', '4', '16', '16', '64', '16', '>32', '32', '2', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '128', '16', '8', '1', '1', '8', '16', '8', '16', '16', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '256', '32', '16', '2', '4', '16', '16', '8', '>16', '1', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '64', '16', '16', '2', '2', '8', '16', '8', '>16', '>32', '4', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '16', '16', '2', '4', '16', '16', '16', '>16', '>32', '8', '1', '+', '+'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('>512', '256', '32', '32', '>32', '32', '16', '>32', '>64', '>16', '32', '16', '1', 'nan', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('128', '64', '32', '16', '2', '2', '32', '8', '8', '4', '16', '8', '1', '+', 'nan'); 
+INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
+VALUES ('64', '32', '16', '8', '1', '2', '8', '8', '4', '>16', '16', '4', '1', 'nan', 'nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nt4Δ4 '); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nt4Δ4 '); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('P21Q'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('V40I'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
+INSERT INTO resistoma(PA5485_ampDh2) 
+VALUES ('nan'); 
