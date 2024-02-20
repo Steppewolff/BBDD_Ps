@@ -741,6 +741,376 @@ INSERT INTO insilico(betalactamasa_otras)
 VALUES ('nan'); 
 INSERT INTO insilico(betalactamasa_otras) 
 VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('V643I; S717C'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('V643I; S717C'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('V643I; S717C'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E53K; S631I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('V12A'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('P388S'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('A368T; S631I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E53K; S631I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418T; N622K'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D309E'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418T; N622K'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418T; N622K'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418T; N622K'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E367G; S631I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418T; N622K'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('A368T; S631I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('H628N; V643I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418T; N622K'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('V643I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D616V'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('I418V'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E618D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('P388S'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E53K; S631I'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('P388S'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('A421T; S539T'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('P388S'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('S520P'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('P388S'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('D73N'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('E245D'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('G596R'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
+INSERT INTO invitro(cloxa_paer_observaciones) 
+VALUES ('nan'); 
 INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
 VALUES ('64', '64', '16', '16', '1', '2', '8', '16', '4', '2', '0.5', '8', '4', '+', '+'); 
 INSERT INTO mic(tic, pip, caz, fep, tol, cza, atm, imi, mer, cip, tob, ami, col, caz_cloxa, imi_cloxa) 
