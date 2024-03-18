@@ -121,11 +121,6 @@ class ExcelToSqlConverter:
 
             print(match_variable)
 
-            # if match == 1:
-            #     self.matched_db_fields[excel_column] = match_variable
-            # else:
-            #     self.matched_db_fields[excel_column] = 'Match not found'
-
         # Calling the GUI interface function
         self.create_interface()
         self.values_list = self.matched_db_fields
@@ -320,16 +315,10 @@ class ExcelToSqlConverter:
                 table_include = 0
                 response = db_obj.get_variable_names_table(table['Tables_in_psdb'])
                 variables = [diccionario['COLUMN_NAME'] for diccionario in response]
-                # print("variables: ")
-                # print(variables)
-                # print("table: ")
-                # print(table)
 
                 sql_columns = "INSERT INTO " + table['Tables_in_psdb'] + "("
 
                 for key, value in self.matched_db_fields.items():
-                    # print("KEY: ")
-                    # print(table['Tables_in_psdb'], value)
                     if value in variables:
                         table_include = 1
                         sql_columns = sql_columns + self.matched_db_fields[key] + ", "
