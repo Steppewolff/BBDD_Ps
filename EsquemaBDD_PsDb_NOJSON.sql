@@ -124,7 +124,6 @@ create table summary(
    	FOREIGN KEY(archivos_id) REFERENCES archivos(archivos_id)
 );
 
-
 DROP TABLE IF EXISTS mic;
 create table mic(
 	mic_id INT NOT NULL AUTO_INCREMENT,
