@@ -3,113 +3,204 @@ create database psdb_json;
 
 use psdb_json;
 
+DROP TABLE IF EXISTS metadata_general;
+create table metadata_general(
+	aislado_id INT NOT NULL AUTO_INCREMENT,
+	aislado_nombre VARCHAR(50),
+    aislado_exportar_id VARCHAR(50) UNIQUE,
+    #Nº de cepa, ej.: 15, 41, 90, 102, ... --> RESULTADOS UNIFICADOS GEMARA_última vEBT11 febrero2019.xls
+	#cepa_id INT,
+    #ST
+    especie VARCHAR(255),
+    nombre_proyecto VARCHAR(255),
+	aislamiento_dia int,
+	aislamiento_mes int,
+	aislamiento_year int,
+	aislamiento_fecha date,
+    origen VARCHAR(255),
+    observaciones VARCHAR(255),
+    parental_id INT,
+	/* Table restrictions */    
+    PRIMARY KEY(aislado_id)
+);
+
 DROP TABLE IF EXISTS hospital;
 create table hospital(
 	hospital_id INT NOT NULL AUTO_INCREMENT,
 	hospital_nombre VARCHAR(255),
-    localidad VARCHAR(255),
-    ccaa VARCHAR(50),
-    region VARCHAR(255),
     pais VARCHAR(255),
+    region VARCHAR(255),
+    localidad VARCHAR(255),
 	/* Table restrictions */    
     PRIMARY KEY(hospital_id)
 );
 
-DROP TABLE IF EXISTS resistoma;
-create table resistoma(
-	resistoma_id INT NOT NULL AUTO_INCREMENT,
-	resistoma_fecha date,
-    resistoma_json JSON,
-    #Se pueden cambiar las adquiridas a formato JSON también, ¿son siempre los mismos tipos (betalactamasas y aminog) o puede haber más?
-    betalac_adquiridas VARCHAR(255),
-    aminog_adquiridas VARCHAR(255),
-	otras_adquiridas VARCHAR(255),
-    resistoma_observaciones VARCHAR(255),
-	PA5485_ampDh2 VARCHAR(255),
-	/* Table restrictions */
-    PRIMARY KEY(resistoma_id)
-);
-
-DROP TABLE IF EXISTS invitro;
-create table invitro(
-	invitro_id INT NOT NULL AUTO_INCREMENT,
-	serotipo VARCHAR(255),
-	serotipo_insilico VARCHAR(5),
-	maldi VARCHAR(50),
-	maldi_observaciones VARCHAR(255),
-	pulsado VARCHAR(20),
-	pulsado_observaciones VARCHAR(255),
-	cloxa_paer VARCHAR(3),
-	cloxa_paer_observaciones VARCHAR(255),
-	mbl_test VARCHAR(5),
-	blee_test VARCHAR(5),
-	pcr_multi VARCHAR(255),
-	pcr_vim1 VARCHAR(5),
-	pcr_vim2 VARCHAR(5),
-	pcr_oxa VARCHAR(5),    
-	pcr_blee VARCHAR(5),    
-	pcr_infer VARCHAR(5),
-	pcr_otras VARCHAR(255),
-	/* Table restrictions */
-    PRIMARY KEY(invitro_id)
-);
-
-DROP TABLE IF EXISTS insilico;
-create table insilico(
-	insilico_id INT NOT NULL AUTO_INCREMENT,
-	wgs_fecha DATE,
-	wgs_tech VARCHAR(255),
-	mlst_insilico VARCHAR(7),
-	mlst_inferido VARCHAR(7),
-    #¿Qué codifica esta variable EMA?
-	ema VARCHAR(255),
-    betalactamasa_otras VARCHAR(255),
-    carbapenemasa_otras VARCHAR(255),
-    ab_otros VARCHAR(255),
-	/* Table restrictions */
-    PRIMARY KEY(insilico_id)
-);
-
-DROP TABLE IF EXISTS archivos;
-create table archivos(
-	archivos_id INT NOT NULL AUTO_INCREMENT,
-    fastq VARCHAR(255),
-    variant_calling VARCHAR(255),
-    snps VARCHAR(255),
-    pileup VARCHAR(255),
-	/* Table restrictions */
-    PRIMARY KEY(archivos_id)
-);
-
-DROP TABLE IF EXISTS summary;
-create table summary(
-	aislado_id INT NOT NULL AUTO_INCREMENT,
-    aislado_nombre CHAR(50),
-    #Nº de cepa, ej.: 15, 41, 90, 102, ... --> RESULTADOS UNIFICADOS GEMARA_última vEBT11 febrero2019.xls
-	cepa_id INT,
-    #ST
-    clon_id CHAR(7),
-    hospital_id INT,
-    servicio_obtencion CHAR(255),
-    tipo_muestra CHAR(255),
-    resistoma_id INT,
-    invitro_id INT,
-    insilico_id INT,
-	archivos_id INT,
+DROP TABLE IF EXISTS tipo_muestra;
+create table tipo_muestra(
+	tipo_muestra_id INT NOT NULL AUTO_INCREMENT,
+	tipo VARCHAR(255),
 	/* Table restrictions */    
-    PRIMARY KEY(aislado_id),
-	FOREIGN KEY(hospital_id) REFERENCES hospital(hospital_id),
- 	FOREIGN KEY(resistoma_id) REFERENCES resistoma(resistoma_id),
-	FOREIGN KEY(invitro_id) REFERENCES invitro(invitro_id),
-	FOREIGN KEY(insilico_id) REFERENCES insilico(insilico_id),
-   	FOREIGN KEY(archivos_id) REFERENCES archivos(archivos_id)
+    PRIMARY KEY(tipo_muestra_id)
 );
 
+DROP TABLE IF EXISTS metadata_clinico;
+create table metadata_clinico(
+	clinico_id INT NOT NULL AUTO_INCREMENT,
+	paciente_id VARCHAR(255),
+    tipo_muestra VARCHAR(255),
+    hospital INT UNIQUE,
+    servicio_obtencion VARCHAR(255),
+	/* Table restrictions */
+    PRIMARY KEY(clinico_id),
+    FOREIGN KEY(hospital) REFERENCES hospital(hospital_id)
+);
+
+DROP TABLE IF EXISTS secuencia;
+create table secuencia(
+	secuencia_id INT NOT NULL AUTO_INCREMENT,
+    aislado_id INT UNIQUE,
+	perfil_mlst JSON,
+    clon VARCHAR(10),
+    #Se pueden cambiar las adquiridas a formato JSON también, ¿son siempre los mismos tipos (betalactamasas y aminog) o puede haber más?
+    complejo_clonal VARCHAR(10),
+    resistoma_mutante JSON,
+	resistoma_adquirido JSON,
+    genes_virulencia JSON,
+    genes_hipermutacion JSON,
+    serotipo_insilico VARCHAR(3),
+    betalactamasas_adquiridas JSON,
+	/* Table restrictions */
+    PRIMARY KEY(secuencia_id),
+    FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
+);
+
+DROP TABLE IF EXISTS tecnica;
+create table tecnica(
+	tecnica_id INT NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(255),
+	version VARCHAR(50),
+ 	/* Table restrictions */
+    PRIMARY KEY(tecnica_id)
+);
+
+DROP TABLE IF EXISTS plataforma;
+create table plataforma(
+	plataforma_id INT NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(255),
+	proveedor VARCHAR(255),
+ 	/* Table restrictions */
+    PRIMARY KEY(plataforma_id)
+);
+
+DROP TABLE IF EXISTS libreria;
+create table libreria(
+	libreria_id INT NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(255),
+ 	/* Table restrictions */
+    PRIMARY KEY(libreria_id)
+);
+
+DROP TABLE IF EXISTS resistoma_mutante;
+create table resistoma_mut(
+	resistoma_mut_id INT NOT NULL AUTO_INCREMENT,
+	locus VARCHAR(6),
+    tipo_funcion VARCHAR(6),
+    tipo_pbp VARCHAR(6),
+    especie JSON,
+ 	/* Table restrictions */
+    PRIMARY KEY(resistoma_mut_id)
+);
+
+DROP TABLE IF EXISTS resistoma_adquirido;
+create table resistoma_adq(
+	resistoma_adq_id INT NOT NULL AUTO_INCREMENT,
+	locus VARCHAR(6),
+    tipo_funcion VARCHAR(6),
+ 	/* Table restrictions */
+    PRIMARY KEY(resistoma_adq_id)
+);
+
+DROP TABLE IF EXISTS loci_mlst;
+create table loci_mlst(
+	mlst_id INT NOT NULL AUTO_INCREMENT,
+	locus VARCHAR(6),
+    especie JSON,
+ 	/* Table restrictions */
+    PRIMARY KEY(mlst_id)
+);
+
+DROP TABLE IF EXISTS loci_virulencia;
+create table loci_virulencia(
+	virulencia_id INT NOT NULL AUTO_INCREMENT,
+	locus VARCHAR(6),
+    especie JSON,
+ 	/* Table restrictions */
+    PRIMARY KEY(virulencia_id)
+);
+
+DROP TABLE IF EXISTS loci_hipermutacion;
+create table loci_hipermutacion(
+	hipermut_id INT NOT NULL AUTO_INCREMENT,
+	locus VARCHAR(6),
+    especie JSON,
+ 	/* Table restrictions */
+    PRIMARY KEY(hipermut_id)
+);
+
+DROP TABLE IF EXISTS secuenciacion;
+create table secuenciacion(
+	secuenciacion_id INT NOT NULL AUTO_INCREMENT,
+	aislado_id INT UNIQUE,
+	tecnica_sec INT,
+	plataforma_sec INT,
+	motivo_sec VARCHAR(100),
+	origen_sec VARCHAR(100),
+	preparacion_librerias INT,
+ 	/* Table restrictions */
+    PRIMARY KEY(secuenciacion_id),
+    FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id),
+    FOREIGN KEY(tecnica_sec) REFERENCES tecnica(tecnica_id),
+    FOREIGN KEY(plataforma_sec) REFERENCES plataforma(plataforma_id),
+    FOREIGN KEY(preparacion_librerias) REFERENCES libreria(libreria_id)    
+);
+
+DROP TABLE IF EXISTS archivo;
+create table archivo(
+	archivo_id INT NOT NULL AUTO_INCREMENT,
+	aislado_id INT UNIQUE,
+	fastq VARCHAR(255),
+	ensamblado VARCHAR(255),
+ 	/* Table restrictions */
+    PRIMARY KEY(archivo_id),
+    FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
+);
+
+DROP TABLE IF EXISTS fenotipo;
+create table fenotipo(
+	fenotipo_id INT NOT NULL AUTO_INCREMENT,
+	aislado_id INT UNIQUE,
+	metodo_suscept VARCHAR(100),
+    cmi_id VARCHAR(10),
+    cat_clinica VARCHAR(3),
+    perfil_ecdc VARCHAR(3),
+    perfil_idsa VARCHAR(3),
+    test_cloxa VARCHAR(3),
+    test_mbl VARCHAR(3),
+    test_blee VARCHAR(3),
+    test_carba_A VARCHAR(3),
+    serotipo_invitro VARCHAR(3),
+    cevs INT,
+    virulencia_galleria INT,
+    fenot_hipermutador VARCHAR(15),
+	/* Table restrictions */
+    PRIMARY KEY(fenotipo_id),
+	FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
+);
 
 DROP TABLE IF EXISTS mic;
 create table mic(
 	mic_id INT NOT NULL AUTO_INCREMENT,
-	aislado_id INT,
+	aislado_id INT UNIQUE,
 	mic_tipo VARCHAR(255),
 	mic_fecha DATE,
 	tic VARCHAR(10),
@@ -134,5 +225,5 @@ create table mic(
     mic_observaciones VARCHAR(255),
 	/* Table restrictions */
     PRIMARY KEY(mic_id),
-	FOREIGN KEY(aislado_id) REFERENCES summary(aislado_id)
+	FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
 );

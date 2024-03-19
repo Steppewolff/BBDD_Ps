@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-03-19T13:51:23.841Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zd2U0eqEzR-JwOfKrjxg" scale="1" border="0" version="24.0.4" type="device" pages="4">
+<mxfile host="Electron" modified="2024-03-19T13:22:09.511Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="WDDiReJ9NWRtZxRP6zlK" scale="1" border="0" version="24.0.4" type="device" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Usando JSON">
     <mxGraphModel dx="2818" dy="2480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2288,7 +2288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SmMMtdULoaoBQeAYzfFd" name="Usando JSON v2">
-    <mxGraphModel dx="2816" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2219" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3566,7 +3566,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AUvoLBU5HWrdZqLy_OrK-104" value="libreria_id int NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" vertex="1" parent="AUvoLBU5HWrdZqLy_OrK-102">
+        <mxCell id="AUvoLBU5HWrdZqLy_OrK-104" value="tecnica_id int NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;" vertex="1" parent="AUvoLBU5HWrdZqLy_OrK-102">
           <mxGeometry x="50" width="310" height="30" as="geometry">
             <mxRectangle width="310" height="30" as="alternateBounds" />
           </mxGeometry>

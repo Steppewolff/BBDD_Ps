@@ -7,10 +7,9 @@ DROP TABLE IF EXISTS hospital;
 create table hospital(
 	hospital_id INT NOT NULL AUTO_INCREMENT,
 	hospital_nombre VARCHAR(255),
-    localidad VARCHAR(255),
-    ccaa VARCHAR(50),
-    region VARCHAR(255),
     pais VARCHAR(255),
+    region VARCHAR(255),
+    localidad VARCHAR(255),
 	/* Table restrictions */    
     PRIMARY KEY(hospital_id)
 );
