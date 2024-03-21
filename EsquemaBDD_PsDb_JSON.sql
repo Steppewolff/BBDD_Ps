@@ -120,7 +120,7 @@ create table resistoma_adq(
     PRIMARY KEY(resistoma_adq_id)
 );
 
-DROP TABLE IF EXISTS loci_mlst;
+DROP TABLE IF EXISTS locus_mlst;
 create table loci_mlst(
 	mlst_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(6),
@@ -129,7 +129,7 @@ create table loci_mlst(
     PRIMARY KEY(mlst_id)
 );
 
-DROP TABLE IF EXISTS loci_virulencia;
+DROP TABLE IF EXISTS locus_virulencia;
 create table loci_virulencia(
 	virulencia_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(6),
@@ -138,7 +138,7 @@ create table loci_virulencia(
     PRIMARY KEY(virulencia_id)
 );
 
-DROP TABLE IF EXISTS loci_hipermutacion;
+DROP TABLE IF EXISTS locus_hipermutacion;
 create table loci_hipermutacion(
 	hipermut_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(6),
@@ -201,23 +201,34 @@ DROP TABLE IF EXISTS mic;
 create table mic(
 	mic_id INT NOT NULL AUTO_INCREMENT,
 	aislado_id INT UNIQUE,
-	mic_tipo VARCHAR(255),
 	mic_fecha DATE,
+    pip VARCHAR(10),
+    pip_tz VARCHAR(10),
+    fep VARCHAR(10),
+    cfdc VARCHAR(10),
+    caz VARCHAR(10),
+    caz_avi VARCHAR(10),
+    ct VARCHAR(10),
+    imi VARCHAR(10),
+    imi_rel VARCHAR(10),
+    mer VARCHAR(10),
+    mer_vab VARCHAR(10),
+    azt VARCHAR(10),
+    azt_avi VARCHAR(10),
+    cip VARCHAR(10),
+    dlx VARCHAR(10),
+    lvx VARCHAR(10),
+    mxl VARCHAR(10),
+    ami VARCHAR(10),
+    gen VARCHAR(10),
+    net VARCHAR(10),
+    tob VARCHAR(10),
+    col VARCHAR(10),
+    fo VARCHAR(10),
 	tic VARCHAR(10),
     ptz VARCHAR(10),
-    azt VARCHAR(10),
     taz VARCHAR(10),
-    ct VARCHAR(10),
     cza VARCHAR(10),
-    fep VARCHAR(10),
-    cip VARCHAR(10),
-    ami VARCHAR(10),
-    tob VARCHAR(10),
-    imi VARCHAR(10),
-    mer VARCHAR(10),
-    col VARCHAR(10),
-    pip VARCHAR(10),
-    caz VARCHAR(10),
     tol VARCHAR(10),
     atm VARCHAR(10),
     caz_cloxa VARCHAR(3),

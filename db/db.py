@@ -32,7 +32,7 @@ class PsDb:
             port=3306,
             user='fernando',  # 'root',
             passwd='password',  #  # 'Orgullovalor,'
-            db='psdb',
+            db='psdb_json',
             charset='utf8mb4',
             autocommit=True,
             cursorclass=pymysql.cursors.DictCursor)
@@ -70,7 +70,7 @@ class PsDb:
     def get_variable_names_table(self, table):
         sql = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS " \
               "WHERE " \
-              "TABLE_SCHEMA = 'psdb' " \
+              "TABLE_SCHEMA = 'psdb_json' " \
               "AND " \
               "TABLE_NAME = '" + table + "';"
 
@@ -83,7 +83,7 @@ class PsDb:
     def get_variable_names_db(self):
         sql = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS " \
               "WHERE " \
-              "TABLE_SCHEMA = 'psdb' "
+              "TABLE_SCHEMA = 'psdb_json' "
 
         self.cursor.execute(sql)
         Response = self.cursor.fetchall()
@@ -93,8 +93,8 @@ class PsDb:
     # Devuelve los datos de tabla summary en psdb
     def summary_get(self, pag):
         already_displayed = 5 * pag
-        sql = "SELECT * FROM psdb.summary" \
-              "ORDER BY summmary_id " \
+        sql = "SELECT * FROM psdb_json.metadata_general" \
+              "ORDER BY aislado_id " \
               "LIMIT " + str(already_displayed) + ", 5;"
 
         self.cursor.execute(sql)
@@ -108,8 +108,8 @@ class PsDb:
 
     # Devuelve los datos de un aislado concreto mediante isolated_id
     def isolated_id(self, isolated_id):
-        sql = "SELECT * FROM psdb.summary" \
-              "ORDER BY summmary_id " \
+        sql = "SELECT * FROM psdb_json.metadata_general" \
+              "ORDER BY aislado_id " \
               "WHERE isolated_id = '" + isolated_id + "';"
 
         print('SQL query: ', sql)

@@ -306,7 +306,7 @@ class ExcelToSqlConverter:
         else:
             db_obj = db.db.PsDb()
             db_obj.connect()
-            tables = db_obj.get_table_names_db('psdb')
+            tables = db_obj.get_table_names_db('psdb_json')
             # db_obj.disconnect()
 
             df_sql_values = self.df
