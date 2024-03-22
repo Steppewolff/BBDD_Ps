@@ -74,15 +74,6 @@ create table secuencia(
     FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
 );
 
-DROP TABLE IF EXISTS tecnica;
-create table tecnica(
-	tecnica_id INT NOT NULL AUTO_INCREMENT,
-	nombre VARCHAR(255),
-	version VARCHAR(50),
- 	/* Table restrictions */
-    PRIMARY KEY(tecnica_id)
-);
-
 DROP TABLE IF EXISTS plataforma;
 create table plataforma(
 	plataforma_id INT NOT NULL AUTO_INCREMENT,
@@ -92,57 +83,78 @@ create table plataforma(
     PRIMARY KEY(plataforma_id)
 );
 
+DROP TABLE IF EXISTS tecnica;
+create table tecnica(
+	tecnica_id INT NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(255),
+    lecturas VARCHAR(255),
+    metodo VARCHAR(255),
+ 	/* Table restrictions */
+    PRIMARY KEY(tecnica_id)
+);
+
 DROP TABLE IF EXISTS libreria;
 create table libreria(
 	libreria_id INT NOT NULL AUTO_INCREMENT,
 	nombre VARCHAR(255),
+    metodo VARCHAR(255),
  	/* Table restrictions */
     PRIMARY KEY(libreria_id)
 );
 
+/*ALTER TABLE locus_hipermutacion
+MODIFY locus VARCHAR(20);*/
+
 DROP TABLE IF EXISTS resistoma_mutante;
-create table resistoma_mut(
+create table resistoma_mutante(
 	resistoma_mut_id INT NOT NULL AUTO_INCREMENT,
-	locus VARCHAR(6),
-    tipo_funcion VARCHAR(6),
-    tipo_pbp VARCHAR(6),
-    especie JSON,
+	locus VARCHAR(20),
+    nombre_oficial VARCHAR(6),
+    nombre_sinonimo VARCHAR(6),
+    nombre_pbp VARCHAR(6),
+    especie VARCHAR(100),
  	/* Table restrictions */
     PRIMARY KEY(resistoma_mut_id)
 );
 
 DROP TABLE IF EXISTS resistoma_adquirido;
-create table resistoma_adq(
+create table resistoma_adquirido(
 	resistoma_adq_id INT NOT NULL AUTO_INCREMENT,
-	locus VARCHAR(6),
+	nombre VARCHAR(20),
     tipo_funcion VARCHAR(6),
  	/* Table restrictions */
     PRIMARY KEY(resistoma_adq_id)
 );
 
 DROP TABLE IF EXISTS locus_mlst;
-create table loci_mlst(
+create table locus_mlst(
 	mlst_id INT NOT NULL AUTO_INCREMENT,
-	locus VARCHAR(6),
-    especie JSON,
+	locus VARCHAR(20),
+	nombre_oficial VARCHAR(6),
+    nombre_sinonimo VARCHAR(6),
+    especie VARCHAR(100),
  	/* Table restrictions */
     PRIMARY KEY(mlst_id)
 );
 
 DROP TABLE IF EXISTS locus_virulencia;
-create table loci_virulencia(
+create table locus_virulencia(
 	virulencia_id INT NOT NULL AUTO_INCREMENT,
-	locus VARCHAR(6),
-    especie JSON,
+	locus VARCHAR(20),
+    nombre_oficial VARCHAR(6),
+    nombre_sinonimo VARCHAR(6),
+    especie VARCHAR(100),
  	/* Table restrictions */
     PRIMARY KEY(virulencia_id)
 );
 
 DROP TABLE IF EXISTS locus_hipermutacion;
-create table loci_hipermutacion(
+create table locus_hipermutacion(
 	hipermut_id INT NOT NULL AUTO_INCREMENT,
-	locus VARCHAR(6),
-    especie JSON,
+	locus VARCHAR(20),
+	nombre_oficial VARCHAR(6),
+    nombre_sinonimo VARCHAR(6),
+    especie VARCHAR(100),
  	/* Table restrictions */
     PRIMARY KEY(hipermut_id)
 );
@@ -161,7 +173,7 @@ create table secuenciacion(
     FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id),
     FOREIGN KEY(tecnica_sec) REFERENCES tecnica(tecnica_id),
     FOREIGN KEY(plataforma_sec) REFERENCES plataforma(plataforma_id),
-    FOREIGN KEY(preparacion_librerias) REFERENCES libreria(libreria_id)    
+    FOREIGN KEY(preparacion_librerias) REFERENCES libreria(libreria_id)
 );
 
 DROP TABLE IF EXISTS archivo;
