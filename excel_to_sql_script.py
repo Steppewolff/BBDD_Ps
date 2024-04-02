@@ -18,6 +18,7 @@ db_value = ""
 def read_input_file():
     # Limpiar listas de campos y opciones de select
     tables = []
+    df_dictionary = []
     field_names.clear()
     select_options.clear()
 
@@ -27,7 +28,6 @@ def read_input_file():
                  ('xlsx files', '*.xlsx'))
     file_path = filedialog.askopenfilename(filetypes=filetypes, initialdir="FuentesInformacion")
 
-    # Leer el archivo utilizando pandas
     if file_path:
         try:
             df = pd.read_excel(file_path) if file_path.endswith(('.xls', '.xlsx')) else pd.read_csv(file_path)
@@ -40,8 +40,17 @@ def read_input_file():
             db_obj.connect()
             result = db_obj.get_variable_names_db()
             tables = db_obj.get_table_names_db('psdb_json')
-            print('tables:')
-            print(tables)
+            table_index = 0
+            table_aux = {}
+            for table in tables:
+                print(table['Tables_in_psdb_json'])
+                if table['Tables_in_psdb_json'] == 'metadata_general':
+                    table_index = tables.index(table)
+                    table_aux = table
+            tables.pop(table_index)
+            tables.insert(0, table_aux)
+            # print('tables:')
+            # print(tables)
             print('df_dictionary:')
             print(df_dictionary)
             db_obj.disconnect()
@@ -50,10 +59,10 @@ def read_input_file():
         except Exception as e:
             print(f"Error al leer el archivo: {e}")
 
-    print_match_file(tables)
+    print_match_file(tables, df_dictionary)
 
 
-def print_match_file(tables):
+def print_match_file(tables, df_dictionary):
     if os.path.exists('match_file.txt'):
         match_file = open('match_file.txt', 'w+')
     else:
@@ -74,18 +83,33 @@ def print_match_file(tables):
             match_file.write("\t" + variable + " : \n")
 
     match_file.close()
-    read_matches()
+    read_matches(df_dictionary)
 
 
-def read_matches():
+def read_matches(df_dictionary):
     print("Pulsa cualquier tecla para continuar cuando se haya completado el archivo de equivalencias 'match_file.txt'")
     input()
-    if os.path.exists('match_file.txt'):
-        match_file = open('match_file.txt', 'r')
+    table_name = ""
+    tables_values = {}
+    if os.path.exists('match_file_input.txt'):
+        match_file = open('match_file_input.txt', 'r')
         for line in match_file.readlines():
-            print(line)
+            if line == "Campos de la base de datos:\n":
+                print(line)
+            if line[0] != "\t" and line != "Campos de la base de datos:\n":
+                print(line)
+                line = line.rstrip("\n")
+                table_name = line
+                tables_values[table_name] = {}
+            else:
+                print(line)
+                line = line.rstrip("\n")
+                line = line.lstrip("\t")
+                line_values = line.split(" : ")
+                if table_name in tables_values and line_values[1] != "":
+                    tables_values[table_name].update({line_values[0]: line_values[1]})
     else:
-        print("No se ha encontrado el archivo 'match_file.txt'")
+        print("No se ha encontrado el archivo 'match_file_input.txt'")
 
 
 def create_sql():

@@ -1,4 +1,17 @@
 Campos de la base de datos:
+metadata_general
+	aislado_id : 
+	aislado_nombre : 
+	aislado_exportar_id : 
+	especie : 
+	nombre_proyecto : 
+	aislamiento_dia : 
+	aislamiento_mes : 
+	aislamiento_year : 
+	aislamiento_fecha : 
+	origen : 
+	observaciones : 
+	parental_id : 
 archivo
 	archivo_id : 
 	aislado_id : 
@@ -29,17 +42,24 @@ hospital
 libreria
 	libreria_id : 
 	nombre : 
-loci_hipermutacion
+	metodo : 
+locus_hipermutacion
 	hipermut_id : 
 	locus : 
+	nombre_oficial : 
+	nombre_sinonimo : 
 	especie : 
-loci_mlst
+locus_mlst
 	mlst_id : 
 	locus : 
+	nombre_oficial : 
+	nombre_sinonimo : 
 	especie : 
-loci_virulencia
+locus_virulencia
 	virulencia_id : 
 	locus : 
+	nombre_oficial : 
+	nombre_sinonimo : 
 	especie : 
 metadata_clinico
 	clinico_id : 
@@ -47,19 +67,6 @@ metadata_clinico
 	tipo_muestra : 
 	hospital : 
 	servicio_obtencion : 
-metadata_general
-	aislado_id : 
-	aislado_nombre : 
-	aislado_exportar_id : 
-	especie : 
-	nombre_proyecto : 
-	aislamiento_dia : 
-	aislamiento_mes : 
-	aislamiento_year : 
-	aislamiento_fecha : 
-	origen : 
-	observaciones : 
-	parental_id : 
 mic
 	mic_id : 
 	aislado_id : 
@@ -100,15 +107,16 @@ plataforma
 	plataforma_id : 
 	nombre : 
 	proveedor : 
-resistoma_adq
+resistoma_adquirido
 	resistoma_adq_id : 
 	locus : 
 	tipo_funcion : 
-resistoma_mut
+resistoma_mutante
 	resistoma_mut_id : 
 	locus : 
-	tipo_funcion : 
-	tipo_pbp : 
+	nombre_oficial : 
+	nombre_sinonimo : 
+	nombre_pbp : 
 	especie : 
 secuencia
 	secuencia_id : 
@@ -133,7 +141,8 @@ secuenciacion
 tecnica
 	tecnica_id : 
 	nombre : 
-	version : 
+	lecturas : 
+	metodo : 
 tipo_muestra
 	tipo_muestra_id : 
 	tipo : 
