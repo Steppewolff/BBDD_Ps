@@ -79,7 +79,7 @@ class PsDb:
 
         return Response
 
-    # Devuelve los nombres de las columnas de una tabla
+    # Devuelve los nombres de las columnas de toda la BDD
     def get_variable_names_db(self):
         sql = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS " \
               "WHERE " \
@@ -117,3 +117,17 @@ class PsDb:
         Response = self.cursor.fetchall()
 
         return Response
+
+    # Devuelve los nombres de loci de una de las tablas de validación en un listado
+    def loci_list(self, table):
+        sql = "SELECT locus FROM " + table + " " \
+              "ORDER BY locus;" \
+
+        print('SQL query: ', sql)
+        self.cursor.execute(sql)
+        response = self.cursor.fetchall()
+        loci_list = []
+        for locus in response:
+            loci_list.append(locus['locus'])
+
+        return loci_list

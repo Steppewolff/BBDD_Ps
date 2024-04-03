@@ -101,7 +101,7 @@ mic
 	tol :
 	atm :
 	caz_cloxa :
-	imi_cloxa :
+	imi_cloxa : IMI cloxa-test
 	mic_observaciones :
 plataforma
 	plataforma_id :
@@ -146,6 +146,3 @@ tecnica
 tipo_muestra
 	tipo_muestra_id :
 	tipo :
-
-
-{'Isolate': 'AND01-001', 'ST': 'ST155', 'TIC (mg/L)': '64', 'TIC EUCAST': 'R', 'PIP/TZ (mg/L)': '64', 'PIP/TZ EUCAST': 'R', 'CAZ (mg/L)': '16', 'CAZ  EUCAST': 'R', 'FEP (mg/L)': '16', 'FEP EUCAST': 'R', 'TOL/TZ (mg/L)': '1', 'TOL/TZ EUCAST': 'S', 'CZA (mg/L)': '2', 'CZA EUCAST': 'S', 'ATM (mg/L)': '8', 'ATM  EUCAST': 'I', 'IMI (mg/L)': '16', 'IMI  EUCAST': 'R', 'MER (mg/L)': '4', 'MER EUCAST': 'I', 'CIP (mg/L)': '2', 'CIP EUCAST': 'R', 'TOB (mg/L)': '0.5', 'TOB EUCAST': 'S', 'AMI (mg/L)': '8', 'AMI EUCAST': 'S', 'COL (mg/L)': '4', 'COL EUCAST': 'R', 'CAZ cloxa-test': '+', 'IMI cloxa-test': '+', 'Acquired Beta-lactamases': nan, 'Acquired Aminog. Mod. Enzymes': "aac(6')-Ic", 'Acquired Other Enzimes': nan, 'PA0004 gyrB': nan, 'PA0424 mexR': nan, 'PA0425 mexA': nan, 'PA0426 mexB': nan, 'PA0427 oprM': nan, 'PA0807 ampDh3': 'A219T', 'PA0869 pbpG (PBP6/7)': nan, 'PA0958 oprD': 'nt473Δ14', 'oprD Reference Strain': 'LESB58', 'PA1179 phoP': 'P31Q', 'PA1180 phoQ': nan, 'PA1777 oprF': nan, 'PA1798 parS': 'L79P; H398R', 'PA1799 parR': nan, 'PA2018 mexY': 'D428N; T543A; Q840E', 'PA2019 mexX': 'K329Q; L331V; W358R', 'PA2020 mexZ': nan, 'PA2272 pbpC (PBP3a)': nan, 'PA2491 mexS': 'D249N', 'PA2492 mexT': 'F172I', 'PA3047 dacB (PBP4)': 'T428P', 'PA3168 gyrA': 'T83I; D87H', 'PA3574 nalD': nan, 'PA3721 nalC': 'G71E; S209R', 'PA3999 dacC (PBP5)': nan, 'PA4003 pbpA (PBP2)': nan, 'PA4020 mpl': 'M297V', 'PA4109 ampR': nan, 'PA4110 ampC': 'R79Q; T105A', 'PA4266 fusA1': nan, 'PA4418 ftsI (PBP3)': nan, 'PA4522 ampD': 'Q44H; G148A; D183Y', 'PA4600 nfxB': nan, 'PA4700 mrcB (PBP1b)': 'L353Q', 'PA4776 pmrA': nan, 'PA4777 pmrB': 'Y345H', 'PA4964 parC': nan, 'PA4967 parE': nan, 'PA5045 ponA/ mrcA (PBP1a)': 'V643I; S717C', 'PA5235 glpT': ' ', 'PA5471 armZ': 'L88P; D161G; H182Q; V243A', 'PA5485 ampDh2': nan}

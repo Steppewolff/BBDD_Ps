@@ -59,10 +59,10 @@ def read_input_file():
         except Exception as e:
             print(f"Error al leer el archivo: {e}")
 
-    print_match_file(tables, df_dictionary)
+    print_match_file(tables, df_dictionary, excel_fields)
 
 
-def print_match_file(tables, df_dictionary):
+def print_match_file(tables, df_dictionary, excel_fields):
     if os.path.exists('match_file.txt'):
         match_file = open('match_file.txt', 'w+')
     else:
@@ -83,14 +83,27 @@ def print_match_file(tables, df_dictionary):
             match_file.write("\t" + variable + " : \n")
 
     match_file.close()
-    read_matches(df_dictionary)
+    read_matches(df_dictionary, excel_fields)
 
 
-def read_matches(df_dictionary):
-    print("Pulsa cualquier tecla para continuar cuando se haya completado el archivo de equivalencias 'match_file.txt'")
+def read_matches(df_dictionary, excel_fields):
+    print(
+        "Pulsa cualquier tecla para continuar cuando se haya completado el archivo de equivalencias 'match_file_input.txt'")
     input()
     table_name = ""
     tables_values = {}
+    db_obj = db.db.PsDb()
+    db_obj.connect()
+    locus_resistoma = db_obj.loci_list('resistoma_mutante')
+    resistoma_dict = {}
+    locus_mlst = db_obj.loci_list('locus_mlst')
+    mlst_dict = {}
+    locus_virulencia = db_obj.loci_list('locus_virulencia')
+    virulencia_dict = {}
+    locus_hipermutacion = db_obj.loci_list('locus_hipermutacion')
+    hipermutacion_dict = {}
+    db_obj.disconnect()
+
     if os.path.exists('match_file_input.txt'):
         match_file = open('match_file_input.txt', 'r')
         for line in match_file.readlines():
@@ -106,23 +119,29 @@ def read_matches(df_dictionary):
                 line = line.rstrip("\n")
                 line = line.lstrip("\t")
                 line_values = line.split(" : ")
-                if table_name in tables_values and line_values[1] != "":
+                if table_name in tables_values and len(line_values) == 2:
                     tables_values[table_name].update({line_values[0]: line_values[1]})
+
+        for field in excel_fields:
+            field = field.split(" ")[0]
+            if field in locus_resistoma:
+                resistoma_dict[field] = {}
+            elif field in locus_mlst:
+                mlst_dict[field] = {}
+            elif field in locus_virulencia:
+                virulencia_dict[field] = {}
+            elif field in locus_hipermutacion:
+                hipermutacion_dict[field] = {}
+            else:
+                pass
+
     else:
         print("No se ha encontrado el archivo 'match_file_input.txt'")
 
-
-def create_sql():
-    # for i, field in enumerate(select_options):
-    #     match_file.a (f"{i+1}. {field}")
-    # print("\nCampos del archivo:")
-    # for i, field in enumerate(excel_fields):
-    #     print(f"{i+1}. {field}")
-
-    pass
+    write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, virulencia_dict, hipermutacion_dict)
 
 
-def write_sql_script():
+def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, virulencia_dict, hipermutacion_dict):
     sql_script = ""
 
     db_obj = db.db.PsDb()
@@ -132,13 +151,14 @@ def write_sql_script():
     #
     # df_sql_values = df
     #
-    for table in tables:
+    for table in tables_values:
         # table_include = 0
         response = db_obj.get_variable_names_table(table['Tables_in_psdb'])
         variables = [diccionario['COLUMN_NAME'] for diccionario in response]
 
         sql_columns = "INSERT INTO " + table['Tables_in_psdb'] + "("
 
+        # for isolate in df_dictionary:
         for key, value in matched_db_fields.items():
             if value in variables:
                 table_include = 1
