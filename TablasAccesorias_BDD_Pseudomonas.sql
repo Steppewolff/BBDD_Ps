@@ -363,3 +363,12 @@ INSERT INTO locus_virulencia (locus, nombre_oficial, nombre_sinonimo, especie) V
 INSERT INTO locus_hipermutacion (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
 ('1','175'),
 ('1','175');
+
+INSERT INTO books
+    (id, title, author, year_published)
+VALUES
+    (@id, @title, @author, @year_published)
+ON DUPLICATE KEY UPDATE
+    title = @title,
+    author = @author,
+    year_published = @year_published;
