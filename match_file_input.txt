@@ -1,7 +1,7 @@
 Campos de la base de datos:
 metadata_general
-	aislado_id : Isolate
-	aislado_nombre : ST
+	aislado_id :
+	aislado_nombre : Isolate
 	aislado_exportar_id :
 	especie :
 	nombre_proyecto :

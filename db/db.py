@@ -31,7 +31,7 @@ class PsDb:
             host='127.0.0.1',  # 'fgromano.com', #
             port=3306,
             user='fernando',  # 'root',
-            passwd='password',  #  # 'Orgullovalor,'
+            passwd='password',  # # 'Orgullovalor,'
             db='psdb_json',
             charset='utf8mb4',
             autocommit=True,
@@ -121,7 +121,7 @@ class PsDb:
     # Devuelve los nombres de loci de una de las tablas de validación en un listado
     def loci_list(self, table):
         sql = "SELECT locus FROM " + table + " " \
-              "ORDER BY locus;" \
+                                             "ORDER BY locus;" \
 
         print('SQL query: ', sql)
         self.cursor.execute(sql)
@@ -131,3 +131,34 @@ class PsDb:
             loci_list.append(locus['locus'])
 
         return loci_list
+
+    def get_table_id(self, table):
+        sql = "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS " \
+              "WHERE TABLE_SCHEMA = 'psdb_json' " \
+              "AND TABLE_NAME = '" + table + "' " \
+              "AND COLUMN_KEY = 'PRI';"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+        column_name = response['COLUMN_NAME']
+
+        return column_name
+
+    def get_row_id(self, table, field, value):
+        sql = "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS " \
+              "WHERE TABLE_SCHEMA = 'psdb_json' " \
+              "AND TABLE_NAME = '" + table + "' " \
+              "AND COLUMN_KEY = 'PRI';"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+        column_name = response['COLUMN_NAME']
+
+        sql = "SELECT " + column_name + " FROM " + table + " " \
+              "WHERE " + field + " = '" + value + "';"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+        row_id = response['aislado_id']
+
+        return row_id

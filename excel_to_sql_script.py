@@ -146,65 +146,49 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
     db_obj = db.db.PsDb()
     db_obj.connect()
-    # tables = db_obj.get_table_names_db('psdb_json')
-    # db_obj.disconnect()
-    #
-    # df_sql_values = df
-    #
-    for table in tables_values:
-        # table_include = 0
-        response = db_obj.get_variable_names_table(table['Tables_in_psdb'])
-        variables = [diccionario['COLUMN_NAME'] for diccionario in response]
 
-        sql_columns = "INSERT INTO " + table['Tables_in_psdb'] + "("
+    for isolate in df_dictionary:
+        for key, value in isolate.items():
+            locus = key.split(" ")[0]
+            if locus in resistoma_dict:
+                resistoma_dict[locus] = isolate[key]
+            elif locus in mlst_dict:
+                mlst_dict[locus] = isolate[key]
+            elif locus in virulencia_dict:
+                virulencia_dict[locus] = isolate[key]
+            elif locus in hipermutacion_dict:
+                hipermutacion_dict[locus] = isolate[key]
 
-        # for isolate in df_dictionary:
-        for key, value in matched_db_fields.items():
-            if value in variables:
-                table_include = 1
-                sql_columns = sql_columns + matched_db_fields[key] + ", "
-            else:
-                pass
-                # df_sql_values.drop(columns=key)
+        for table, fields in tables_values.items():
+            if len(fields) > 0:
+                # response = db_obj.get_variable_names_table(table['Tables_in_psdb_json'])
+                # variables = [diccionario['COLUMN_NAME'] for diccionario in response]
+                isolate_id = db_obj.get_row_id(table, 'aislado_nombre', isolate['Isolate'])
 
-        # if table_include == 0:
-        #     sql_columns = ""
-        #     continue
-        # else:
-        #     sql_columns = sql_columns[:-2]
-        #     sql_columns = sql_columns + ") \n"
+                if table != 'metadata_general':
+                    table_id = db_obj.get_table_id(table)
+                    row_id = db_obj.get_row_id(table, 'aislado_id', isolate_id)
 
-        # print("SQL columns: ")
-        # print(sql_columns)
-        #
-        # print("df_sql_values: ")
-        # print(df_sql_values)
+                sql_script = sql_script + "INSERT INTO " + table + "("
+                if table != 'metadata_general': sql_script = sql_script + table_id + ", "
+                sql_script = sql_script + "aislado_id, "
 
-        # for row in excel_df:
-        #     sql_values = "VALUES ("
-        #     values = ",".join(str(value) for value in row)
+                for field, column_name in fields.items():
+                    if column_name in isolate:
+                        sql_script = sql_script + field + ", "
 
-        # for row in df_wospaces.itertuples(index=True):
-        # for row in df_dictionary:
-        #     sql_values = "VALUES ("
-        #     # print("Tuple: ")
-        #     # print(row)
-        #     for key, value in row.items():
-        #         # for key, value in matched_db_fields.items():
-        #         #                        if key == getattr(row, key) and value in variables:
-        #         variable = matched_db_fields[key]
-        #         if variable in variables:
-        #             # if table['Tables_in_psdb'] == locus
-        #             sql_values = sql_values + "'" + str(value) + "', "
-        #
-        #     sql_values = sql_values[:-2]
-        #     sql_values = sql_values + "); \n"
-        #     sql_script = sql_script + sql_columns + sql_values
+                sql_script = sql_script[:-2] + ") VALUES ("
 
-    # Disconnecting from DB once all the operations have been performed
+                if table != 'metadata_general': sql_script = sql_script + "'" + str(row_id) + "', "
+                sql_script = sql_script + "'" + str(isolate_id) + "', "
+                for field, column_name in fields.items():
+                    if column_name in isolate:
+                        sql_script = sql_script + "'" + str(isolate[column_name]) + "'" + ", "
+
+                sql_script = sql_script[:-2] + "); \n"
+
     db_obj.disconnect()
-
-    return sql_script
+    open('sql_script.sql', 'w').write(sql_script)
 
 
 read_input_file()
