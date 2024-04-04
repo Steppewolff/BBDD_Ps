@@ -364,6 +364,9 @@ INSERT INTO locus_hipermutacion (locus, nombre_oficial, nombre_sinonimo, especie
 ('1','175'),
 ('1','175');
 
+INSERT INTO metadata_general (aislado_nombre, especie) VALUES 
+('AND01-001', 'Pseudomonas aeruginosa');
+
 INSERT INTO books
     (id, title, author, year_published)
 VALUES
