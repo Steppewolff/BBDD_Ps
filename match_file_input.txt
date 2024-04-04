@@ -72,35 +72,35 @@ mic
 	aislado_id :
 	mic_fecha :
 	pip :
-	pip_tz :
-	fep :
+	pip_tz : PIP/TZ (mg/L)
+	fep : FEP (mg/L)
 	cfdc :
-	caz :
+	caz : CAZ (mg/L)
 	caz_avi :
 	ct :
-	imi :
+	imi : IMI (mg/L)
 	imi_rel :
-	mer :
+	mer : MER (mg/L)
 	mer_vab :
 	azt :
 	azt_avi :
-	cip :
+	cip : CIP (mg/L)
 	dlx :
 	lvx :
 	mxl :
 	ami :
 	gen :
 	net :
-	tob :
-	col :
+	tob : TOB (mg/L)
+	col : COL (mg/L)
 	fo :
 	tic : TIC (mg/L)
 	ptz :
 	taz :
-	cza :
-	tol :
-	atm :
-	caz_cloxa :
+	cza : CZA (mg/L)
+	tol : TOL/TZ (mg/L)
+	atm : ATM (mg/L)
+	caz_cloxa : CAZ cloxa-test
 	imi_cloxa : IMI cloxa-test
 	mic_observaciones :
 plataforma
@@ -122,7 +122,7 @@ secuencia
 	secuencia_id :
 	aislado_id :
 	perfil_mlst :
-	clon :
+	clon : ST
 	complejo_clonal :
 	resistoma_mutante :
 	resistoma_adquirido :

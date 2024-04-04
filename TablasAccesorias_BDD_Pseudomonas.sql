@@ -367,11 +367,11 @@ INSERT INTO locus_hipermutacion (locus, nombre_oficial, nombre_sinonimo, especie
 INSERT INTO metadata_general (aislado_nombre, especie) VALUES 
 ('AND01-001', 'Pseudomonas aeruginosa');
 
-INSERT INTO books
-    (id, title, author, year_published)
-VALUES
-    (@id, @title, @author, @year_published)
-ON DUPLICATE KEY UPDATE
-    title = @title,
-    author = @author,
-    year_published = @year_published;
+-- INSERT INTO books
+--     (id, title, author, year_published)
+-- VALUES
+--     (@id, @title, @author, @year_published)
+-- ON DUPLICATE KEY UPDATE
+--     title = @title,
+--     author = @author,
+--     year_published = @year_published;
