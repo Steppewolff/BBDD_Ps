@@ -58,7 +58,6 @@ class PsDb:
 
     # Devuelve los nombres de las tablas de una BDD
     def get_table_names_db(self, db):
-
         sql = "SHOW FULL TABLES FROM " + db + ";"
 
         self.cursor.execute(sql)
@@ -136,7 +135,7 @@ class PsDb:
         sql = "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS " \
               "WHERE TABLE_SCHEMA = 'psdb_json' " \
               "AND TABLE_NAME = '" + table + "' " \
-              "AND COLUMN_KEY = 'PRI';"
+                                             "AND COLUMN_KEY = 'PRI';"
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
@@ -148,17 +147,41 @@ class PsDb:
         sql = "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS " \
               "WHERE TABLE_SCHEMA = 'psdb_json' " \
               "AND TABLE_NAME = '" + table + "' " \
-              "AND COLUMN_KEY = 'PRI';"
+                                             "AND COLUMN_KEY = 'PRI';"
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
         column_name = response['COLUMN_NAME']
 
         sql = "SELECT " + column_name + " FROM " + table + " " \
-              "WHERE " + field + " = '" + value + "';"
+                                                           "WHERE " + field + " = '" + str(value) + "';"
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
-        row_id = response['aislado_id']
+        row_id = response[column_name]
 
         return row_id
+
+    def count(self, table, field, value):
+        sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = " + str(value) + ";"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+        count = response['COUNT(*)']
+
+        return count
+
+    def insert_row(self, table, field, value):
+        sql = "INSERT INTO " + table + " (" + field + ") VALUES (" + str(value) + ");"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+
+        sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = " + str(value) + ";"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+        if response['COUNT(*)'] == 1:
+            return True
+        else:
+            return False
