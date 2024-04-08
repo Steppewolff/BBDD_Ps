@@ -152,13 +152,33 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
         for key, value in isolate.items():
             locus = key.split(" ")[0]
             if locus in resistoma_dict:
-                resistoma_dict[locus] = isolate[key]
+                if str(isolate[key]) == 'nan':
+                    mutant = 'WT'
+                else:
+                    mutant = isolate[key]
+                resistoma_dict[locus] = mutant
             elif locus in mlst_dict:
-                mlst_dict[locus] = isolate[key]
+                if isolate[key] == 'nan':
+                    mutant = 'WT'
+                else:
+                    mutant = isolate[key]
+                mlst_dict[locus] = mutant
             elif locus in virulencia_dict:
-                virulencia_dict[locus] = isolate[key]
+                if isolate[key] == 'nan':
+                    mutant = 'WT'
+                else:
+                    mutant = isolate[key]
+                virulencia_dict[locus] = mutant
             elif locus in hipermutacion_dict:
-                hipermutacion_dict[locus] = isolate[key]
+                if isolate[key] == 'nan':
+                    mutant = 'WT'
+                else:
+                    mutant = isolate[key]
+                hipermutacion_dict[locus] = mutant
+
+        sql_count = db_obj.count('metadata_general', 'aislado_nombre', isolate['Isolate'])
+        if sql_count == 0:
+            success = db_obj.insert_row('metadata_general', 'aislado_nombre', isolate['Isolate'])
 
         isolate_id = db_obj.get_row_id('metadata_general', 'aislado_nombre', isolate['Isolate'])
 
@@ -227,7 +247,6 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
                 sql_script = sql_script + "ON DUPLICATE KEY UPDATE "
 
-                sql_script = sql_script + "aislado_id = " + "'" + str(isolate_id) + "', "
                 for field, column_name in fields.items():
                     if column_name in isolate:
                         sql_script = sql_script + field + " = '" + str(isolate[column_name]) + "'" + ", "

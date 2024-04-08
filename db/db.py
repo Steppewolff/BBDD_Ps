@@ -31,7 +31,7 @@ class PsDb:
             host='127.0.0.1',  # 'fgromano.com', #
             port=3306,
             user='fernando',  # 'root',
-            passwd='password',  # # 'Orgullovalor,'
+            passwd='Orgullovalor',  # # 'password,'
             db='psdb_json',
             charset='utf8mb4',
             autocommit=True,
@@ -163,7 +163,7 @@ class PsDb:
         return row_id
 
     def count(self, table, field, value):
-        sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = " + str(value) + ";"
+        sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = '" + str(value) + "';"
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
@@ -172,12 +172,12 @@ class PsDb:
         return count
 
     def insert_row(self, table, field, value):
-        sql = "INSERT INTO " + table + " (" + field + ") VALUES (" + str(value) + ");"
+        sql = "INSERT INTO " + table + " (" + field + ") VALUES ('" + str(value) + "');"
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
 
-        sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = " + str(value) + ";"
+        sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = '" + str(value) + "';"
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()

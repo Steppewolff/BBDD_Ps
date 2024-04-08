@@ -339,9 +339,9 @@ INSERT INTO resistoma_mutante (locus, nombre_oficial, nombre_sinonimo, nombre_pb
 
 
 
-INSERT INTO resistoma_adquirido (locus, nombre_oficial, nombre_sinonimo) VALUES
-('1','175','175'),
-('1','175','175');
+-- INSERT INTO resistoma_adquirido (locus, nombre_oficial, nombre_sinonimo) VALUES
+-- ('1','175','175'),
+-- ('1','175','175');
 
 
 
@@ -360,12 +360,12 @@ INSERT INTO locus_virulencia (locus, nombre_oficial, nombre_sinonimo, especie) V
 ('PA14_51530','exoU','','Pseudomonas aeruginosa'),
 ('PA0044','exoT','','Pseudomonas aeruginosa');
 
-INSERT INTO locus_hipermutacion (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
-('1','175'),
-('1','175');
+-- INSERT INTO locus_hipermutacion (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
+-- ('1','175'),
+-- ('1','175');
 
-INSERT INTO metadata_general (aislado_nombre, especie) VALUES 
-('AND01-001', 'Pseudomonas aeruginosa');
+-- INSERT INTO metadata_general (aislado_nombre, especie) VALUES 
+-- ('AND01-001', 'Pseudomonas aeruginosa');
 
 -- INSERT INTO books
 --     (id, title, author, year_published)
