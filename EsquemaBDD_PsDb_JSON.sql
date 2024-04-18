@@ -209,6 +209,9 @@ create table fenotipo(
 	FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
 );
 
+ALTER TABLE fenotipo
+MODIFY serotipo_invitro VARCHAR(60);
+
 DROP TABLE IF EXISTS mic;
 create table mic(
 	mic_id INT NOT NULL AUTO_INCREMENT,

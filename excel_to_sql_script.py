@@ -148,6 +148,10 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
     db_obj = db.db.PsDb()
     db_obj.connect()
 
+    print("Introduce el NOMBRE EXACTO de la columna del archivo excel que contiene el identificador aislado:")
+    id_aislado = ""
+    id_aislado = input()
+
     for isolate in df_dictionary:
         for key, value in isolate.items():
             locus = key.split(" ")[0]
@@ -176,11 +180,11 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                     mutant = isolate[key]
                 hipermutacion_dict[locus] = mutant
 
-        sql_count = db_obj.count('metadata_general', 'aislado_nombre', isolate['Isolate'])
+        sql_count = db_obj.count('metadata_general', 'aislado_nombre', isolate[id_aislado])
         if sql_count == 0:
-            success = db_obj.insert_row('metadata_general', 'aislado_nombre', isolate['Isolate'])
+            success = db_obj.insert_row('metadata_general', 'aislado_nombre', isolate[id_aislado])
 
-        isolate_id = db_obj.get_row_id('metadata_general', 'aislado_nombre', isolate['Isolate'])
+        isolate_id = db_obj.get_row_id('metadata_general', 'aislado_nombre', isolate[id_aislado])
 
         if len(resistoma_dict) > 0:
             resistoma_json = json.dumps(resistoma_dict)
@@ -231,7 +235,14 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                 sql_script = sql_script + "'" + str(isolate_id) + "', "
                 for field, column_name in fields.items():
                     if column_name in isolate:
-                        sql_script = sql_script + "'" + str(isolate[column_name]) + "'" + ", "
+                        if table == 'metadata_clinico':
+# ********************************************************************************************************************
+# Aqui hay que hacer un if para los campos de metadata clinico  y secuenciacion que tienen que coger ids de otras tablas
+# ********************************************************************************************************************
+
+                            sql_script = sql_script + "'" + str(isolate[column_name]) + "'" + ", "
+                        else:
+                            sql_script = sql_script + "'" + str(isolate[column_name]) + "'" + ", "
 
                 if table == 'secuencia':
                     if len(resistoma_dict) > 0:

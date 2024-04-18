@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-04-04T06:52:03.475Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="_MCQjgEY_SM9SCLFBkQx" scale="1" border="0" version="24.1.0" type="device" pages="4">
+<mxfile host="Electron" modified="2024-04-04T06:52:25.812Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Vtgr67x2YpjZxGXdNSPA" scale="1" border="0" version="24.1.0" type="device" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Usando JSON">
     <mxGraphModel dx="3120" dy="2505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2288,7 +2288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SmMMtdULoaoBQeAYzfFd" name="Usando JSON v2">
-    <mxGraphModel dx="2922" dy="1297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2613,7 +2613,7 @@
           <mxGeometry x="40" y="429" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KXFAIgLGiB4K-hC5g8GP-126" value="1...1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="6" y="338" width="60" height="30" as="geometry" />
+          <mxGeometry x="-443" y="325" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KXFAIgLGiB4K-hC5g8GP-139" value="1...1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="60" height="30" as="geometry" />
@@ -3221,7 +3221,7 @@
           <mxGeometry x="85.00250000000005" y="4.00181818181818" width="19.2625" height="20.90909090909091" as="geometry" />
         </mxCell>
         <mxCell id="AUvoLBU5HWrdZqLy_OrK-63" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-630" y="120" width="220" height="390" as="geometry" />
+          <mxGeometry x="-720" y="120" width="220" height="390" as="geometry" />
         </mxCell>
         <mxCell id="eTia0QOV6zzKI-s4kfOi-12" value="Otros campos a añadir a Información fenotipica" style="swimlane;whiteSpace=wrap;html=1;startSize=42;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=hatch;" parent="AUvoLBU5HWrdZqLy_OrK-63" vertex="1">
           <mxGeometry width="200" height="390" as="geometry" />

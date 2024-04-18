@@ -109,7 +109,7 @@ plataforma
 	proveedor : 
 resistoma_adquirido
 	resistoma_adq_id : 
-	nombre : 
+	locus : 
 	tipo_funcion : 
 resistoma_mutante
 	resistoma_mut_id : 
