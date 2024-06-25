@@ -108,8 +108,8 @@ class PsDb:
     # Devuelve los datos de un aislado concreto mediante isolated_id
     def isolated_id(self, isolated_id):
         sql = "SELECT * FROM psdb_json.metadata_general" \
-              "ORDER BY aislado_id " \
-              "WHERE isolated_id = '" + isolated_id + "';"
+              "ORDER BY isolate_id " \
+              "WHERE isolate_id = '" + isolated_id + "';"
 
         print('SQL query: ', sql)
         self.cursor.execute(sql)
@@ -161,6 +161,21 @@ class PsDb:
         row_id = response[column_name]
 
         return row_id
+
+    def get_fk(self, table):
+        sql = "SELECT REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME " \
+              "FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE " \
+              "WHERE REFERENCED_TABLE_SCHEMA = 'psdb_json' " \
+              "AND REFERENCED_TABLE_NAME = '" + table + "';"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchall()
+
+        list_fk = {}
+        for key in response:
+            list_fk[key['TABLE_NAME']] = key['COLUMN_NAME']
+
+        return response
 
     def count(self, table, field, value):
         sql = "SELECT COUNT(*) FROM " + table + " WHERE " + field + " = '" + str(value) + "';"

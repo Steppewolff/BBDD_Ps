@@ -46,14 +46,21 @@ create table tipo_muestra(
 DROP TABLE IF EXISTS metadata_clinico;
 create table metadata_clinico(
 	clinico_id INT NOT NULL AUTO_INCREMENT,
+	aislado_id INT UNIQUE,
 	paciente_id VARCHAR(255),
     tipo_muestra VARCHAR(255),
-    hospital INT UNIQUE,
+    hospital INT,
     servicio_obtencion VARCHAR(255),
 	/* Table restrictions */
     PRIMARY KEY(clinico_id),
     FOREIGN KEY(hospital) REFERENCES hospital(hospital_id)
 );
+
+-- ALTER TABLE metadata_clinico
+-- ADD COLUMN aislado_id INT UNIQUE;
+
+-- ALTER TABLE metadata_clinico
+-- MODIFY COLUMN hospital INT;
 
 DROP TABLE IF EXISTS secuencia;
 create table secuencia(
@@ -200,7 +207,7 @@ create table fenotipo(
     test_mbl VARCHAR(3),
     test_blee VARCHAR(3),
     test_carba_A VARCHAR(3),
-    serotipo_invitro VARCHAR(3),
+    serotipo_invitro VARCHAR(60),
     cevs INT,
     virulencia_galleria INT,
     fenot_hipermutador VARCHAR(15),
@@ -209,8 +216,8 @@ create table fenotipo(
 	FOREIGN KEY(aislado_id) REFERENCES metadata_general(aislado_id)
 );
 
-ALTER TABLE fenotipo
-MODIFY serotipo_invitro VARCHAR(60);
+-- ALTER TABLE fenotipo
+-- MODIFY serotipo_invitro VARCHAR(60);
 
 DROP TABLE IF EXISTS mic;
 create table mic(

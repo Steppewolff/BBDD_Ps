@@ -50,8 +50,7 @@ def read_input_file():
                     table_aux = table
             tables.pop(table_index)
             tables.insert(0, table_aux)
-            # print('tables:')
-            # print(tables)
+
             print('df_dictionary:')
             print(df_dictionary)
             db_obj.disconnect()
@@ -95,13 +94,13 @@ def read_matches(df_dictionary, excel_fields):
     tables_values = {}
     db_obj = db.db.PsDb()
     db_obj.connect()
-    locus_resistoma = db_obj.loci_list('resistoma_mutante')
+    locus_resistoma = db_obj.loci_list('mutational_resistome')
     resistoma_dict = {}
     locus_mlst = db_obj.loci_list('locus_mlst')
     mlst_dict = {}
-    locus_virulencia = db_obj.loci_list('locus_virulencia')
+    locus_virulencia = db_obj.loci_list('virulence_gene')
     virulencia_dict = {}
-    locus_hipermutacion = db_obj.loci_list('locus_hipermutacion')
+    locus_hipermutacion = db_obj.loci_list('hypermutation_gene')
     hipermutacion_dict = {}
     db_obj.disconnect()
 
@@ -111,7 +110,7 @@ def read_matches(df_dictionary, excel_fields):
             if line == "Campos de la base de datos:\n":
                 print(line)
             if line[0] != "\t" and line != "Campos de la base de datos:\n":
-                print(line)
+                # print(line)
                 line = line.rstrip("\n")
                 table_name = line
                 tables_values[table_name] = {}
@@ -180,11 +179,11 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                     mutant = isolate[key]
                 hipermutacion_dict[locus] = mutant
 
-        sql_count = db_obj.count('metadata_general', 'aislado_nombre', isolate[id_aislado])
+        sql_count = db_obj.count('metadata_general', 'isolate_name', isolate[id_aislado])
         if sql_count == 0:
-            success = db_obj.insert_row('metadata_general', 'aislado_nombre', isolate[id_aislado])
+            success = db_obj.insert_row('metadata_general', 'isolate_name', isolate[id_aislado])
 
-        isolate_id = db_obj.get_row_id('metadata_general', 'aislado_nombre', isolate[id_aislado])
+        isolate_id = db_obj.get_row_id('metadata_general', 'isolate_name', isolate[id_aislado])
 
         if len(resistoma_dict) > 0:
             resistoma_json = json.dumps(resistoma_dict)
@@ -202,49 +201,67 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
         for table, fields in tables_values.items():
             if len(fields) > 0:
 
+                duplicate_update = {}
+
                 if table != 'metadata_general':
-                    sql_count = db_obj.count(table, 'aislado_id', isolate_id)
+                    sql_count = db_obj.count(table, 'isolate_id', isolate_id)
                     if sql_count == 0:
-                        success = db_obj.insert_row(table, 'aislado_id', isolate_id)
+                        success = db_obj.insert_row(table, 'isolate_id', isolate_id)
                     table_id = db_obj.get_table_id(table)
-                    row_id = db_obj.get_row_id(table, 'aislado_id', isolate_id)
+                    row_id = db_obj.get_row_id(table, 'isolate_id', isolate_id)
 
                 sql_script = sql_script + "INSERT INTO " + table + "("
                 if table != 'metadata_general': sql_script = sql_script + table_id + ", "
                 table_variables = db_obj.get_variable_names_table(table)
                 for variable in table_variables:
-                    if variable['COLUMN_NAME'] == 'aislado_id': sql_script = sql_script + "aislado_id, "
+                    if variable['COLUMN_NAME'] == 'isolate_id': sql_script = sql_script + "isolate_id, "
 
                 for field, column_name in fields.items():
                     if column_name in isolate:
                         sql_script = sql_script + field + ", "
 
-                if table == 'secuencia':
+                if table == 'sequence_analysis':
                     if len(resistoma_dict) > 0:
-                        sql_script = sql_script + 'resistoma_mutante' + ", "
+                        sql_script = sql_script + 'mutational_resistome' + ", "
                     if len(mlst_dict) > 0:
-                        sql_script = sql_script + 'perfil_mlst' + ", "
+                        sql_script = sql_script + 'mlst_allelic_profile' + ", "
                     if len(virulencia_dict) > 0:
-                         sql_script = sql_script + 'genes_virulencia' + ", "
+                         sql_script = sql_script + 'virulence_gene' + ", "
                     if len(hipermutacion_dict) > 0:
-                        sql_script = sql_script + 'genes_hipermutacion' + ", "
+                        sql_script = sql_script + 'hypermutation_gene' + ", "
 
                 sql_script = sql_script[:-2] + ") VALUES ("
 
                 if table != 'metadata_general': sql_script = sql_script + "'" + str(row_id) + "', "
                 sql_script = sql_script + "'" + str(isolate_id) + "', "
                 for field, column_name in fields.items():
+                    value_field = ""
                     if column_name in isolate:
-                        if table == 'metadata_clinico':
-# ********************************************************************************************************************
-# Aqui hay que hacer un if para los campos de metadata clinico  y secuenciacion que tienen que coger ids de otras tablas
-# ********************************************************************************************************************
+                        if table == 'metadata_clinic':
+                            if field == 'hospital':
+                                value_field = db_obj.get_row_id('hospital', 'hospital_name', isolate[column_name])
+                            elif field == 'sample_type':
+                                value_field = db_obj.get_row_id('sample_type', 'sample', isolate[column_name])
+                            else:
+                                value_field = isolate[column_name]
 
-                            sql_script = sql_script + "'" + str(isolate[column_name]) + "'" + ", "
+                        elif table == 'sequencing_info':
+                            if field == 'sequencing_technology':
+                                value_field = db_obj.get_row_id('sequencing_technology', 'sequencing_technology_name', isolate[column_name])
+                            elif field == 'sequencing_platform':
+                                value_field = db_obj.get_row_id('sequencing_platform', 'sequencing_platform_name', isolate[column_name])
+                            elif field == 'sequencing_library':
+                                value_field = db_obj.get_row_id('sequencing_library', 'sequencing_library_method', isolate[column_name])
+                            else:
+                                value_field = isolate[column_name]
+
                         else:
-                            sql_script = sql_script + "'" + str(isolate[column_name]) + "'" + ", "
+                            value_field = isolate[column_name]
 
-                if table == 'secuencia':
+                        duplicate_update[field] = value_field
+                        sql_script = sql_script + "'" + str(value_field) + "'" + ", "
+
+                if table == 'sequence_analysis':
                     if len(resistoma_dict) > 0:
                         sql_script = sql_script + "'" + resistoma_json + "', "
                     if len(mlst_dict) > 0:
@@ -258,19 +275,19 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
                 sql_script = sql_script + "ON DUPLICATE KEY UPDATE "
 
-                for field, column_name in fields.items():
-                    if column_name in isolate:
-                        sql_script = sql_script + field + " = '" + str(isolate[column_name]) + "'" + ", "
+                for field, field_value in duplicate_update.items():
+                    # if column_name in isolate:
+                    sql_script = sql_script + field + " = '" + str(field_value) + "'" + ", "
 
-                if table == 'secuencia':
+                if table == 'sequence_analysis':
                     if len(resistoma_dict) > 0:
-                        sql_script = sql_script + "resistoma_mutante = '" + resistoma_json + "', "
+                        sql_script = sql_script + "mutational_resistome = '" + resistoma_json + "', "
                     if len(mlst_dict) > 0:
-                        sql_script = sql_script + "perfil_mlst = '" + mlst_json + "', "
+                        sql_script = sql_script + "mlst_allelic_profile = '" + mlst_json + "', "
                     if len(virulencia_dict) > 0:
-                        sql_script = sql_script + "genes_virulencia = '" + virulencia_json + "', "
+                        sql_script = sql_script + "virulence_gene = '" + virulencia_json + "', "
                     if len(hipermutacion_dict) > 0:
-                        sql_script = sql_script + "genes_hipermutacion = '" + hipermutacion_json + "', "
+                        sql_script = sql_script + "hypermutation_gene = '" + hipermutacion_json + "', "
 
                 sql_script = sql_script[:-2] + "; \n"
 

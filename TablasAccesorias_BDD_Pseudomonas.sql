@@ -1,4 +1,4 @@
-INSERT INTO hospital (hospital_nombre, pais, region, localidad) VALUES
+INSERT INTO hospital (hospital_name, country, region, town) VALUES
 ('C.H. Ciudad de Jaén','España', 'Andalucía', 'Jaén'),
 ('Corporació Sanitària Parc Taulí','España', 'Cataluña', 'Sabadell'),
 ('Hospital 12 Octubre','España', 'Madrid', 'Madrid'),
@@ -36,7 +36,7 @@ INSERT INTO hospital (hospital_nombre, pais, region, localidad) VALUES
 ('Hospital Virgen Arrixaca','España','Murcia', 'Murcia'),
 ('Hospital Virgen de la Macarena','España','Andalucía', 'Sevilla');
 
-INSERT INTO tipo_muestra (tipo) VALUES
+INSERT INTO sample_type (sample) VALUES
 ('Esputo'),
 ('Esputo(FQ)'),
 ('Líquido pleural'),
@@ -69,94 +69,59 @@ INSERT INTO tipo_muestra (tipo) VALUES
 ('Líquido estéril otros'),
 ('Otros');
 
-INSERT INTO plataforma (nombre, proveedor) VALUES 
-('Illumina HiSeq', 'Illumina'),
+INSERT INTO sequencing_platform (sequencing_platform_name, sequencing_platform_supplier) VALUES 
 ('Illumina MiSeq', 'Illumina'),
 ('Illumina NovaSeq', 'Illumina'),
-('PacBio Sequel', 'Pacific Biosciences'),
-('Ion Torrent', 'Thermo Fisher Scientific'),
 ('Oxford Nanopore MinION', 'Oxford Nanopore Technologies'),
-('Oxford Nanopore GridION', 'Oxford Nanopore Technologies'),
-('10X Genomics Chromium', '10X Genomics'),
-('BioNano Genomics Saphyr', 'BioNano Genomics'),
-('Dovetail Genomics Hi-C', 'Dovetail Genomics'),
-('ABI SOLiD', 'Thermo Fisher Scientific'),
-('Complete Genomics', 'BGI'),
-('Roche 454', 'Roche Diagnostics'),
-('BGISEQ', 'BGI'),
-('PacBio RS II', 'Pacific Biosciences'),
-('Thermo Fisher Ion Proton', 'Thermo Fisher Scientific'),
-('MGI DNBSEQ-T7', 'MGI Tech'),
-('Nebula Genomics Sequencing', 'Nebula Genomics'),
-('Oxford Nanopore PromethION', 'Oxford Nanopore Technologies'),
-('PacBio Sequel II', 'Pacific Biosciences');
+('Oxford Nanopore GridION', 'Oxford Nanopore Technologies');
 
-INSERT INTO tecnica (nombre, lecturas, metodo) VALUES 
-('Illumina Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Illumina NovaSeq', 'Short Read', 'Sequenciación por síntesis'),
-('Illumina MiSeq', 'Short Read', 'Sequenciación por síntesis'),
-('Illumina HiSeq', 'Short Read', 'Sequenciación por síntesis'),
-('PacBio Sequencing', 'Long Read', 'Secuenciación de molécula única (SMRT)'),
-('PacBio Sequel', 'Long Read', 'Secuenciación de molécula única (SMRT)'),
-('PacBio Sequel II', 'Long Read', 'Secuenciación de molécula única (SMRT)'),
-('Oxford Nanopore Sequencing', 'Long Read', 'Secuenciación por nanoporos'),
-('Oxford Nanopore MinION', 'Long Read', 'Secuenciación por nanoporos'),
-('Oxford Nanopore GridION', 'Long Read', 'Secuenciación por nanoporos'),
-('10X Genomics Chromium', 'Short Read', 'Sequenciación por síntesis'),
-('Ion Torrent Sequencing', 'Short Read', 'Secuenciación por semiconductor'),
-('BioNano Genomics Sequencing', 'Long Read', 'Mapa óptico'),
-('Hi-C Sequencing', 'Short Read', 'Secuenciación por síntesis'),
-('Tagmentation-Based Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Linked-Read Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Whole Genome Sequencing (WGS)', 'Short Read', 'Sequenciación por síntesis'),
-('Exome Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('RNA Sequencing (RNA-seq)', 'Short Read', 'Sequenciación por síntesis'),
-('ChIP Sequencing (ChIP-seq)', 'Short Read', 'Sequenciación por síntesis'),
-('Methyl Sequencing (Methyl-seq)', 'Short Read', 'Sequenciación por síntesis'),
-('Amplicon Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Metagenomic Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Targeted Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Whole Transcriptome Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('cDNA Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Shotgun Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('RAD Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Paired-End Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Single-Cell Sequencing', 'Short Read', 'Sequenciación por síntesis'),
-('Single-Molecule Sequencing', 'Long Read', 'Sequenciación por síntesis');
+INSERT INTO sequencing_technology (sequencing_technology_name, reads_type) VALUES 
+('Illumina Sequencing', 'Short Read'),
+('Illumina NovaSeq', 'Short Read'),
+('Illumina MiSeq', 'Short Read'),
+('Illumina HiSeq', 'Short Read'),
+('Oxford Nanopore Sequencing', 'Long Read'),
+('Oxford Nanopore MinION', 'Long Read'),
+('Oxford Nanopore GridION', 'Long Read');
 
-INSERT INTO libreria (nombre, metodo) VALUES 
-('WGS Library', 'tagmentation-based'),
-('Exome Library', 'tagmentation-based'),
-('RNA Library', 'tagmentation-based'),
-('ChIP Library', 'tagmentation-based'),
-('Methyl-seq Library', 'tagmentation-based'),
-('Amplicon Library', 'ligation-based'),
-('Metagenomic Library', 'tagmentation-based'),
-('Targeted Library', 'ligation-based'),
-('Whole Transcriptome Library', 'tagmentation-based'),
-('cDNA Library', 'tagmentation-based'),
-('Shotgun Library', 'tagmentation-based'),
-('RAD Library', 'ligation-based'),
-('Paired-End Library', 'ligation-based'),
-('Single-Cell Library', 'tagmentation-based'),
-('Long-Read Library', 'ligation-based'),
-('Short-Read Library', 'ligation-based'),
-('PCR-free Library', 'ligation-based'),
-('Mate-Pair Library', 'ligation-based'),
-('3\' Tag Library', 'ligation-based'),
-('5\' Tag Library', 'ligation-based'),
-('Full-length Library', 'ligation-based'),
-('Strand-specific Library', 'ligation-based'),
-('Synthetic Long-Read Library', 'ligation-based'),
-('Circularized Library', 'ligation-based'),
-('Size-Selected Library', 'ligation-based'),
-('Normalized Library', 'ligation-based'),
-('Low-Input Library', 'ligation-based'),
-('Direct-capture Library', 'ligation-based'),
-('Tethered-capture Library', 'ligation-based'),
-('Capture-Hi-C Library', 'ligation-based');
+INSERT INTO sequencing_library (sequencing_library_method) VALUES 
+('WGS Library'),
+('Exome Library'),
+('RNA Library'),
+('ChIP Library'),
+('Methyl-seq Library'),
+('Amplicon Library'),
+('Metagenomic Library'),
+('Targeted Library'),
+('Whole Transcriptome Library'),
+('cDNA Library'),
+('Shotgun Library'),
+('RAD Library'),
+('Paired-End Library'),
+('Single-Cell Library'),
+('Long-Read Library'),
+('Short-Read Library'),
+('PCR-free Library'),
+('Mate-Pair Library'),
+('3\' Tag Library'),
+('5\' Tag Library'),
+('Full-length Library'),
+('Strand-specific Library'),
+('Synthetic Long-Read Library'),
+('Circularized Library'),
+('Size-Selected Library'),
+('Normalized Library'),
+('Low-Input Library'),
+('Direct-capture Library'),
+('Tethered-capture Library'),
+('Capture-Hi-C Library');
 
-INSERT INTO resistoma_mutante (locus, nombre_oficial, nombre_sinonimo, nombre_pbp, especie) VALUES 
+INSERT INTO flowcell_kit (flowcell_kit_name) VALUES 
+('flowcell_kit_name_1'),
+('flowcell_kit_name_2'),
+('flowcell_kit_name_3');
+
+INSERT INTO mutational_resistome (locus, official_name, synonym_name, pbp_name, species) VALUES 
 ('PA0004', 'gyrB', '', '', 'Pseudomonas aeruginosa'),
 ('PA0005', 'lptA', '', '', 'Pseudomonas aeruginosa'),
 ('PA0018', 'fmt', '', '', 'Pseudomonas aeruginosa'),
@@ -337,15 +302,11 @@ INSERT INTO resistoma_mutante (locus, nombre_oficial, nombre_sinonimo, nombre_pb
 ('PA5443', 'uvrD', '', '', 'Pseudomonas aeruginosa'),
 ('PA5493', 'polA', '', '', 'Pseudomonas aeruginosa');
 
-
-
 -- INSERT INTO resistoma_adquirido (locus, nombre_oficial, nombre_sinonimo) VALUES
 -- ('1','175','175'),
 -- ('1','175','175');
 
-
-
-INSERT INTO locus_mlst (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
+INSERT INTO locus_mlst (locus, official_name, synonym_name, species) VALUES
 ('PA0887','acsA','','Pseudomonas aeruginosa'),
 ('PA0025','aroE','','Pseudomonas aeruginosa'),
 ('PA3769','guaA','','Pseudomonas aeruginosa'),
@@ -354,24 +315,43 @@ INSERT INTO locus_mlst (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
 ('PA1770','ppsA','','Pseudomonas aeruginosa'),
 ('PA0609','trpE','','Pseudomonas aeruginosa');
 
-INSERT INTO locus_virulencia (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
+INSERT INTO virulence_gene (locus, official_name, synonym_name, species) VALUES
 ('PA2191','exoY','','Pseudomonas aeruginosa'),
 ('PA3841','exoS','','Pseudomonas aeruginosa'),
 ('PA14_51530','exoU','','Pseudomonas aeruginosa'),
 ('PA0044','exoT','','Pseudomonas aeruginosa');
 
--- INSERT INTO locus_hipermutacion (locus, nombre_oficial, nombre_sinonimo, especie) VALUES
--- ('1','175'),
--- ('1','175');
+INSERT INTO hypermutation_gene (locus, official_name, synonym_name, species) VALUES
+('PAXXXX','mutX','','Pseudomonas aeruginosa');
 
--- INSERT INTO metadata_general (aislado_nombre, especie) VALUES 
--- ('AND01-001', 'Pseudomonas aeruginosa');
+INSERT INTO invitro_serotype (invitro_value) VALUES
+('O1'),
+('O2'),
+('O3'),
+('O4'),
+('O5'),
+('O6'),
+('O7'),
+('O8'),
+('O9'),
+('O10'),
+('O11'),
+('O12'),
+('O13'),
+('O14'),
+('O15'),
+('O16'),
+('O17'),
+('O18'),
+('O19'),
+('O20'),
+('None'),
+('Autoagglutination');
 
--- INSERT INTO books
---     (id, title, author, year_published)
--- VALUES
---     (@id, @title, @author, @year_published)
--- ON DUPLICATE KEY UPDATE
---     title = @title,
---     author = @author,
---     year_published = @year_published;
+INSERT INTO assembler (assembler_name) VALUES 
+('assembler_name_1'),
+('assembler_name_2'),
+('assembler_name_3');
+
+-- INSERT INTO file_path (isolate_id, fastq_path, denovo_assembly_path, assembler) VALUES
+-- (1,'/home/micro/secuencias/Proyecto001/fasta_files/','/home/micro/secuencias/Proyecto001/assembly_files/',1);
