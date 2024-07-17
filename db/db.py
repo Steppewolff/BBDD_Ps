@@ -158,9 +158,20 @@ class PsDb:
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
-        row_id = response[column_name]
+        if response is None:
+            row_id = None
+        else:
+            row_id = response[column_name]
 
         return row_id
+
+    def get_value_byid(self, table, field):
+        sql = "SELECT " + field + " FROM " + table + " WHERE " + field + " = '" + str(value) + "';"
+
+        self.cursor.execute(sql)
+        response = self.cursor.fetchone()
+
+        return response
 
     def get_fk(self, table):
         sql = "SELECT REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME " \

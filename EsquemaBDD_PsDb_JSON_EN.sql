@@ -65,7 +65,8 @@ create table metadata_clinic(
     
 	/* Table restrictions */
     PRIMARY KEY(clinic_id),
-    FOREIGN KEY(hospital) REFERENCES hospital(hospital_id)
+    FOREIGN KEY(isolate_id) REFERENCES metadata_general(isolate_id),
+    FOREIGN KEY(hospital) REFERENCES hospital(hospital_id)    
 );
 
 -- ALTER TABLE metadata_clinico
@@ -140,7 +141,7 @@ create table mutational_resistome(
 	mutational_resistome_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(20) UNIQUE,
     official_name VARCHAR(6),
-    synonym_name VARCHAR(6),
+    synonym_name VARCHAR(255),
     pbp_name VARCHAR(6),
     species VARCHAR(100),
     
@@ -163,7 +164,7 @@ create table locus_mlst(
 	mlst_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(20) UNIQUE,
     official_name VARCHAR(6),
-    synonym_name VARCHAR(6),
+    synonym_name VARCHAR(255),
     species VARCHAR(100),
     
  	/* Table restrictions */
@@ -175,7 +176,7 @@ create table virulence_gene(
 	virulence_gene_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(20) UNIQUE,
     official_name VARCHAR(6),
-    synonym_name VARCHAR(6),
+    synonym_name VARCHAR(255),
     species VARCHAR(100),
     
  	/* Table restrictions */
@@ -187,7 +188,7 @@ create table hypermutation_gene(
 	hypermutation_gene_id INT NOT NULL AUTO_INCREMENT,
 	locus VARCHAR(20) UNIQUE,
     official_name VARCHAR(6),
-    synonym_name VARCHAR(6),
+    synonym_name VARCHAR(255),
     species VARCHAR(100),
     
  	/* Table restrictions */

@@ -2,6 +2,7 @@ import pandas as pd
 import os.path
 from tkinter import filedialog
 import json
+import re
 
 import db
 
@@ -15,6 +16,12 @@ values_list = []
 
 db_value = ""
 
+
+def escape_quotes(string):
+    string = re.sub(r"'", r"\'", string)
+    string = re.sub(r'"', r'\"', string)
+
+    return string
 
 def read_input_file():
     # Limpiar listas de campos y opciones de select
@@ -44,15 +51,15 @@ def read_input_file():
             table_index = 0
             table_aux = {}
             for table in tables:
-                print(table['Tables_in_psdb_json'])
+                # print(table['Tables_in_psdb_json'])
                 if table['Tables_in_psdb_json'] == 'metadata_general':
                     table_index = tables.index(table)
                     table_aux = table
             tables.pop(table_index)
             tables.insert(0, table_aux)
 
-            print('df_dictionary:')
-            print(df_dictionary)
+            # print('df_dictionary:')
+            # print(df_dictionary)
             db_obj.disconnect()
         except pd.errors.EmptyDataError:
             print("Error: El archivo está vacío.")
@@ -110,12 +117,12 @@ def read_matches(df_dictionary, excel_fields):
             if line == "Campos de la base de datos:\n":
                 print(line)
             if line[0] != "\t" and line != "Campos de la base de datos:\n":
-                # print(line)
+                print(line)
                 line = line.rstrip("\n")
                 table_name = line
                 tables_values[table_name] = {}
             else:
-                print(line)
+                # print(line)
                 line = line.rstrip("\n")
                 line = line.lstrip("\t")
                 line_values = line.split(" : ")
@@ -136,13 +143,14 @@ def read_matches(df_dictionary, excel_fields):
                 pass
 
     else:
-        print("No se ha encontrado el archivo 'match_file_input.txt'")
+        print("No se ha encontrado el archivo 'match_file_input_gemarasuplementary.txt'")
 
     write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, virulencia_dict, hipermutacion_dict)
 
 
 def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, virulencia_dict, hipermutacion_dict):
     sql_script = ""
+    sql_script_comments = ""
 
     db_obj = db.db.PsDb()
     db_obj.connect()
@@ -197,7 +205,6 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
         if len(hipermutacion_dict) > 0:
             hipermutacion_json = json.dumps(hipermutacion_dict)
 
-
         for table, fields in tables_values.items():
             if len(fields) > 0:
 
@@ -226,7 +233,7 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                     if len(mlst_dict) > 0:
                         sql_script = sql_script + 'mlst_allelic_profile' + ", "
                     if len(virulencia_dict) > 0:
-                         sql_script = sql_script + 'virulence_gene' + ", "
+                        sql_script = sql_script + 'virulence_gene' + ", "
                     if len(hipermutacion_dict) > 0:
                         sql_script = sql_script + 'hypermutation_gene' + ", "
 
@@ -247,19 +254,38 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
                         elif table == 'sequencing_info':
                             if field == 'sequencing_technology':
-                                value_field = db_obj.get_row_id('sequencing_technology', 'sequencing_technology_name', isolate[column_name])
+                                value_field = db_obj.get_row_id('sequencing_technology', 'sequencing_technology_name',
+                                                                isolate[column_name])
                             elif field == 'sequencing_platform':
-                                value_field = db_obj.get_row_id('sequencing_platform', 'sequencing_platform_name', isolate[column_name])
+                                value_field = db_obj.get_row_id('sequencing_platform', 'sequencing_platform_name',
+                                                                isolate[column_name])
                             elif field == 'sequencing_library':
-                                value_field = db_obj.get_row_id('sequencing_library', 'sequencing_library_method', isolate[column_name])
+                                value_field = db_obj.get_row_id('sequencing_library', 'sequencing_library_method',
+                                                                isolate[column_name])
+                            else:
+                                value_field = isolate[column_name]
+
+                        elif table == 'phenotypic_data':
+                            if field == 'invitro_serotype_id':
+                                value_field = db_obj.get_row_id('invitro_serotype', 'invitro_value',
+                                                                isolate[column_name])
                             else:
                                 value_field = isolate[column_name]
 
                         else:
                             value_field = isolate[column_name]
 
-                        duplicate_update[field] = value_field
-                        sql_script = sql_script + "'" + str(value_field) + "'" + ", "
+                        if value_field == None:
+                            # reg_value = db_obj.get_value_byid(table, field)
+                            sql_script_comments = "INSERT INTO " + table + "(" + field + ") VALUES (" + isolate[column_name] + ") ON DUPLICATE KEY UPDATE " + table + " SET " + field + " = CONCAT(" + field + "," + isolate[column_name] + ");"
+                        else:
+                            if str(value_field) == 'nan':
+                                value_field = '-'
+                            elif isinstance(value_field, str):
+                                value_field = escape_quotes(value_field)
+
+                            sql_script = sql_script + "'" + str(value_field) + "'" + ", "
+                            duplicate_update[field] = value_field
 
                 if table == 'sequence_analysis':
                     if len(resistoma_dict) > 0:
@@ -291,9 +317,9 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
                 sql_script = sql_script[:-2] + "; \n"
 
-
     db_obj.disconnect()
-    open('sql_script.sql', 'w').write(sql_script)
-
+    file = open('sql_script.sql', 'w')
+    file.write(sql_script)
+    file.write(sql_script_comments)
 
 read_input_file()
