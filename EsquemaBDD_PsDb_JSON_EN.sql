@@ -89,6 +89,10 @@ create table sequence_analysis(
     hypermutation_genes JSON,
     insilico_serotype VARCHAR(3),
     betalactamase_pcr JSON,
+    ame_loci VARCHAR(500),
+    beta_lactamase_loci varchar(500),
+    carbapenemase_loci varchar(500),
+    other_acq_ab_loci varchar(500),
     
 	/* Table restrictions */
     PRIMARY KEY(sequence_analysis_id),
