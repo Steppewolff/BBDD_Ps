@@ -277,7 +277,7 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
                         if value_field == None:
                             # reg_value = db_obj.get_value_byid(table, field)
-                            sql_script_comments = "INSERT INTO " + table + "(" + field + ") VALUES (" + isolate[column_name] + ") ON DUPLICATE KEY UPDATE " + table + " SET " + field + " = CONCAT(" + field + "," + isolate[column_name] + ");"
+                            sql_script_comments = "INSERT INTO " + table + "(" + field + ") VALUES (" + str(isolate[column_name]) + ") ON DUPLICATE KEY UPDATE " + table + " SET " + field + " = CONCAT(" + field + "," + str(isolate[column_name]) + ");"
                         else:
                             if str(value_field) == 'nan':
                                 value_field = '-'

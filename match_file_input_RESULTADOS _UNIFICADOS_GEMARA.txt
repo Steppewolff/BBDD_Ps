@@ -209,7 +209,7 @@ phenotypic_data
 	mbl_test :
 	esbl_test :
 	class_a_carbapenemase_test :
-	invitro_serotype_id :
+	invitro_serotype_id : Serotipo
 	hypermutator_phenotype :
 	phenotypic_comments :
 sample_type
