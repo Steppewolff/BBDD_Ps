@@ -112,6 +112,8 @@ flowcell_kit
 	flowcell_kit_name : 
 hospital
 	country : 
+	geo_latitude : 
+	geo_longitude : 
 	hospital_code : 
 	hospital_comments : 
 	hospital_id : 
