@@ -16,6 +16,7 @@ sqlalchemy = "*"
 xlrd = "*"
 cryptography = "*"
 pillow = "*"
+openpyxl = "*"
 
 [dev-packages]
 

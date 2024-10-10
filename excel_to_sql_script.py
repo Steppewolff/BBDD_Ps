@@ -126,7 +126,7 @@ def read_matches(df_dictionary, excel_fields):
                 line = line.rstrip("\n")
                 line = line.lstrip("\t")
                 line_values = line.split(" : ")
-                if table_name in tables_values and len(line_values) == 2:
+                if table_name in tables_values and line_values[1] != '':
                     tables_values[table_name].update({line_values[0]: line_values[1]})
 
         for field in excel_fields:
