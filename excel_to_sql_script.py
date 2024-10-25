@@ -325,7 +325,7 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                     # if len(duplicate_update) > 0:
                         sql_script = sql_script[:-2] + "; \n"
                 else:
-                    sql_script = sql_script[:-2] + " \n"
+                    sql_script = sql_script + "; \n"
 
     db_obj.disconnect()
     file = open('sql_script.sql', 'w')
