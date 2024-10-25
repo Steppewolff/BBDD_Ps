@@ -116,7 +116,8 @@ def read_matches(df_dictionary, excel_fields):
         for line in match_file.readlines():
             if line == "Campos de la base de datos:\n":
                 print(line)
-            if line[0] != "\t" and line != "Campos de la base de datos:\n":
+            # if line[0] != "\t" and line != "Campos de la base de datos:\n":
+            elif line[0] != "\t":
                 print(line)
                 line = line.rstrip("\n")
                 table_name = line
@@ -125,7 +126,12 @@ def read_matches(df_dictionary, excel_fields):
                 # print(line)
                 line = line.rstrip("\n")
                 line = line.lstrip("\t")
-                line_values = line.split(" : ")
+                line_values = line.split(":")
+                # for value in line_values:
+                #     value = value.lstrip(" ")
+                #     value = value.rstrip(" ")
+                #     line_values[line_values.index(value)] = value
+
                 if table_name in tables_values and line_values[1] != '':
                     tables_values[table_name].update({line_values[0]: line_values[1]})
 
@@ -143,7 +149,7 @@ def read_matches(df_dictionary, excel_fields):
                 pass
 
     else:
-        print("No se ha encontrado el archivo 'match_file_input_gemarasuplementary.txt'")
+        print("No se ha encontrado el archivo 'match_file_input.txt'")
 
     write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, virulencia_dict, hipermutacion_dict)
 
@@ -299,23 +305,27 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
 
                 sql_script = sql_script[:-2] + ") "
 
-                sql_script = sql_script + "ON DUPLICATE KEY UPDATE "
+                if len(duplicate_update) > 0:
+                    sql_script = sql_script + "ON DUPLICATE KEY UPDATE "
 
-                for field, field_value in duplicate_update.items():
-                    # if column_name in isolate:
-                    sql_script = sql_script + field + " = '" + str(field_value) + "'" + ", "
+                    for field, field_value in duplicate_update.items():
+                        # if column_name in isolate:
+                        sql_script = sql_script + field + " = '" + str(field_value) + "'" + ", "
 
-                if table == 'sequence_analysis':
-                    if len(resistoma_dict) > 0:
-                        sql_script = sql_script + "mutational_resistome = '" + resistoma_json + "', "
-                    if len(mlst_dict) > 0:
-                        sql_script = sql_script + "mlst_allelic_profile = '" + mlst_json + "', "
-                    if len(virulencia_dict) > 0:
-                        sql_script = sql_script + "virulence_gene = '" + virulencia_json + "', "
-                    if len(hipermutacion_dict) > 0:
-                        sql_script = sql_script + "hypermutation_gene = '" + hipermutacion_json + "', "
+                    if table == 'sequence_analysis':
+                        if len(resistoma_dict) > 0:
+                            sql_script = sql_script + "mutational_resistome = '" + resistoma_json + "', "
+                        if len(mlst_dict) > 0:
+                            sql_script = sql_script + "mlst_allelic_profile = '" + mlst_json + "', "
+                        if len(virulencia_dict) > 0:
+                            sql_script = sql_script + "virulence_gene = '" + virulencia_json + "', "
+                        if len(hipermutacion_dict) > 0:
+                            sql_script = sql_script + "hypermutation_gene = '" + hipermutacion_json + "', "
 
-                sql_script = sql_script[:-2] + "; \n"
+                    # if len(duplicate_update) > 0:
+                        sql_script = sql_script[:-2] + "; \n"
+                else:
+                    sql_script = sql_script[:-2] + " \n"
 
     db_obj.disconnect()
     file = open('sql_script.sql', 'w')

@@ -1,274 +1,270 @@
 Campos de la base de datos:
 metadata_general
-	isolate_comments : 
-	isolate_id : 
-	isolate_name : ISOLATE ID
-	isolate_project_id : 
-	isolate_source : COLLECTION
-	isolation_date : 
-	isolation_day : 
-	isolation_month : 
-	isolation_year : 
-	project_name : Project
-	species : Species
-acquired_resistome
-	acquired_gene_name : 
-	acquired_resistome_id : 
-	gene_type : 
+	isolate_id :
+	isolate_name : Isolate
+	isolate_project_id :
+	species :
+	project_name :
+	isolation_day :
+	isolation_month :
+	isolation_year :
+	isolation_date :
+	isolate_source :
+	isolate_comments :
 advanced_filters_advancedfilter
-	b64_query : 
-	created_at : 
-	created_by_id : 
-	id : 
-	model : 
-	title : 
-	url : 
+	id :
+	title :
+	url :
+	b64_query :
+	model :
+	created_by_id :
+	created_at :
 advanced_filters_advancedfilter_groups
-	advancedfilter_id : 
-	group_id : 
-	id : 
+	id :
+	advancedfilter_id :
+	group_id :
 advanced_filters_advancedfilter_users
-	advancedfilter_id : 
-	id : 
-	user_id : 
+	id :
+	advancedfilter_id :
+	user_id :
 assembler
-	assembler_id : 
-	assembler_name : 
+	assembler_id :
+	assembler_name :
 auth_group
-	id : 
-	name : 
+	id :
+	name :
 auth_group_permissions
-	group_id : 
-	id : 
-	permission_id : 
+	id :
+	group_id :
+	permission_id :
 auth_permission
-	codename : 
-	content_type_id : 
-	id : 
-	name : 
+	id :
+	name :
+	content_type_id :
+	codename :
 auth_user
-	date_joined : 
-	email : 
-	first_name : 
-	id : 
-	is_active : 
-	is_staff : 
-	is_superuser : 
-	last_login : 
-	last_name : 
-	password : 
-	username : 
+	id :
+	password :
+	last_login :
+	is_superuser :
+	username :
+	first_name :
+	last_name :
+	email :
+	is_staff :
+	is_active :
+	date_joined :
 auth_user_groups
-	group_id : 
-	id : 
-	user_id : 
+	id :
+	user_id :
+	group_id :
 auth_user_user_permissions
-	id : 
-	permission_id : 
-	user_id : 
+	id :
+	user_id :
+	permission_id :
 django_admin_log
-	action_flag : 
-	action_time : 
-	change_message : 
-	content_type_id : 
-	id : 
-	object_id : 
-	object_repr : 
-	user_id : 
+	id :
+	action_time :
+	object_id :
+	object_repr :
+	action_flag :
+	change_message :
+	content_type_id :
+	user_id :
 django_content_type
-	app_label : 
-	id : 
-	model : 
+	id :
+	app_label :
+	model :
 django_migrations
-	app : 
-	applied : 
-	id : 
-	name : 
+	id :
+	app :
+	name :
+	applied :
 django_plotly_dash_dashapp
-	base_state : 
-	creation : 
-	id : 
-	instance_name : 
-	save_on_change : 
-	slug : 
-	stateless_app_id : 
-	update : 
+	id :
+	instance_name :
+	slug :
+	base_state :
+	creation :
+	update :
+	save_on_change :
+	stateless_app_id :
 django_plotly_dash_statelessapp
-	app_name : 
-	id : 
-	slug : 
+	id :
+	app_name :
+	slug :
 django_session
-	expire_date : 
-	session_data : 
-	session_key : 
+	session_key :
+	session_data :
+	expire_date :
 file_path
-	assembler : 
-	denovo_assembly_path : 
-	fastq_path : 
-	file_path_id : 
-	isolate_id : 
+	file_path_id :
+	fastq_path :
+	denovo_assembly_path :
+	assembler :
+	isolate_id :
 flowcell_kit
-	flowcell_kit_id : 
-	flowcell_kit_name : 
+	flowcell_kit_id :
+	flowcell_kit_name :
 hospital
-	country : 
-	geo_latitude : 
-	geo_longitude : 
-	hospital_code : 
-	hospital_comments : 
-	hospital_id : 
-	hospital_name : 
-	region : 
-	town : 
+	hospital_id :
+	hospital_name :
+	hospital_code :
+	hospital_comments :
+	country :
+	region :
+	town :
+	geo_latitude :
+	geo_longitude :
 hypermutation_gene
-	hypermutation_gene_id : 
-	locus : 
-	official_name : 
-	species : 
-	synonym_name : 
+	hypermutation_gene_id :
+	locus :
+	official_name :
+	synonym_name :
+	species :
 invitro_serotype
-	invitro_serotype_id : 
-	invitro_value : 
+	invitro_serotype_id :
+	invitro_value :
 locus_mlst
-	locus : 
-	mlst_id : 
-	official_name : 
-	species : 
-	synonym_name : 
+	mlst_id :
+	locus :
+	official_name :
+	synonym_name :
+	species :
 metadata_clinic
-	clinic_id : 
-	collection_ward : 
-	hospital : 
-	isolate_id : 
-	patient_id : 
-	sample_type : 
+	clinic_id :
+	patient_id :
+	collection_ward :
+	hospital :
+	isolate_id :
+	sample_type :
 mic
-	ami : AMI (mg/L)
-	ami_clinical_category : AMI EUCAST
-	atm : 
-	atm_clinical_category : 
-	azt : AZT (mg/L)
-	azt_avi : 
-	azt_avi_clinical_category : 
-	azt_clinical_category : AZT EUCAST
-	caz : 
-	caz_avi : 
-	caz_avi_clinical_category : 
-	caz_clinical_category : 
-	caz_cloxa : 
-	cfdc : 
-	cfdc_clinical_category : 
-	cip : CIP (mg/L)
-	cip_clinical_category : CIP EUCAST
-	col : COL (mg/L)
-	col_clinical_category : COL EUCAST
-	ct : 
-	ct_clinical_category : 
-	cza : CZA (mg/L)
-	cza_clinical_category : CZA EUCAST
-	dlx : 
-	dlx_clinical_category : 
-	fep : FEP (mg/L)
-	fep_clinical_category : FEP EUCAST
-	fo : 
-	fo_clinical_category : 
-	gen : 
-	gen_clinical_category : 
-	imi : IMI (mg/L)
-	imi_clinical_category : IMI EUCAST
-	imi_cloxa : 
-	imi_rel : 
-	imi_rel_clinical_category : 
-	isolate_id : 
-	lvx : 
-	lvx_clinical_category : 
-	mer : MER (mg/L)
-	mer_clinical_category : MER EUCAST
-	mer_vab : 
-	mer_vab_clinical_category : 
-	mic_comments : 
-	mic_id : 
-	mxl : 
-	mxl_clinical_category : 
-	net : 
-	net_clinical_category : 
-	pip : PIP/TZ (mg/L)
-	pip_clinical_category : PIP/TZ EUCAST
-	pip_tz : 
-	pip_tz_clinical_category : 
-	ptz : 
-	ptz_clinical_category : 
-	taz : TAZ (mg/L)
-	taz_clinical_category : TAZ EUCAST
-	tic : TIC (mg/L)
-	tic_clinical_category : TIC EUCAST
-	tob : TOB (mg/L)
-	tob_clinical_category : TOB EUCAST
-	tol : TOL/TZ (mg/L)
-	tol_clinical_category : TOL/TZ EUCAST
+	mic_id :
+	pip :
+	pip_clinical_category :
+	pip_tz :
+	pip_tz_clinical_category :
+	fep :
+	fep_clinical_category :
+	cfdc :
+	cfdc_clinical_category :
+	caz :
+	caz_clinical_category :
+	caz_avi :
+	caz_avi_clinical_category :
+	ct :
+	ct_clinical_category :
+	imi :
+	imi_clinical_category :
+	imi_rel :
+	imi_rel_clinical_category :
+	mer :
+	mer_clinical_category :
+	mer_vab :
+	mer_vab_clinical_category :
+	azt :
+	azt_clinical_category :
+	azt_avi :
+	azt_avi_clinical_category :
+	cip :
+	cip_clinical_category :
+	dlx :
+	dlx_clinical_category :
+	lvx :
+	lvx_clinical_category :
+	mxl :
+	mxl_clinical_category :
+	ami :
+	ami_clinical_category :
+	gen :
+	gen_clinical_category :
+	net :
+	net_clinical_category :
+	tob :
+	tob_clinical_category :
+	col :
+	col_clinical_category :
+	fo :
+	fo_clinical_category :
+	tic :
+	tic_clinical_category :
+	ptz :
+	ptz_clinical_category :
+	taz :
+	taz_clinical_category :
+	cza :
+	cza_clinical_category :
+	tol :
+	tol_clinical_category :
+	atm :
+	atm_clinical_category :
+	caz_cloxa :
+	imi_cloxa :
+	mic_comments :
+	isolate_id :
 mutational_resistome
-	locus : 
-	mutational_resistome_id : 
-	official_name : 
-	pbp_name : 
-	species : 
-	synonym_name : 
+	mutational_resistome_id :
+	locus :
+	official_name :
+	synonym_name :
+	pbp_name :
+	species :
 phenotypic_data
-	ab_susceptibility_method : 
-	class_a_carbapenemase_test : 
-	cloxa_test : 
-	ecdc_resistance_profile : RESISTANCE PROFILE
-	esbl_test : 
-	hypermutator_phenotype : 
-	idsa_resistance_profile : 
-	invitro_serotype_id : 
-	isolate_id : 
-	mbl_test : 
-	mic_id : 
-	phenotypic_comments : 
-	phenotypic_data_id : 
+	phenotypic_data_id :
+	ab_susceptibility_method :
+	ecdc_resistance_profile :
+	idsa_resistance_profile :
+	cloxa_test :
+	mbl_test :
+	esbl_test :
+	class_a_carbapenemase_test :
+	hypermutator_phenotype :
+	phenotypic_comments :
+	invitro_serotype_id :
+	isolate_id :
+	mic_id :
 sample_type
-	sample : 
-	sample_type_id : 
+	sample_type_id :
+	sample :
 sequence_analysis
-	acquired_resistome : 
-	ame_loci : Acquired EMAs
-	beta_lactamase_loci : Acquired Beta-lactamases
-	betalactamase_pcr : 
-	carbapenemase_loci : 
+	sequence_analysis_id :
+	mlst_allelic_profile :
+	sequence_type :
 	clonal_complex : ST
-	hypermutation_genes : 
-	insilico_serotype : 
-	isolate_id : 
-	mlst_allelic_profile : 
-	mutational_resistome : 
-	other_acq_ab_loci : 
-	sequence_analysis_id : 
-	sequence_type : 
-	virulence_genes : 
+	mutational_resistome :
+	ame_loci :
+	beta_lactamase_loci :
+	carbapenemase_loci :
+	other_acq_ab_loci :
+	acquired_resistome :
+	virulence_genes :
+	hypermutation_genes :
+	insilico_serotype :
+	betalactamase_pcr :
+	isolate_id :
 sequencing_info
-	flowcell_kit : 
-	isolate_id : 
-	library_method : 
-	sequencing_goal : 
-	sequencing_id : 
-	sequencing_platform : 
-	sequencing_source : 
-	sequencing_technology : 
+	sequencing_id :
+	sequencing_goal :
+	sequencing_source :
+	flowcell_kit :
+	isolate_id :
+	library_method :
+	sequencing_platform :
+	sequencing_technology :
 sequencing_library
-	sequencing_library_id : 
-	sequencing_library_method : 
+	sequencing_library_id :
+	sequencing_library_method :
 sequencing_platform
-	sequencing_platform_id : 
-	sequencing_platform_name : 
-	sequencing_platform_supplier : 
+	sequencing_platform_id :
+	sequencing_platform_name :
+	sequencing_platform_supplier :
 sequencing_technology
-	reads_type : 
-	sequencing_technology_id : 
-	sequencing_technology_name : 
+	sequencing_technology_id :
+	sequencing_technology_name :
+	reads_type :
 virulence_gene
-	locus : 
-	official_name : 
-	species : 
-	synonym_name : 
-	virulence_gene_id : 
+	virulence_gene_id :
+	locus :
+	official_name :
+	synonym_name :
+	species :

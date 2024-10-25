@@ -28,11 +28,12 @@ class PsDb:
     # Conexion a la BBDD del servidor mySQL
     def connect(self):
         self.db = pymysql.connect(
-            host='127.0.0.1',  # 'fgromano.com', #
+            host='212.227.145.156',  # '127.0.0.1' # 'fgromano.com', #
             port=3306,
             user='fernando',  # 'root',
-            passwd='password',  # # 'Orgullovalor',
+            passwd='Orgullovalor',  # 'password' # 'Orgullovalor',
             db='psdb_json',
+            connect_timeout=600,
             charset='utf8mb4',
             autocommit=True,
             cursorclass=pymysql.cursors.DictCursor)
@@ -139,7 +140,7 @@ class PsDb:
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
-        column_name = response['COLUMN_NAME']
+        column_name = response['column_name']
 
         return column_name
 
@@ -151,7 +152,7 @@ class PsDb:
 
         self.cursor.execute(sql)
         response = self.cursor.fetchone()
-        column_name = response['COLUMN_NAME']
+        column_name = response['column_name']
 
         sql = "SELECT " + column_name + " FROM " + table + " " \
                                                            "WHERE " + field + " = '" + str(value) + "';"
@@ -184,7 +185,7 @@ class PsDb:
 
         list_fk = {}
         for key in response:
-            list_fk[key['TABLE_NAME']] = key['COLUMN_NAME']
+            list_fk[key['TABLE_NAME']] = key['column_name']
 
         return response
 
