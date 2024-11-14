@@ -127,12 +127,13 @@ def read_matches(df_dictionary, excel_fields):
                 line = line.rstrip("\n")
                 line = line.lstrip("\t")
                 line_values = line.split(":")
-                # for value in line_values:
-                #     value = value.lstrip(" ")
-                #     value = value.rstrip(" ")
-                #     line_values[line_values.index(value)] = value
+                for value in line_values:
+                    index = line_values.index(value)
+                    value = value.lstrip(" ")
+                    value = value.rstrip(" ")
+                    line_values[index] = value
 
-                if table_name in tables_values and line_values[1] != '':
+                if table_name in tables_values and line_values[1] != '' and not re.fullmatch(r'^\s+$', line_values[1]):
                     tables_values[table_name].update({line_values[0]: line_values[1]})
 
         for field in excel_fields:
@@ -323,7 +324,7 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                             sql_script = sql_script + "hypermutation_gene = '" + hipermutacion_json + "', "
 
                     # if len(duplicate_update) > 0:
-                        sql_script = sql_script[:-2] + "; \n"
+                    sql_script = sql_script[:-2] + "; \n"
                 else:
                     sql_script = sql_script + "; \n"
 

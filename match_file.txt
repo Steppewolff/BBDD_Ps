@@ -11,6 +11,10 @@ metadata_general
 	isolation_date : 
 	isolate_source : 
 	isolate_comments : 
+acquired_resistome
+	acquired_resistome_id : 
+	acquired_gene_name : 
+	gene_type : 
 advanced_filters_advancedfilter
 	id : 
 	title : 
@@ -116,6 +120,9 @@ hospital
 	town : 
 	geo_latitude : 
 	geo_longitude : 
+	hospital_ccn : 
+	hospital_codcnh : 
+	sub_region : 
 hypermutation_gene
 	hypermutation_gene_id : 
 	locus : 
@@ -152,8 +159,8 @@ mic
 	caz_clinical_category : 
 	caz_avi : 
 	caz_avi_clinical_category : 
-	ct : 
-	ct_clinical_category : 
+	ctz : 
+	ctz_clinical_category : 
 	imi : 
 	imi_clinical_category : 
 	imi_rel : 
