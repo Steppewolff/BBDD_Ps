@@ -162,9 +162,15 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
     db_obj = db.db.PsDb()
     db_obj.connect()
 
-    print("Introduce el NOMBRE EXACTO de la columna del archivo excel que contiene el identificador aislado:")
+    print("Introduce el NOMBRE EXACTO de la columna del archivo excel que contiene el IDENTIFICADOR DEL AISLADO:")
     id_aislado = ""
     id_aislado = input()
+
+    print("Introduce el NOMBRE EXACTO de la columna del archivo excel que contiene el identificador aislado:")
+    id_project = ""
+    id_project = input()
+
+    id_project_aislado = id_project + "_" + id_aislado
 
     for isolate in df_dictionary:
         for key, value in isolate.items():
@@ -194,11 +200,11 @@ def write_sql_script(df_dictionary, tables_values, resistoma_dict, mlst_dict, vi
                     mutant = isolate[key]
                 hipermutacion_dict[locus] = mutant
 
-        sql_count = db_obj.count('metadata_general', 'isolate_name', isolate[id_aislado])
+        sql_count = db_obj.count('metadata_general', 'isolate_project_id', isolate[id_project_aislado])
         if sql_count == 0:
-            success = db_obj.insert_row('metadata_general', 'isolate_name', isolate[id_aislado])
+            success = db_obj.insert_row('metadata_general', 'isolate_project_id', isolate[id_project_aislado])
 
-        isolate_id = db_obj.get_row_id('metadata_general', 'isolate_name', isolate[id_aislado])
+        isolate_id = db_obj.get_row_id('metadata_general', 'isolate_project_id', isolate[id_project_aislado])
 
         if len(resistoma_dict) > 0:
             resistoma_json = json.dumps(resistoma_dict)
